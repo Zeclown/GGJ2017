@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+GGJ2017_WwiseProject/GGJ2017_WwiseProject.Administrator.validationcache
+GGJ2017_WwiseProject/GGJ2017_WwiseProject.Administrator.wsettings
+GGJ2017_WwiseProject/.cache/

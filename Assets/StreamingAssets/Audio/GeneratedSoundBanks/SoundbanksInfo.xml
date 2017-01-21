@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity Projects\GGJ2017\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4257911941" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Tracks</ObjectPath>
+			<ShortName>Music_Tracks</ShortName>
+			<Path>Music_Tracks.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4094045876" Name="OFF_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Bassline" MaxAttenuation="0.000000"/>
+				<Event Id="566894298" Name="OFF_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Bassline_Pad" MaxAttenuation="0.000000"/>
+				<Event Id="1580525705" Name="OFF_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="2821427377" Name="OFF_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Lead" MaxAttenuation="0.000000"/>
+				<Event Id="1083338366" Name="OFF_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Snare" MaxAttenuation="0.000000"/>
+				<Event Id="4015766154" Name="ON_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline"/>
+				<Event Id="1080617516" Name="ON_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline_Pad"/>
+				<Event Id="4022390627" Name="ON_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Kick"/>
+				<Event Id="3622661895" Name="ON_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Lead"/>
+				<Event Id="2712920436" Name="ON_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Snare"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="248830396" Language="SFX">
+					<ShortName>DownTempo_Pad.wav</ShortName>
+					<Path>SFX\DownTempo_Pad_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="441809825" Language="SFX">
+					<ShortName>DownTempo_Synth_Lead.wav</ShortName>
+					<Path>SFX\DownTempo_Synth_Lead_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="482605420" Language="SFX">
+					<ShortName>DownTempo_Kick.wav</ShortName>
+					<Path>SFX\DownTempo_Kick_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="674892571" Language="SFX">
+					<ShortName>DownTempo_Bassline.wav</ShortName>
+					<Path>SFX\DownTempo_Bassline_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="851731330" Language="SFX">
+					<ShortName>DownTempo_Snare.wav</ShortName>
+					<Path>SFX\DownTempo_Snare_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

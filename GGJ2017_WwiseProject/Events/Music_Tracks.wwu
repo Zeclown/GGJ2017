@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Music_Tracks" ID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ON_DownTempo_Bassline" ID="{C9D0D041-7095-4E1D-ABC6-58B4D18E250C}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{8CF11A6F-ED45-4CA9-8A9E-728F4AF1D464}" ShortID="953993921" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{950C2588-D0F1-4807-B949-9A072F195AC8}" Global="true">
+									<ObjectRef Name="DownTempo_Bassline" ID="{2BF99B7C-2DA2-45AF-986C-7327976D7278}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_DownTempo_Bassline_Pad" ID="{D71F3C46-B9BD-40FD-9B84-F8858C7BE1B6}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{471CCCC3-E9C9-4CAA-9FE3-6A85EF3F148F}" ShortID="207258965" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8247FB97-72F0-4317-9B5D-7C2BCE97DE50}" Global="true">
+									<ObjectRef Name="DownTempo_BasslinePad" ID="{20AA68B7-F6F6-4DB7-B57C-A15F2235AE61}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_DownTempo_Lead" ID="{70591180-2114-478D-A6BA-9A73639D340C}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{E188AC2F-C106-4665-A141-0F3B41033233}" ShortID="192719899" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{BDD8003C-B993-416E-95DA-8F189B0BE614}" Global="true">
+									<ObjectRef Name="DownTempo_Lead" ID="{E36BB8B5-5168-476A-87C5-900E2F8AFE32}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_DownTempo_Kick" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{F14780B9-F3A3-426E-8C4A-A1CA8EE39992}" ShortID="767777860" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7954542E-C1C8-4427-8FF2-534A369B32ED}" Global="true">
+									<ObjectRef Name="DownTempo_Kick" ID="{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_DownTempo_Snare" ID="{A64C73D3-630F-49C8-8B92-EB5D0EF41FA5}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{ECDF99EC-4591-4149-8968-F7B6835CD79E}" ShortID="820254077" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{48433007-8B79-4A64-908A-20085B4A6345}" Global="true">
+									<ObjectRef Name="DownTempo_Snare" ID="{DABCE546-49FF-4898-8AB2-9FCC1F0FAA8C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_DownTempo_Bassline_Pad" ID="{9005829A-430B-423A-96E9-51BDA83BB705}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{9E5B6ECC-4E61-4935-A7EF-96784C8AFC8F}" ShortID="869817109" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4DB4122F-227F-42F0-8BD8-4F550729F1B6}" Global="true">
+									<ObjectRef Name="DownTempo_BasslinePad" ID="{20AA68B7-F6F6-4DB7-B57C-A15F2235AE61}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_DownTempo_Bassline" ID="{53B8775A-C492-4F51-AA6F-4719E9385962}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{B65D9EB0-C4A8-416D-B71C-0C5888640D6C}" ShortID="34271304" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8EE1CD2D-DE61-4E0B-90DE-2939320DD7B2}" Global="true">
+									<ObjectRef Name="DownTempo_Bassline" ID="{2BF99B7C-2DA2-45AF-986C-7327976D7278}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_DownTempo_Snare" ID="{5BBC6C26-9115-4E05-AFC8-503A39F2A93D}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{BEBFAC51-7A0E-4533-B846-DC2A5DE9DC73}" ShortID="697510348" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B29F0014-86FC-424E-B9BC-97AC9675A202}" Global="true">
+									<ObjectRef Name="DownTempo_Snare" ID="{DABCE546-49FF-4898-8AB2-9FCC1F0FAA8C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_DownTempo_Lead" ID="{1230D92B-17C8-4C52-96B9-934F62073420}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{48482DA4-E246-4620-8C67-498259A10AC0}" ShortID="1012195409" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{3146B275-FFDE-48DB-B1DC-1ABA104E7BB1}" Global="true">
+									<ObjectRef Name="DownTempo_Lead" ID="{E36BB8B5-5168-476A-87C5-900E2F8AFE32}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_DownTempo_Kick" ID="{12E2D780-3B28-493B-B545-05436F53855B}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{B5CB0BEB-E736-45C4-81C9-64D4E86B91D4}" ShortID="747889031" Type="ResetVolume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{5DC037F0-21A6-4E17-8BF6-4924F44A81A6}" Global="true">
+									<ObjectRef Name="DownTempo_Kick" ID="{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_ALL" ID="{E430FD04-6286-48DD-A8A1-E969D5980AD3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6FD4D7F1-39BF-4C58-8851-C41D7643B903}" ShortID="602341240" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CDEA62AD-6E1C-4050-8095-D8C62284EF7B}" Global="false">
+									<ObjectRef Name="DownTempo_Bassline" ID="{2BF99B7C-2DA2-45AF-986C-7327976D7278}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{705C97EF-5171-44BD-B338-6CBC9F19C916}" ShortID="73854077" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C5BF273F-59DE-4A8D-B297-D0809A5BC315}" Global="false">
+									<ObjectRef Name="DownTempo_BasslinePad" ID="{20AA68B7-F6F6-4DB7-B57C-A15F2235AE61}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{BAAF6CCD-71A2-4E69-915A-8146D7388590}" ShortID="474881024" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9BC47A79-DB8B-44CD-9A3A-5E918397A2BA}" Global="false">
+									<ObjectRef Name="DownTempo_Kick" ID="{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{FD073688-3D69-4DEC-8079-BC1D1F32BBF1}" ShortID="442811538" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{41A1C1FF-0AA6-481C-8891-0E7317F83142}" Global="false">
+									<ObjectRef Name="DownTempo_Lead" ID="{E36BB8B5-5168-476A-87C5-900E2F8AFE32}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{A20B06A3-20EA-41BB-AE10-FC07F343DB51}" ShortID="909152571" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6C6BD298-7CD3-4C32-A8DC-8C3B5137FE8F}" Global="false">
+									<ObjectRef Name="DownTempo_Snare" ID="{DABCE546-49FF-4898-8AB2-9FCC1F0FAA8C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{0B44F45A-74E3-4C1B-A63A-BC090357165F}" ShortID="405590903" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{043BA59A-20AA-47DB-9D83-430F98400911}" Global="false">
+									<ObjectRef Name="Metal_Bass" ID="{D30A7E9F-DDB6-4674-A592-DB2BC7ABC7A7}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{D04A02E5-79C4-43F9-B66F-E8DB36FCBD8E}" ShortID="500535862" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BB5D0409-9C3B-40CE-B56B-0D8B74618A3A}" Global="false">
+									<ObjectRef Name="Metal_Kick" ID="{FC7BD00F-74E9-448E-81ED-EA2716B4A682}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{18BE5D11-EE87-4C18-A2F0-24CC0BFABCCD}" ShortID="329257218" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7706939F-8708-4581-A4D4-FBCCF2C58FE5}" Global="false">
+									<ObjectRef Name="Metal_RhythmGuitar" ID="{D5115AA6-A65C-41D8-9B57-21FD6591A189}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B3DC2220-A694-4F55-A1A6-434A5D7F66BC}" ShortID="535481229" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FEF574EF-1BBA-42A6-B012-F1CF990EE1D0}" Global="false">
+									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Metal_RhythmGuitar" ID="{25D65049-6894-4DBD-AB2A-1DAC95C79EC7}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{2D2A832D-DE27-48E9-B696-DF46E31B0BCF}" ShortID="332407089" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{5D637780-F9A2-4222-B9F1-A17A1668B9F2}" Global="true">
+									<ObjectRef Name="Metal_RhythmGuitar" ID="{D5115AA6-A65C-41D8-9B57-21FD6591A189}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Metal_Bass" ID="{140EB5C4-4A30-412A-A4EA-5E003CA23137}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{83FB0351-FF44-4FFC-9B3B-BD4B15A59B89}" ShortID="267693445" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7A312C30-C88F-42A6-AE16-9159EE401973}" Global="true">
+									<ObjectRef Name="Metal_Bass" ID="{D30A7E9F-DDB6-4674-A592-DB2BC7ABC7A7}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Metal_Kick" ID="{56145522-CD67-40D8-B2F8-2BAFEDA12804}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{14CAD862-07E1-4848-80AA-429AD3606D8F}" ShortID="309648186" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{90EDC7B6-9020-4B0E-8A42-206AF953CA95}" Global="true">
+									<ObjectRef Name="Metal_Kick" ID="{FC7BD00F-74E9-448E-81ED-EA2716B4A682}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Metal_Snare" ID="{F42B795E-A3CB-482B-B127-91827DD3C005}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{24A9FC01-A9BE-4248-8270-91B44A92B35F}" ShortID="13399529" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{128F6520-65B7-404A-BBE2-29AFA1C1279F}" Global="true">
+									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Metal_Bass" ID="{0A4D3743-91D7-4FAC-81C2-B7AA8AE5BFBB}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{77027E0B-9A29-49B6-8317-FC08A70BA591}" ShortID="309116985" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B17D7209-9A05-4ECF-8D34-58284A69331D}" Global="true">
+									<ObjectRef Name="Metal_Bass" ID="{D30A7E9F-DDB6-4674-A592-DB2BC7ABC7A7}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Metal_RhythmGuitar" ID="{15FC75E1-94A1-4327-9E43-6A81BF735660}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{19B76F5A-D5F5-4956-BE59-5B14F904CEA3}" ShortID="656391630" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{60E23F23-8C52-4B93-809B-5C6F6AB59FFB}" Global="true">
+									<ObjectRef Name="Metal_RhythmGuitar" ID="{D5115AA6-A65C-41D8-9B57-21FD6591A189}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Metal_Snare" ID="{323D72BC-D8A3-4808-874D-EA2D9FB306AA}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{48C0E0CE-8931-4C1A-8429-B305C399013A}" ShortID="605856561" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F40D1F68-F1B5-4FF9-AF3F-4D845501A085}" Global="true">
+									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Metal_Kick" ID="{8C2D1E41-FB16-4822-BE04-4928338A5550}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{EC7289E2-5E74-4657-9446-E2A0171C3B61}" ShortID="714021274" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{620701B3-DBE6-47A4-8446-98EB7D9B6F00}" Global="true">
+									<ObjectRef Name="Metal_Kick" ID="{FC7BD00F-74E9-448E-81ED-EA2716B4A682}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

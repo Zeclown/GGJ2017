@@ -2,4 +2,4 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Genres {Rock,Paper,Scissors,Lizards,Banter};
+public enum Genre {DownBeat,Folk,Metal};

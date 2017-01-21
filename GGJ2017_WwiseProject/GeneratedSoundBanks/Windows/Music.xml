@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
