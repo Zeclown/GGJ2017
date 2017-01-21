@@ -5,9 +5,10 @@ using UnityEngine;
 public struct MusicSample
 {
 
-    public AkEvent soundEvent;
-    public AkEvent stopEvent;
+    public string soundEvent;
+    public string stopEvent;
     public Genre genre;
+    public bool markedToStop;
 };
 public enum SoundSystemType { Recorder = 0, Boombox = 1, SmallAudioSystem = 2 }
 public class MusicPlayer : MonoBehaviour
@@ -18,6 +19,7 @@ public class MusicPlayer : MonoBehaviour
     public int BPM = 40;
     [HideInInspector]
     public MusicSample?[] playing = new MusicSample?[MAX_TRACKS];
+    public MusicSample?[] playingQueue = new MusicSample?[MAX_TRACKS];
     public delegate void FirstBeat();
     public static event FirstBeat OnFirstBeat;
     public delegate void Beat();
@@ -34,7 +36,11 @@ public class MusicPlayer : MonoBehaviour
         {
             instance = this;
         }
-
+        
+    }
+    private void Start()
+    {
+        OnFirstBeat += UpdateList;
     }
     private void Update()
     {
@@ -51,6 +57,27 @@ public class MusicPlayer : MonoBehaviour
             beatCount++;
         }
         waitingOnBeat = true;
+
+    }
+    public void UpdateList()
+    {
+        for (int i = 0; i < MAX_TRACKS; i++)
+        {
+            if(playingQueue[i]!=null)
+            {
+                if(playing[i]!=null)
+                    AkSoundEngine.PostEvent(playing[i].Value.stopEvent, gameObject);
+                AkSoundEngine.PostEvent(playingQueue[i].Value.soundEvent, gameObject);
+                playing[i] = playingQueue[i].Value;
+            }
+            else if(playing[i]!=null && playing[i].Value.markedToStop)
+            {
+                AkSoundEngine.PostEvent(playing[i].Value.stopEvent, gameObject);
+                playing[i] = null;
+            }
+        }
+        
+        playingQueue = new MusicSample?[MAX_TRACKS];
     }
     public float GetBeat()
     {
@@ -97,11 +124,13 @@ public class MusicPlayer : MonoBehaviour
     }
     public void PutTrack(MusicSample newSample, int position)
     {
-        playing[position] = newSample;
+        playingQueue[position] = newSample;
     }
     public void RemoveTrack(int position)
     {
-        playing[position] = null;
+        MusicSample ms = playing[position].Value;
+        ms.markedToStop = true;
+        playing[position] = ms;
     }
 
 

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23316486081265598}
   - component: {fileID: 114148569107062534}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: AttendeePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
