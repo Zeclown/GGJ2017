@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public int Score { get { return (int)score; } }
     public int popularity;
     public GameState state;
+    public CrowdManager crowd;
     private float score;
     public float timePlayed=0;
     private void Awake()
@@ -33,19 +34,19 @@ public class GameManager : MonoBehaviour {
         if (state == GameState.Playing)
         {
             timePlayed += Time.deltaTime;
-            score += Time.deltaTime;//*userList
+            score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
         }
     }
     private void ComputePopularity()
     {
-        //int totalHappiness=0;
-        //foreach (var item in collection)
-        //{
-        //    totalHappiness += item.happiness;
-        //}
+        int totalHappiness = 0;
+        foreach (var item in crowd.crowd)
+        {
+            totalHappiness += item.happiness;
+        }
 
-        //popularity= totalHappiness / collection.count;
+        popularity = totalHappiness / crowd.crowd.Count;
     }
     public void StartGame()
     {
