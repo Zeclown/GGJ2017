@@ -27,7 +27,8 @@ public class CrowdManager : MonoBehaviour {
     public const float offsetZ = 1f;
     public const int firstRowSize = 5;
     List<int> occupied;
-
+    [SerializeField]
+    GameObject[] attendeePrefabs;
     [SerializeField]
     private GameObject attendeePrefab;
     [SerializeField]

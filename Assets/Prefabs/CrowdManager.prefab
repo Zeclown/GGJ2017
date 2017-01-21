@@ -117,7 +117,7 @@ MonoBehaviour:
   nextArrivalWave: 0
   nextExitWave: 0
   nextTrickleArrival: 0
-  attendeePrefab: {fileID: 1495034636105912, guid: f3ae76bbe94fa654382a710fb46165e4,
+  attendeePrefab: {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957,
     type: 2}
   entryPoint: {fileID: 4491573619006890}
   exitPoint: {fileID: 4682911444264924}
