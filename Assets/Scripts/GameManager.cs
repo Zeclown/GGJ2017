@@ -8,7 +8,12 @@ public class GameManager : MonoBehaviour {
     public int Score { get { return (int)score; } }
     public int popularity;
     public GameState state;
+    public float onFireTimeRequired=10;
+    public int onFirePopularityRequired=90;
     public CrowdManager crowd;
+    [HideInInspector]
+    public bool onFire=false;
+    private float onFireTimer=0;
     private float score;
     public float timePlayed=0;
     public float GameDuration = 180;
@@ -34,6 +39,22 @@ public class GameManager : MonoBehaviour {
         
         if (state == GameState.Playing)
         {
+            if(onFireTimer<=0)
+            {
+                onFire = true;
+            }
+            else
+            {
+                onFire = false;
+            }
+            if(popularity>=onFirePopularityRequired)
+            {
+                onFireTimer -= Time.deltaTime;
+            }
+            else
+            {
+                onFireTimer = onFireTimeRequired;
+            }
             timePlayed += Time.deltaTime;
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
@@ -69,5 +90,6 @@ public class GameManager : MonoBehaviour {
     public void EndGame()
     {
         state = GameState.Ending;
+        GameInstance.instance.ToMainMenu();
     }
 }
