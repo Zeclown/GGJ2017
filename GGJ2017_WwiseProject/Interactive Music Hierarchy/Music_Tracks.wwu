@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" SchemaVersion="75" RootDocumentID="{FA4A2817-9526-40D6-8102-1E4A3181E8E0}">
+<WwiseDocument Type="WorkUnit" ID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" SchemaVersion="75">
 	<InteractiveMusic>
-		<WorkUnit Name="Music_Tracks" ID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" OwnerID="{FA4A2817-9526-40D6-8102-1E4A3181E8E0}" PersistMode="Nested">
+		<WorkUnit Name="Music_Tracks" ID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="DownTempo_Bassline" ID="{2BF99B7C-2DA2-45AF-986C-7327976D7278}" ShortID="204074994">
 					<PropertyList>

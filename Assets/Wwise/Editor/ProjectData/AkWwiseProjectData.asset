@@ -16,24 +16,214 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9C369A98-D1BC-4297-B12F-D89B00AF6358}'
-    m_lastTimePsrt1: -677650238
-    m_lastTimePart2: -1999355576
-    List: []
+    m_lastTimePsrt1: -1441030558
+    m_lastTimePart2: -1999355443
+    List:
+    - Name: Play_DownTempo
+      Path: Default Work Unit\Play_DownTempo
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DownTempo
+        ObjectType: 3
+      ID: -1880548301
+      Guid: 06e02d18e82e504fb611efe24bf7272a
+      maxAttenuation: 0
   - PhysicalPath: Events\Music_Tracks.wwu
     ParentPhysicalPath: 
     Guid: '{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}'
-    m_lastTimePsrt1: -189248066
-    m_lastTimePart2: -1999355475
+    m_lastTimePsrt1: 1333561116
+    m_lastTimePart2: -1999355403
     List:
-    - Name: Test_Event
-      Path: Music_Tracks\Test_Event
+    - Name: OFF_DownTempo_Bassline
+      Path: Music_Tracks\OFF_DownTempo_Bassline
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
-      - ElementName: Test_Event
+      - ElementName: OFF_DownTempo_Bassline
         ObjectType: 3
-      ID: -36314244
+      ID: -200921420
+      Guid: 5a77b85392c4514faa6f4719e9385962
+      maxAttenuation: 0
+    - Name: OFF_DownTempo_Bassline_Pad
+      Path: Music_Tracks\OFF_DownTempo_Bassline_Pad
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_DownTempo_Bassline_Pad
+        ObjectType: 3
+      ID: 566894298
+      Guid: 9a8205900b433a4296e951bda83bb705
+      maxAttenuation: 0
+    - Name: OFF_DownTempo_Kick
+      Path: Music_Tracks\OFF_DownTempo_Kick
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_DownTempo_Kick
+        ObjectType: 3
+      ID: 1580525705
+      Guid: 80d7e212283b3b49b54505436f53855b
+      maxAttenuation: 0
+    - Name: OFF_DownTempo_Lead
+      Path: Music_Tracks\OFF_DownTempo_Lead
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_DownTempo_Lead
+        ObjectType: 3
+      ID: -1473539919
+      Guid: 2bd93012c817524c96b9934f62073420
+      maxAttenuation: 0
+    - Name: OFF_DownTempo_Snare
+      Path: Music_Tracks\OFF_DownTempo_Snare
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_DownTempo_Snare
+        ObjectType: 3
+      ID: 1083338366
+      Guid: 266cbc5b1591054eafc8503a39f2a93d
+      maxAttenuation: 0
+    - Name: OFF_Metal_Bass
+      Path: Music_Tracks\OFF_Metal_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_Metal_Bass
+        ObjectType: 3
+      ID: 285133502
+      Guid: 43374d0ad791ac4f81c2b7aa8ae5bfbb
+      maxAttenuation: 0
+    - Name: OFF_Metal_Kick
+      Path: Music_Tracks\OFF_Metal_Kick
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_Metal_Kick
+        ObjectType: 3
+      ID: 322902949
+      Guid: 411e2d8c16fb2248be044928338a5550
+      maxAttenuation: 0
+    - Name: OFF_Metal_RhythmGuitar
+      Path: Music_Tracks\OFF_Metal_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_Metal_RhythmGuitar
+        ObjectType: 3
+      ID: -1388714719
+      Guid: e175fc15a19427439e436a81bf735660
+      maxAttenuation: 0
+    - Name: OFF_Metal_Snare
+      Path: Music_Tracks\OFF_Metal_Snare
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: OFF_Metal_Snare
+        ObjectType: 3
+      ID: -570496910
+      Guid: bc723d32a3d80848874dea2d9fb306aa
+      maxAttenuation: 0
+    - Name: ON_DownTempo_Bassline
+      Path: Music_Tracks\ON_DownTempo_Bassline
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_DownTempo_Bassline
+        ObjectType: 3
+      ID: -279201142
       Guid: 41d0d0c995701d4eabc658b4d18e250c
+      maxAttenuation: 0
+    - Name: ON_DownTempo_Bassline_Pad
+      Path: Music_Tracks\ON_DownTempo_Bassline_Pad
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_DownTempo_Bassline_Pad
+        ObjectType: 3
+      ID: 1080617516
+      Guid: 463c1fd7bdb9fd409b84f8858c7be1b6
+      maxAttenuation: 0
+    - Name: ON_DownTempo_Kick
+      Path: Music_Tracks\ON_DownTempo_Kick
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_DownTempo_Kick
+        ObjectType: 3
+      ID: -272576669
+      Guid: 3053a14d522af84f9a73ff0647aae094
+      maxAttenuation: 0
+    - Name: ON_DownTempo_Lead
+      Path: Music_Tracks\ON_DownTempo_Lead
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_DownTempo_Lead
+        ObjectType: 3
+      ID: -672305401
+      Guid: 8011597014218d47a6ba9a73639d340c
+      maxAttenuation: 0
+    - Name: ON_DownTempo_Snare
+      Path: Music_Tracks\ON_DownTempo_Snare
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_DownTempo_Snare
+        ObjectType: 3
+      ID: -1582046860
+      Guid: d3734ca60f63c8498b92eb5d0ef41fa5
+      maxAttenuation: 0
+    - Name: ON_Metal_Bass
+      Path: Music_Tracks\ON_Metal_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_Metal_Bass
+        ObjectType: 3
+      ID: 805464928
+      Guid: c4b50e14304a2a41a4ea5e003ca23137
+      maxAttenuation: 0
+    - Name: ON_Metal_Kick
+      Path: Music_Tracks\ON_Metal_Kick
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_Metal_Kick
+        ObjectType: 3
+      ID: 1695870511
+      Guid: 2255145667cdd840b2f82bafeda12804
+      maxAttenuation: 0
+    - Name: ON_Metal_RhythmGuitar
+      Path: Music_Tracks\ON_Metal_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_Metal_RhythmGuitar
+        ObjectType: 3
+      ID: -1425761253
+      Guid: 4950d6259468bd4dab2a1dac95c79ec7
+      maxAttenuation: 0
+    - Name: ON_Metal_Snare
+      Path: Music_Tracks\ON_Metal_Snare
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: ON_Metal_Snare
+        ObjectType: 3
+      ID: 498299080
+      Guid: 5e792bf4cba32b48b12791827dd3c005
+      maxAttenuation: 0
+    - Name: PLAY_ALL
+      Path: Music_Tracks\PLAY_ALL
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: PLAY_ALL
+        ObjectType: 3
+      ID: -1318656393
+      Guid: 04fd30e48662dd48a8a1e969d5980ad3
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -60,18 +250,9 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -188829470
-    m_lastTimePart2: -1999355475
+    m_lastTimePsrt1: -1720971926
+    m_lastTimePart2: -1999355437
     List:
-    - Name: Music
-      Path: Default Work Unit\Music
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Music
-        ObjectType: 7
-      ID: -303024426
-      Guid: 6c33fd3b63efb941bf018a410049033d
     - Name: Music_Tracks
       Path: Default Work Unit\Music_Tracks
       PathAndIcons:
@@ -81,7 +262,10 @@ MonoBehaviour:
         ObjectType: 7
       ID: -37055355
       Guid: 7ee7079d6e3d1c4eb996f9428676ee89
-  ExpandedItems: []
+  ExpandedItems:
+  - /GGJ2017_WwiseProject
+  - /GGJ2017_WwiseProject/Events
+  - /GGJ2017_WwiseProject/Events/Music_Tracks
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

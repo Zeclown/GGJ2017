@@ -5,8 +5,8 @@ using UnityEngine;
 public struct MusicSample
 {
 
-    public AkEvent soundEvent;
-    public AkEvent stopEvent;
+    public string soundEvent;
+    public string stopEvent;
     public Genre genre;
 };
 public enum SoundSystemType { Recorder = 0, Boombox = 1, SmallAudioSystem = 2 }
@@ -34,6 +34,10 @@ public class MusicPlayer : MonoBehaviour
         {
             instance = this;
         }
+        
+    }
+    private void Start()
+    {
 
     }
     private void Update()
@@ -51,7 +55,9 @@ public class MusicPlayer : MonoBehaviour
             beatCount++;
         }
         waitingOnBeat = true;
+
     }
+ 
     public float GetBeat()
     {
         return (Mathf.Cos(GameManager.instance.timePlayed * (BPM / 60.0f) * 2 * Mathf.PI) + 1.0f) / 2;
@@ -97,10 +103,19 @@ public class MusicPlayer : MonoBehaviour
     }
     public void PutTrack(MusicSample newSample, int position)
     {
+        if(playing[position].HasValue)
+        {
+            AkSoundEngine.PostEvent(playing[position].Value.stopEvent,gameObject);
+        }
         playing[position] = newSample;
+        AkSoundEngine.PostEvent(playing[position].Value.soundEvent, gameObject);
     }
     public void RemoveTrack(int position)
     {
+        if (playing[position].HasValue)
+        {
+            AkSoundEngine.PostEvent(playing[position].Value.stopEvent, gameObject);
+        }
         playing[position] = null;
     }
 
