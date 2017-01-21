@@ -26,16 +26,33 @@
 				<Event Id="1580525705" Name="OFF_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Kick" MaxAttenuation="0.000000"/>
 				<Event Id="2821427377" Name="OFF_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Lead" MaxAttenuation="0.000000"/>
 				<Event Id="1083338366" Name="OFF_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Snare" MaxAttenuation="0.000000"/>
-				<Event Id="4015766154" Name="ON_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline"/>
-				<Event Id="1080617516" Name="ON_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline_Pad"/>
-				<Event Id="4022390627" Name="ON_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Kick"/>
-				<Event Id="3622661895" Name="ON_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Lead"/>
-				<Event Id="2712920436" Name="ON_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Snare"/>
+				<Event Id="285133502" Name="OFF_Metal_Bass" ObjectPath="\Events\Music_Tracks\OFF_Metal_Bass" MaxAttenuation="0.000000"/>
+				<Event Id="322902949" Name="OFF_Metal_Kick" ObjectPath="\Events\Music_Tracks\OFF_Metal_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="2906252577" Name="OFF_Metal_RhythmGuitar" ObjectPath="\Events\Music_Tracks\OFF_Metal_RhythmGuitar" MaxAttenuation="0.000000"/>
+				<Event Id="3724470386" Name="OFF_Metal_Snare" ObjectPath="\Events\Music_Tracks\OFF_Metal_Snare" MaxAttenuation="0.000000"/>
+				<Event Id="4015766154" Name="ON_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline" MaxAttenuation="0.000000"/>
+				<Event Id="1080617516" Name="ON_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline_Pad" MaxAttenuation="0.000000"/>
+				<Event Id="4022390627" Name="ON_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="3622661895" Name="ON_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Lead" MaxAttenuation="0.000000"/>
+				<Event Id="2712920436" Name="ON_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Snare" MaxAttenuation="0.000000"/>
+				<Event Id="805464928" Name="ON_Metal_Bass" ObjectPath="\Events\Music_Tracks\ON_Metal_Bass" MaxAttenuation="0.000000"/>
+				<Event Id="1695870511" Name="ON_Metal_Kick" ObjectPath="\Events\Music_Tracks\ON_Metal_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="2869206043" Name="ON_Metal_RhythmGuitar" ObjectPath="\Events\Music_Tracks\ON_Metal_RhythmGuitar" MaxAttenuation="0.000000"/>
+				<Event Id="498299080" Name="ON_Metal_Snare" ObjectPath="\Events\Music_Tracks\ON_Metal_Snare" MaxAttenuation="0.000000"/>
+				<Event Id="2976310903" Name="PLAY_ALL" ObjectPath="\Events\Music_Tracks\PLAY_ALL"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="219080407" Language="SFX">
+					<ShortName>Metal_Bass.wav</ShortName>
+					<Path>SFX\Metal_Bass_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="248830396" Language="SFX">
 					<ShortName>DownTempo_Pad.wav</ShortName>
 					<Path>SFX\DownTempo_Pad_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="379106065" Language="SFX">
+					<ShortName>Metal_RhythmGuitar.wav</ShortName>
+					<Path>SFX\Metal_RhythmGuitar_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="441809825" Language="SFX">
 					<ShortName>DownTempo_Synth_Lead.wav</ShortName>
@@ -45,9 +62,17 @@
 					<ShortName>DownTempo_Kick.wav</ShortName>
 					<Path>SFX\DownTempo_Kick_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="569872035" Language="SFX">
+					<ShortName>Metal_Kick.wav</ShortName>
+					<Path>SFX\Metal_Kick_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="674892571" Language="SFX">
 					<ShortName>DownTempo_Bassline.wav</ShortName>
 					<Path>SFX\DownTempo_Bassline_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="845187681" Language="SFX">
+					<ShortName>Metal_Snare.wav</ShortName>
+					<Path>SFX\Metal_Snare_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="851731330" Language="SFX">
 					<ShortName>DownTempo_Snare.wav</ShortName>

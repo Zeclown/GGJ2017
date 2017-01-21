@@ -8,7 +8,6 @@ public struct MusicSample
     public string soundEvent;
     public string stopEvent;
     public Genre genre;
-    public bool markedToStop;
 };
 public enum SoundSystemType { Recorder = 0, Boombox = 1, SmallAudioSystem = 2 }
 public class MusicPlayer : MonoBehaviour
@@ -19,7 +18,6 @@ public class MusicPlayer : MonoBehaviour
     public int BPM = 40;
     [HideInInspector]
     public MusicSample?[] playing = new MusicSample?[MAX_TRACKS];
-    public MusicSample?[] playingQueue = new MusicSample?[MAX_TRACKS];
     public delegate void FirstBeat();
     public static event FirstBeat OnFirstBeat;
     public delegate void Beat();
@@ -40,7 +38,7 @@ public class MusicPlayer : MonoBehaviour
     }
     private void Start()
     {
-        OnFirstBeat += UpdateList;
+
     }
     private void Update()
     {
@@ -59,26 +57,7 @@ public class MusicPlayer : MonoBehaviour
         waitingOnBeat = true;
 
     }
-    public void UpdateList()
-    {
-        for (int i = 0; i < MAX_TRACKS; i++)
-        {
-            if(playingQueue[i]!=null)
-            {
-                if(playing[i]!=null)
-                    AkSoundEngine.PostEvent(playing[i].Value.stopEvent, gameObject);
-                AkSoundEngine.PostEvent(playingQueue[i].Value.soundEvent, gameObject);
-                playing[i] = playingQueue[i].Value;
-            }
-            else if(playing[i]!=null && playing[i].Value.markedToStop)
-            {
-                AkSoundEngine.PostEvent(playing[i].Value.stopEvent, gameObject);
-                playing[i] = null;
-            }
-        }
-        
-        playingQueue = new MusicSample?[MAX_TRACKS];
-    }
+ 
     public float GetBeat()
     {
         return (Mathf.Cos(GameManager.instance.timePlayed * (BPM / 60.0f) * 2 * Mathf.PI) + 1.0f) / 2;
@@ -124,13 +103,20 @@ public class MusicPlayer : MonoBehaviour
     }
     public void PutTrack(MusicSample newSample, int position)
     {
-        playingQueue[position] = newSample;
+        if(playing[position].HasValue)
+        {
+            AkSoundEngine.PostEvent(playing[position].Value.stopEvent,gameObject);
+        }
+        playing[position] = newSample;
+        AkSoundEngine.PostEvent(playing[position].Value.soundEvent, gameObject);
     }
     public void RemoveTrack(int position)
     {
-        MusicSample ms = playing[position].Value;
-        ms.markedToStop = true;
-        playing[position] = ms;
+        if (playing[position].HasValue)
+        {
+            AkSoundEngine.PostEvent(playing[position].Value.stopEvent, gameObject);
+        }
+        playing[position] = null;
     }
 
 

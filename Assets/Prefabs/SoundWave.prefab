@@ -35,13 +35,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1680845861866488}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.3457727, y: -3.7090561, z: -6.3858643}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.13331681, y: -0, z: -0, w: 0.99107355}
+  m_LocalPosition: {x: 5.16, y: 2.48, z: -7.52}
+  m_LocalScale: {x: 0.20302546, y: 0.20302549, z: 0.20302549}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.323001, y: 0, z: 0}
 --- !u!114 &114207828642514410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -108,7 +108,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 718256420
+  randomSeed: 935194286
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -948,7 +948,7 @@ ParticleSystem:
           rgba: 4294967295
         key2:
           serializedVersion: 2
-          rgba: 4278190080
+          rgba: 0
         key3:
           serializedVersion: 2
           rgba: 0
@@ -973,8 +973,8 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 964
-        atime2: 39707
+        atime1: 19853
+        atime2: 65535
         atime3: 65535
         atime4: 0
         atime5: 0
@@ -982,7 +982,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 4
+        m_NumAlphaKeys: 3
       minGradient:
         key0:
           serializedVersion: 2

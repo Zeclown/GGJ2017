@@ -44,7 +44,7 @@
 			<IncludedMemoryFiles>
 				<File Id="219080407" Language="SFX">
 					<ShortName>Metal_Bass.wav</ShortName>
-					<Path>SFX/Metal_Bass_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Bass_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="248830396" Language="SFX">
 					<ShortName>DownTempo_Pad.wav</ShortName>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="379106065" Language="SFX">
 					<ShortName>Metal_RhythmGuitar.wav</ShortName>
-					<Path>SFX/Metal_RhythmGuitar_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_RhythmGuitar_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="441809825" Language="SFX">
 					<ShortName>DownTempo_Synth_Lead.wav</ShortName>
@@ -64,7 +64,7 @@
 				</File>
 				<File Id="569872035" Language="SFX">
 					<ShortName>Metal_Kick.wav</ShortName>
-					<Path>SFX/Metal_Kick_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Kick_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="674892571" Language="SFX">
 					<ShortName>DownTempo_Bassline.wav</ShortName>
@@ -72,7 +72,7 @@
 				</File>
 				<File Id="845187681" Language="SFX">
 					<ShortName>Metal_Snare.wav</ShortName>
-					<Path>SFX/Metal_Snare_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Snare_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="851731330" Language="SFX">
 					<ShortName>DownTempo_Snare.wav</ShortName>

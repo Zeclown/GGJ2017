@@ -35,7 +35,21 @@ public class PlayerController : MonoBehaviour {
             newMusic.stopEvent = "OFF_DownTempo_Bassline_Pad";
             PutTrack(newMusic, 2);
         }
-       
+
+
+        if (Input.GetKeyDown("l"))
+        {
+            RemoveTrack(0);
+        }
+        if (Input.GetKeyDown("k"))
+        {
+            RemoveTrack(1);
+        }
+        if (Input.GetKeyDown("j"))
+        {
+
+            RemoveTrack(2);
+        }
     }
     public void PutTrack(MusicSample newSample, int position)
     {
