@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour {
         {
             totalHappiness += item.happiness;
         }
-
+        if(crowd.crowd.Count!=0)
         popularity = totalHappiness / crowd.crowd.Count;
     }
     public void StartGame()
