@@ -22,11 +22,7 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="ON_DownTempo_Snare" ID="{A64C73D3-630F-49C8-8B92-EB5D0EF41FA5}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="1" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="ON_DownTempo_Kick" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<ObjectRef Name="ON_DownTempo_Drums" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="1" Y="4"/>
 						</Module>
 					</ModuleList>

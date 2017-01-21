@@ -22,7 +22,7 @@
 						<Action Name="Post Event" ID="{0E70DD06-BBFD-4CE2-8476-A078693D594C}" ShortID="292886827" Type="PlayEvent" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{C61ABC96-BD3C-4587-965C-C7D5FD3D4EA0}" Global="false">
-									<ObjectRef Name="ON_DownTempo_Kick" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+									<ObjectRef Name="ON_DownTempo_Drums" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 								</Element>
 							</ElementList>
 						</Action>
