@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour {
     private float onFireTimer=0;
     private float score;
     public float timePlayed=0;
+    public int level;
+
     public float GameDuration = 180;
     private void Awake()
     {
@@ -42,26 +44,33 @@ public class GameManager : MonoBehaviour {
             if(onFireTimer<=0)
             {
                 onFire = true;
-            }
-            else
+            } else
             {
                 onFire = false;
             }
+
             if(popularity>=onFirePopularityRequired)
             {
                 onFireTimer -= Time.deltaTime;
-            }
-            else
-            {
+            } else {
                 onFireTimer = onFireTimeRequired;
             }
             timePlayed += Time.deltaTime;
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
-            if (GameDuration<=timePlayed)
+
+            if (score > 60 && level == 1) {
+                crowd.genreWaves[1].Activate(timePlayed);
+                level = 2;
+            } else if (score > 200 && level == 2) {
+                crowd.genreWaves[2].Activate(timePlayed);
+                level = 3;
+            }
+
+            /*if (GameDuration<=timePlayed)
             {
                 EndGame();
-            }
+            }*/
         }
         
     }
@@ -78,6 +87,7 @@ public class GameManager : MonoBehaviour {
     public void StartGame()
     {
         state = GameState.Playing;
+        crowd.genreWaves[0].Activate(timePlayed);
     }
     public void PauseGame()
     {
@@ -89,6 +99,8 @@ public class GameManager : MonoBehaviour {
     }
     public void EndGame()
     {
+        timePlayed = 0;
+
         state = GameState.Ending;
         GameInstance.instance.ToMainMenu();
     }
