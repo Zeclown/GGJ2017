@@ -23,7 +23,7 @@ public class Attendee : MonoBehaviour {
     }
     public void Setup()
     {
-        happiness = GameManager.instance.popularity;
+        happiness = GameManager.instance?GameManager.instance.popularity:50;
         leaving = false;
     }
 
