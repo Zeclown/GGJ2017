@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     public CrowdManager crowd;
     private float score;
     public float timePlayed=0;
+    public float GameDuration = 180;
     private void Awake()
     {
         if (instance)
@@ -36,7 +37,12 @@ public class GameManager : MonoBehaviour {
             timePlayed += Time.deltaTime;
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
+            if (GameDuration<=timePlayed)
+            {
+                EndGame();
+            }
         }
+        
     }
     private void ComputePopularity()
     {
