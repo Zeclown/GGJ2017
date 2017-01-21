@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameInstance : MonoBehaviour {
     public static GameInstance instance;
     private void Awake()
@@ -20,8 +20,12 @@ public class GameInstance : MonoBehaviour {
     void Start () {
         DontDestroyOnLoad(transform.gameObject);
     }
-    void ToMainMenu()
+    public void ToMainMenu()
     {
-
+        SceneManager.LoadScene("MainMenu");
     } 
+    public void ToMainGame()
+    {
+        SceneManager.LoadScene("Main");
+    }
 }
