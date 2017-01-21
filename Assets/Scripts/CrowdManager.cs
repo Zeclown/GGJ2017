@@ -24,7 +24,7 @@ public class CrowdManager : MonoBehaviour {
 
     //Crowd position stuff
     public const float offsetCol = 1.5f;
-    public const float offsetRow = 2f;
+    public const float offsetRow = 1.5f;
     public Vector3 offset;
     public const int firstRowSize = 5;
     List<int> occupied;
@@ -155,9 +155,9 @@ public class CrowdManager : MonoBehaviour {
         
         for(int i = 0; i < genreWaves.Count; i++) {
             if (i != 0)
-                totalSeedValue.Add( totalSeedValue[i - 1] + genreWaves[i].frequencyWave.Evaluate(GameManager.instance.timePlayed));
+                totalSeedValue.Add( totalSeedValue[i - 1] + genreWaves[i].ReadFromCurve(GameManager.instance.timePlayed));
             else
-                totalSeedValue.Add( genreWaves[i].frequencyWave.Evaluate(GameManager.instance.timePlayed));
+                totalSeedValue.Add( genreWaves[i].ReadFromCurve(GameManager.instance.timePlayed));
         }
         MaxSeededCount = totalSeedValue[totalSeedValue.Count-1];
     }

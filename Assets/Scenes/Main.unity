@@ -1562,8 +1562,20 @@ Prefab:
     - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
         type: 2}
       propertyPath: offset.z
-      value: -2
+      value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
+        type: 2}
+      propertyPath: genreWaves.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5180edadf7369c64e9647bacd17f66d7,
+        type: 2}
+    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
+        type: 2}
+      propertyPath: genreWaves.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 731774576c8ccd54d9396707d7f5ca51,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8575acd8ad206ec4a9ff401144af03a6, type: 2}
   m_IsPrefabParent: 0

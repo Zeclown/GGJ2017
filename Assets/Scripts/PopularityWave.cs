@@ -12,6 +12,8 @@ public class PopularityWave : ScriptableObject {
     private float randomStartOffset;     //Set on spawn.
 
     public float ReadFromCurve(float time) {
+        if (!active)
+            return 0;
         return frequencyWave.Evaluate(time + randomStartOffset + activatedSyncOffset);
     }
 

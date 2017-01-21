@@ -59,11 +59,11 @@ public class GameManager : MonoBehaviour {
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
 
-            if (score > 2000 && level == 1) {
+            if (score > 400 && level == 1) {
                 crowd.genreWaves[1].Activate(timePlayed);
                 level = 2;
                 Debug.Log("Unlock");
-            } else if (score > 9000 && level == 2) {
+            } else if (score > 1000 && level == 2) {
                 crowd.genreWaves[2].Activate(timePlayed);
                 level = 3;
             }

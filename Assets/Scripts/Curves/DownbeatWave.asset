@@ -13,8 +13,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frequencyWave:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 2
+      time: 2
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 9
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
     m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_PostInfinity: 0
+    m_RotationOrder: 0
   genreName: 0
+  active: 1
