@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4481112144129568}
   - component: {fileID: 111701044894264068}
   m_Layer: 0
-  m_Name: Heart
+  m_Name: Heart 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ Transform:
   m_GameObject: {fileID: 1544484774428316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.785653, y: -0.04298067, z: -0.18948549}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4759287189623252}
   m_Father: {fileID: 0}
@@ -116,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0703181e83d2b434c8e45f285cca7227, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a7db197c0d687c4e9fc69153eac68a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
