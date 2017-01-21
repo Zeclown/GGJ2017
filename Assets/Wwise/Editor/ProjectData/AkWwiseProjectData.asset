@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0162bfd59d4564bbf4cb87e6425cc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 39c404fe2db3b15469d743c676cb2f0b, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
@@ -19,6 +19,22 @@ MonoBehaviour:
     m_lastTimePsrt1: -677650238
     m_lastTimePart2: -1999355576
     List: []
+  - PhysicalPath: Events\Music_Tracks.wwu
+    ParentPhysicalPath: 
+    Guid: '{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}'
+    m_lastTimePsrt1: -189248066
+    m_lastTimePart2: -1999355475
+    List:
+    - Name: Test_Event
+      Path: Music_Tracks\Test_Event
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Test_Event
+        ObjectType: 3
+      ID: -36314244
+      Guid: 41d0d0c995701d4eabc658b4d18e250c
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -44,11 +60,28 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -677479785
-    m_lastTimePart2: -1999355576
-    List: []
-  ExpandedItems:
-  - /GGJ2017_WwiseProject
+    m_lastTimePsrt1: -188829470
+    m_lastTimePart2: -1999355475
+    List:
+    - Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      ID: -303024426
+      Guid: 6c33fd3b63efb941bf018a410049033d
+    - Name: Music_Tracks
+      Path: Default Work Unit\Music_Tracks
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Tracks
+        ObjectType: 7
+      ID: -37055355
+      Guid: 7ee7079d6e3d1c4eb996f9428676ee89
+  ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
