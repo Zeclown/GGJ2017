@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 1b49bedcc3f3c9043bb120bb7b566c49
-timeCreated: 1484969777
+timeCreated: 1485034866
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - heartSignal: {fileID: 1544484774428316, guid: 5dd9a843b15e443488ee8512243d5a76,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

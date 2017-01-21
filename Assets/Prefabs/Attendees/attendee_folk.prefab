@@ -278,10 +278,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   favoriteGenre: 0
+  heartSignal: {fileID: 1544484774428316, guid: 5dd9a843b15e443488ee8512243d5a76,
+    type: 2}
   happiness: 0
   happinessFallOff: 5
   happinessLoseRate: 4
   happinessGainRate: 10
+  timeBetweenEmotes: 5
   finalLocation: {x: 0, y: 0, z: 0}
   leaving: 0
 --- !u!195 &195102921736638850

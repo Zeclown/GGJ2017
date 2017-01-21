@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class Attendee : MonoBehaviour {
 
+public class Attendee : MonoBehaviour {
+    enum Mood { Happy,Neutral,Sad}
+    private Mood mood;
     public Genre favoriteGenre;
+    public GameObject heartSignal;
+    public GameObject sadFaceSignal;
     public float happiness;
     //The rate at which the attendee lose happiness every tick;
     public float happinessFallOff=0.5f;
@@ -12,19 +16,22 @@ public class Attendee : MonoBehaviour {
     public float happinessLoseRate = 0.5f;
     //The rate at which the attendee gain happiness from prefered genres
     public float happinessGainRate=1;
-
+    public float timeBetweenEmotes = 30;
     private NavMeshAgent nav;
+    private float emoteCD;
     public Vector3 finalLocation;
 
     public bool leaving;
-
     public Attendee() {
+
     }
     public void Setup()
     {
         happiness = GameManager.instance.crowd.crowd.Count == 1 ?
             50 : GameManager.instance.popularity;
         leaving = false;
+        mood = GetMood();
+        emoteCD = 0;
     }
 
     // Use this for initialization
@@ -47,11 +54,46 @@ public class Attendee : MonoBehaviour {
                 Destroy(gameObject, 0.3f);
             }
         }
-      
-        if(happiness <= 0) {
+        mood = GetMood();
+        if(emoteCD<=0)
+        {
+            emoteCD = timeBetweenEmotes+Random.Range(0,3);
+            if(mood==Mood.Happy)
+            {
+                GameObject newHeart = Instantiate(heartSignal);
+                newHeart.transform.position = transform.position+Vector3.up;
+                newHeart.GetComponent<Animation>().Play();
+                Destroy(newHeart, 2);
+            }
+            else if(mood == Mood.Sad)
+            {
+                GameObject newHeart = Instantiate(sadFaceSignal);
+                newHeart.transform.position = transform.position + Vector3.up;
+                newHeart.GetComponent<Animation>().Play();
+                Destroy(newHeart, 2);
+            }
+        }
+        emoteCD -= Time.deltaTime;
+        if (happiness <= 0) {
             Leave(GameManager.instance.crowd.getExitToLeave(GetInstanceID()));
         }
-	}
+
+    }
+    Mood GetMood()
+    {
+        if(happiness>=90)
+        {
+            return Mood.Happy;
+        }
+        else if(happiness<=10)
+        {
+            return  Mood.Sad;
+        }
+        else
+        {
+            return  Mood.Neutral;
+        }
+    }
     public void CalculateHappiness()
     {
         happiness -= Time.deltaTime* happinessFallOff;
