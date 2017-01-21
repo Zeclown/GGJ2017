@@ -95,7 +95,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   favoriteGenre: 0
   happiness: 0
+  happinessFallOff: 1
+  happinessLoseRate: 0.5
+  happinessGainRate: 1
   finalLocation: {x: 0, y: 0, z: 0}
+  leaving: 0
 --- !u!135 &135486368644191296
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
         int totalHappiness = 0;
         foreach (var item in crowd.crowd)
         {
-            totalHappiness += item.happiness;
+            totalHappiness += (int)item.happiness;
         }
         if(crowd.crowd.Count!=0)
         popularity = totalHappiness / crowd.crowd.Count;

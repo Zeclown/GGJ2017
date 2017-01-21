@@ -84,19 +84,19 @@ public class MusicPlayer : MonoBehaviour
     //Returns a percent based on the amount of track of a specific genre playing
     public float GetGenreLevel(Genre toGet)
     {
-        int genreTracks = 0;
+        int genreTracks = 0,numberOfTracks=0;
         foreach (MusicSample? sample in playing)
         {
             if (sample != null)
             {
-
+                numberOfTracks++;
                 if (sample.Value.genre == toGet)
                 {
                     genreTracks++;
                 }
             }
         }
-        return genreTracks / (float)MAX_TRACKS;
+        return genreTracks / Mathf.Clamp((float)numberOfTracks,1,100);
     }
     public void PutTrack(MusicSample newSample, int position)
     {
