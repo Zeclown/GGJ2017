@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9C369A98-D1BC-4297-B12F-D89B00AF6358}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{9C369A98-D1BC-4297-B12F-D89B00AF6358}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9C369A98-D1BC-4297-B12F-D89B00AF6358}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_DownTempo" ID="{182DE006-2EE8-4F50-B611-EFE24BF7272A}">
+					<ChildrenList>
+						<Action Name="Post Event" ID="{E84D952A-1FD5-4366-A59D-72DFC88667F7}" ShortID="827170415" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{45D2891B-48C8-4471-8E68-D11FA841EBE6}" Global="false">
+									<ObjectRef Name="ON_DownTempo_Bassline" ID="{C9D0D041-7095-4E1D-ABC6-58B4D18E250C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{547AD7DB-E76B-4F92-A218-35D08A7EBFB4}" ShortID="571004245" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9F87E5B7-D9D9-4FDA-85FF-7852210C9615}" Global="false">
+									<ObjectRef Name="ON_DownTempo_Bassline_Pad" ID="{D71F3C46-B9BD-40FD-9B84-F8858C7BE1B6}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{0E70DD06-BBFD-4CE2-8476-A078693D594C}" ShortID="292886827" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C61ABC96-BD3C-4587-965C-C7D5FD3D4EA0}" Global="false">
+									<ObjectRef Name="ON_DownTempo_Kick" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{6538A62D-0043-4FB8-87C0-462800E97214}" ShortID="583289141" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{73203F2B-983A-41E5-B1B7-56302CEF1933}" Global="false">
+									<ObjectRef Name="ON_DownTempo_Lead" ID="{70591180-2114-478D-A6BA-9A73639D340C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{A453A56D-EB7C-4C19-A16D-32D811B73588}" ShortID="300309888" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{220537B6-FF30-45D8-8D08-D25761BDBC47}" Global="false">
+									<ObjectRef Name="ON_DownTempo_Snare" ID="{A64C73D3-630F-49C8-8B92-EB5D0EF41FA5}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

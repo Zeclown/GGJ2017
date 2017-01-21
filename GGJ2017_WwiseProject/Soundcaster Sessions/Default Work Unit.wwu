@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0CAEDFC6-77F9-4619-893F-63E7D3BC9A4A}" SchemaVersion="75">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{0CAEDFC6-77F9-4619-893F-63E7D3BC9A4A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0CAEDFC6-77F9-4619-893F-63E7D3BC9A4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music_Testing" ID="{FBCFCA97-9909-42A6-BDA8-1C8B0B826501}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ON_DownTempo_Bassline" ID="{C9D0D041-7095-4E1D-ABC6-58B4D18E250C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ON_DownTempo_Bassline_Pad" ID="{D71F3C46-B9BD-40FD-9B84-F8858C7BE1B6}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DownTempo" ID="{182DE006-2EE8-4F50-B611-EFE24BF7272A}" WorkUnitID="{9C369A98-D1BC-4297-B12F-D89B00AF6358}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

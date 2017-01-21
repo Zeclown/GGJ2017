@@ -927,11 +927,13 @@
 										<Property Name="Density" Type="Real32" Value="44"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="13"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="2"/>
 										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="780"/>
-										<Property Name="Filter3Gain" Type="Real32" Value="-0.5"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="990"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-12.5"/>
 										<Property Name="HFDamping" Type="Real32" Value="2.8"/>
 										<Property Name="PreDelay" Type="Real32" Value="32"/>
 										<Property Name="Quality" Type="int32" Value="16"/>
