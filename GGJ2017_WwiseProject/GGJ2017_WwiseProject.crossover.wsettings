@@ -18,6 +18,19 @@
 				<Property Name="GenerateSoundBanks\SelectedLanguages" Type="string" Value="DAAAAA=="/>
 				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value="0Hh65TJ7YUK91DeJdLw1Dw=="/>
 				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="fucHnW49HE65lvlChnbuiWwz/Ttj77lBvwGKQQBJAz0="/>
+				<Property Name="Interactive Music\{01245D2F-47FB-4569-A292-2F2FBD63C6F6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3h4eHh4eFdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{188A3394-3469-47BE-B43C-3D1644B80FF3} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAAAkAAAAAAAADwP+e5wPqE9zdAAAAAAAAA8D8AAAAAADCPQAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{8451DDC2-B7FE-4275-B7B9-6BEF6B25C8D4} - SegmentEditorZoomInfo" Type="string" Value="aC+hvYT20j8AAAAAAADwPwAAAAAA8GhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{98E572CB-5656-40F7-B866-D21251C0B2E4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPy+66KKLLlhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{AE552F11-7200-498C-A19C-E578B92B90A4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA8FhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Music Transition List\{13E366E7-72FC-4F0A-8139-4D2A9EA1A8D9}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{20AA68B7-F6F6-4DB7-B57C-A15F2235AE61}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{2BF99B7C-2DA2-45AF-986C-7327976D7278}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{B61752B1-6C34-4C18-A111-8A2C21107B3F}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C447585A-4DB0-4FAD-9069-D76C9DC82D35}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{DABCE546-49FF-4898-8AB2-9FCC1F0FAA8C}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{E36BB8B5-5168-476A-87C5-900E2F8AFE32}\Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
