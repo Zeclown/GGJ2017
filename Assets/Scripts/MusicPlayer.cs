@@ -70,16 +70,12 @@ public class MusicPlayer : MonoBehaviour
     {
         switch (genre)
         {
-            case Genre.Rock:
+            case Genre.Folk:
                 return Color.red;
-            case Genre.Paper:
+            case Genre.DownBeat:
                 return Color.blue;
-            case Genre.Scissors:
+            case Genre.Metal:
                 return Color.cyan;
-            case Genre.Lizards:
-                return Color.green;
-            case Genre.Banter:
-                return Color.red;
             default:
                 return Color.red;
         }

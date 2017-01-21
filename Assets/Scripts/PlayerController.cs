@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown("m"))
         {
             MusicSample newMusic = new MusicSample();
-            newMusic.genre = Genre.Lizards;
+            newMusic.genre = Genre.DownBeat;
             newMusic.soundEvent="ON_DownTempo_Bassline";
             newMusic.stopEvent = "OFF_DownTempo_Bassline";
             PutTrack(newMusic,0);
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKeyDown("n"))
         {
             MusicSample newMusic = new MusicSample();
-            newMusic.genre = Genre.Lizards;
+            newMusic.genre = Genre.DownBeat;
             newMusic.soundEvent = "ON_DownTempo_Snare";
             newMusic.stopEvent = "OFF_DownTempo_Snare";
             PutTrack(newMusic, 1);
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour {
         {
 
             MusicSample newMusic = new MusicSample();
-            newMusic.genre = Genre.Lizards;
+            newMusic.genre = Genre.DownBeat;
             newMusic.soundEvent = "ON_DownTempo_Bassline_Pad";
             newMusic.stopEvent = "OFF_DownTempo_Bassline_Pad";
             PutTrack(newMusic, 2);
