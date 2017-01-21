@@ -1,0 +1,63 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public enum GameState { Starting,Playing,Paused,Ending}
+public class GameManager : MonoBehaviour {
+
+    public static GameManager instance;
+    public int Score { get { return (int)score; } }
+    public int popularity;
+    public GameState state;
+    private float score;
+    private void Awake()
+    {
+        if (instance)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+
+    }
+    private void Start()
+    {
+        state = GameState.Starting;
+        StartGame();
+    }
+    private void Update()
+    {
+        if (state == GameState.Playing)
+        {
+            score += Time.deltaTime;//*userList
+            ComputePopularity();
+        }
+    }
+    private void ComputePopularity()
+    {
+        //int totalHappiness=0;
+        //foreach (var item in collection)
+        //{
+        //    totalHappiness += item.happiness;
+        //}
+
+        //popularity= totalHappiness / collection.count;
+    }
+    public void StartGame()
+    {
+        state = GameState.Playing;
+    }
+    public void PauseGame()
+    {
+        state = GameState.Paused;
+    }
+    public void UnpauseGame()
+    {
+        state = GameState.Playing;
+    }
+    public void EndGame()
+    {
+        state = GameState.Ending;
+    }
+}
