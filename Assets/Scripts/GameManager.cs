@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     public int popularity;
     public GameState state;
     private float score;
+    public float timePlayed=0;
     private void Awake()
     {
         if (instance)
@@ -28,8 +29,10 @@ public class GameManager : MonoBehaviour {
     }
     private void Update()
     {
+        
         if (state == GameState.Playing)
         {
+            timePlayed += Time.deltaTime;
             score += Time.deltaTime;//*userList
             ComputePopularity();
         }
