@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class CrowdManager : MonoBehaviour {
 
-    private const float minimumWaveDelay = 4;
-    private const float maximumWaveDelay = 5;
-    private const float minimumTrickleDelay = 0.5f;
-    private const float maximumTrickleDelay = 1.5f;
+    private const float minimumWaveDelay = 10;
+    private const float maximumWaveDelay = 15;
+    private const float minimumTrickleDelay = 3f;
+    private const float maximumTrickleDelay = 7f;
 
     //Seeded Creation Stuff
     private float MaxSeededCount;
@@ -23,8 +23,9 @@ public class CrowdManager : MonoBehaviour {
     public float nextTrickleArrival;
 
     //Crowd position stuff
-    public const float offsetX = 1f;
-    public const float offsetZ = 1f;
+    public const float offsetCol = 1.5f;
+    public const float offsetRow = 1.5f;
+    public Vector3 offset;
     public const int firstRowSize = 5;
     List<int> occupied;
     [SerializeField]
@@ -38,7 +39,7 @@ public class CrowdManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        ScheduleInitialWaves(10f);  //Adding a minimum time. 
+        ScheduleInitialWaves(35f,20f);  //Adding a minimum time. 
         ScheduleTrickle(0);
         totalSeedValue = new List<float>();
         crowd = new List<Attendee>();
@@ -50,9 +51,18 @@ public class CrowdManager : MonoBehaviour {
         nextTrickleArrival = Time.time + offset + UnityEngine.Random.Range(minimumTrickleDelay, maximumTrickleDelay);
     }
 
-    private void ScheduleInitialWaves(float offset) {
-        nextExitWave = Time.time + offset + UnityEngine.Random.Range(minimumWaveDelay, maximumWaveDelay);
-        nextArrivalWave = nextExitWave + UnityEngine.Random.Range(minimumWaveDelay * 0.5f, maximumWaveDelay * 0.5f);
+    internal Vector3 getExitToLeave(int ID) {
+        for(int i = 0; i < occupied.Count; i++) {
+            if(occupied[i] == ID) {
+                occupied[i] = -1;
+            }
+        }
+        return exitPoint.position;
+    }
+
+    private void ScheduleInitialWaves(float exitOffset,float entryOffset) {
+        nextExitWave = Time.time + exitOffset + UnityEngine.Random.Range(minimumWaveDelay, maximumWaveDelay);
+        nextArrivalWave = entryOffset + UnityEngine.Random.Range(minimumWaveDelay * 0.5f, maximumWaveDelay * 0.5f);
     }
 
     private void ScheduleNextArrivalWaves() {
@@ -69,12 +79,12 @@ public class CrowdManager : MonoBehaviour {
         //TODO: Modulate speed of arrival on Popularity.
 
         if(Time.time >= nextExitWave) {
-            MakeAttendeeLeave((int)(9 - (GameManager.instance.popularity * 0.02f) ) );
+            MakeAttendeeLeave((int)(10 - (GameManager.instance.popularity * 0.1f) ) );
             Debug.Log(crowd.Count);
             ScheduleNextExitWaves();
         }
         if (Time.time >= nextArrivalWave) {
-            MakeAttendeeArrive(10);
+            MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.1f) );
             Debug.Log(crowd.Count);
             ScheduleNextArrivalWaves();
         }
@@ -100,15 +110,18 @@ public class CrowdManager : MonoBehaviour {
         }
 
         for (int i = 0; i < countArriving; i++) {
+            if (crowd.Count == 30) {
+                break;
+            }
 
-            crowd.Add( Instantiate(attendeePrefab).GetComponent<Attendee>());
+            crowd.Add( Instantiate(attendeePrefabs[0]).GetComponent<Attendee>());
             crowd[crowd.Count - 1].favoriteGenre = genreWaves[ii].genreName;
             int xpos, zpos;
             FindPosition(out xpos, out zpos, crowd[crowd.Count - 1].GetInstanceID());
             //Debug.Log(xpos + " " +zpos);
             crowd[crowd.Count - 1].gameObject.transform.position = entryPoint.position;
-            crowd[crowd.Count - 1].ReceiveTargetPlace(new Vector3(entryPoint.position.x, 0, (zpos * offsetZ) - (xpos % 2 == 1 ? offsetZ * 0.5f : 0)));
-            crowd[crowd.Count - 1].finalLocation = new Vector3((offsetX * xpos), 0, (zpos * offsetZ) - (xpos % 2 == 1 ? offsetZ * 0.5f : 0));
+            crowd[crowd.Count - 1].ReceiveTargetPlace(new Vector3(entryPoint.position.x, 0, (zpos * offsetRow) - (xpos % 2 == 1 ? offsetRow * 0.5f : 0)) + offset);
+            crowd[crowd.Count - 1].finalLocation = new Vector3((offsetCol * xpos), 0, (zpos * offsetRow) - (xpos % 2 == 1 ? offsetRow * 0.5f : 0)) + offset;
             //crowd[crowd.Count - 1].gameObject.transform.position.Set((offsetX * xpos), 0, /*(xpos * -offsetZ) + */((float)zpos * offsetZ)/* + (zpos % 2 == 0 ? offsetZ * 0.5f : 0)*/);
         }
     }
@@ -142,9 +155,9 @@ public class CrowdManager : MonoBehaviour {
         
         for(int i = 0; i < genreWaves.Count; i++) {
             if (i != 0)
-                totalSeedValue.Add( totalSeedValue[i - 1] + genreWaves[i].frequencyWave.Evaluate(Time.time));
+                totalSeedValue.Add( totalSeedValue[i - 1] + genreWaves[i].ReadFromCurve(GameManager.instance.timePlayed));
             else
-                totalSeedValue.Add( genreWaves[i].frequencyWave.Evaluate(Time.time));
+                totalSeedValue.Add( genreWaves[i].ReadFromCurve(GameManager.instance.timePlayed));
         }
         MaxSeededCount = totalSeedValue[totalSeedValue.Count-1];
     }
