@@ -13,4 +13,13 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void PutTrack(MusicSample newSample, int position)
+    {
+        MusicPlayer.instance.PutTrack(newSample,position);
+
+    }
+    public void RemoveTrack(int position)
+    {
+        MusicPlayer.instance.RemoveTrack(position);
+    }
 }
