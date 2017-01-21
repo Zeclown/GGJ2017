@@ -23,8 +23,9 @@ public class CrowdManager : MonoBehaviour {
     public float nextTrickleArrival;
 
     //Crowd position stuff
-    public const float offsetX = 1f;
-    public const float offsetZ = 1f;
+    public const float offsetCol = 1.5f;
+    public const float offsetRow = 2f;
+    public Vector3 offset;
     public const int firstRowSize = 5;
     List<int> occupied;
     [SerializeField]
@@ -38,7 +39,7 @@ public class CrowdManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        ScheduleInitialWaves(20f,10f);  //Adding a minimum time. 
+        ScheduleInitialWaves(35f,20f);  //Adding a minimum time. 
         ScheduleTrickle(0);
         totalSeedValue = new List<float>();
         crowd = new List<Attendee>();
@@ -48,6 +49,15 @@ public class CrowdManager : MonoBehaviour {
 
     private void ScheduleTrickle(float offset = 0) {
         nextTrickleArrival = Time.time + offset + UnityEngine.Random.Range(minimumTrickleDelay, maximumTrickleDelay);
+    }
+
+    internal Vector3 getExitToLeave(int ID) {
+        for(int i = 0; i < occupied.Count; i++) {
+            if(occupied[i] == ID) {
+                occupied[i] = -1;
+            }
+        }
+        return exitPoint.position;
     }
 
     private void ScheduleInitialWaves(float exitOffset,float entryOffset) {
@@ -100,15 +110,18 @@ public class CrowdManager : MonoBehaviour {
         }
 
         for (int i = 0; i < countArriving; i++) {
+            if (crowd.Count == 30) {
+                break;
+            }
 
-            crowd.Add( Instantiate(attendeePrefab).GetComponent<Attendee>());
+            crowd.Add( Instantiate(attendeePrefabs[0]).GetComponent<Attendee>());
             crowd[crowd.Count - 1].favoriteGenre = genreWaves[ii].genreName;
             int xpos, zpos;
             FindPosition(out xpos, out zpos, crowd[crowd.Count - 1].GetInstanceID());
             //Debug.Log(xpos + " " +zpos);
             crowd[crowd.Count - 1].gameObject.transform.position = entryPoint.position;
-            crowd[crowd.Count - 1].ReceiveTargetPlace(new Vector3(entryPoint.position.x, 0, (zpos * offsetZ) - (xpos % 2 == 1 ? offsetZ * 0.5f : 0)));
-            crowd[crowd.Count - 1].finalLocation = new Vector3((offsetX * xpos), 0, (zpos * offsetZ) - (xpos % 2 == 1 ? offsetZ * 0.5f : 0));
+            crowd[crowd.Count - 1].ReceiveTargetPlace(new Vector3(entryPoint.position.x, 0, (zpos * offsetRow) - (xpos % 2 == 1 ? offsetRow * 0.5f : 0)) + offset);
+            crowd[crowd.Count - 1].finalLocation = new Vector3((offsetCol * xpos), 0, (zpos * offsetRow) - (xpos % 2 == 1 ? offsetRow * 0.5f : 0)) + offset;
             //crowd[crowd.Count - 1].gameObject.transform.position.Set((offsetX * xpos), 0, /*(xpos * -offsetZ) + */((float)zpos * offsetZ)/* + (zpos % 2 == 0 ? offsetZ * 0.5f : 0)*/);
         }
     }

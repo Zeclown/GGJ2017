@@ -19,11 +19,11 @@ public class Attendee : MonoBehaviour {
     public bool leaving;
 
     public Attendee() {
-        Setup();
     }
     public void Setup()
     {
-        happiness = GameManager.instance?GameManager.instance.popularity:50;
+        happiness = GameManager.instance.crowd.crowd.Count == 1 ?
+            50 : GameManager.instance.popularity;
         leaving = false;
     }
 
@@ -48,7 +48,9 @@ public class Attendee : MonoBehaviour {
             }
         }
       
-
+        if(happiness <= 0) {
+            Leave(GameManager.instance.crowd.getExitToLeave(GetInstanceID()));
+        }
 	}
     public void CalculateHappiness()
     {
