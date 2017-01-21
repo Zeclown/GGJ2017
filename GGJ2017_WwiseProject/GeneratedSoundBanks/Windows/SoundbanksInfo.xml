@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4257911941" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Tracks</ObjectPath>
+			<ShortName>Music_Tracks</ShortName>
+			<Path>Music_Tracks.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Music_Tracks\Test_Event"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
