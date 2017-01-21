@@ -112,11 +112,14 @@ MonoBehaviour:
   crowd: []
   genreWaves:
   - {fileID: 11400000, guid: ef7caf022e0613f4cbf1f59779f2fdb6, type: 2}
-  - {fileID: 11400000, guid: 731774576c8ccd54d9396707d7f5ca51, type: 2}
   - {fileID: 11400000, guid: 5180edadf7369c64e9647bacd17f66d7, type: 2}
+  - {fileID: 11400000, guid: 731774576c8ccd54d9396707d7f5ca51, type: 2}
   nextArrivalWave: 0
   nextExitWave: 0
   nextTrickleArrival: 0
+  offset: {x: 0, y: 0, z: -1}
+  attendeePrefabs:
+  - {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957, type: 2}
   attendeePrefab: {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957,
     type: 2}
   entryPoint: {fileID: 4491573619006890}

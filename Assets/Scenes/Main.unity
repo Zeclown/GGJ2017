@@ -1511,11 +1511,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: attendeePrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4227382980330316, guid: 8575acd8ad206ec4a9ff401144af03a6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.62
@@ -1548,34 +1543,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: attendeePrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957,
-        type: 2}
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: offset.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: genreWaves.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 5180edadf7369c64e9647bacd17f66d7,
-        type: 2}
-    - target: {fileID: 114299438931255256, guid: 8575acd8ad206ec4a9ff401144af03a6,
-        type: 2}
-      propertyPath: genreWaves.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 731774576c8ccd54d9396707d7f5ca51,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8575acd8ad206ec4a9ff401144af03a6, type: 2}
   m_IsPrefabParent: 0

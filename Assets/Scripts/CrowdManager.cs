@@ -79,12 +79,12 @@ public class CrowdManager : MonoBehaviour {
         //TODO: Modulate speed of arrival on Popularity.
 
         if(Time.time >= nextExitWave) {
-            MakeAttendeeLeave((int)(10 - (GameManager.instance.popularity * 0.1f) ) );
+            MakeAttendeeLeave((int)(11 - (GameManager.instance.popularity * 0.1f) ) );
             Debug.Log(crowd.Count);
             ScheduleNextExitWaves();
         }
         if (Time.time >= nextArrivalWave) {
-            MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.1f) );
+            MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.08f) );
             Debug.Log(crowd.Count);
             ScheduleNextArrivalWaves();
         }
@@ -173,9 +173,10 @@ public class CrowdManager : MonoBehaviour {
             int randomTemp;
             for(int i = 0; i < countLeaving; i++) {
                 //TODO: Seed to pick more heavily in displeased persons.
+                
+                do { randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1);} while (crowd[randomTemp].leaving);
 
-                randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1);
-                for(int ii = 0;ii< occupied.Count; ii++) {
+                for (int ii = 0; ii< occupied.Count; ii++) {
                     if(occupied[ii] == crowd[randomTemp].GetInstanceID()) {
                         occupied[ii] = -1;
                         break;
