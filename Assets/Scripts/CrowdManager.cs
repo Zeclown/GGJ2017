@@ -24,7 +24,7 @@ public class CrowdManager : MonoBehaviour {
 
     //Crowd position stuff
     public const float offsetCol = 1.5f;
-    public const float offsetRow = 1.5f;
+    public const float offsetRow = 1.35f;
     public Vector3 offset;
     public const int firstRowSize = 5;
     List<int> occupied;
