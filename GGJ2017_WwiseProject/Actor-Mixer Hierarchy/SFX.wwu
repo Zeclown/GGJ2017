@@ -746,6 +746,141 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crowd_Solo_Boo_01" ID="{5A1E94D3-9AFA-45A3-9C38-ED70820D2980}" ShortID="943270039" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_01" ID="{2E6AF729-D06D-4DD5-B202-D560C2A67201}" ShortID="389960794">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_01" ID="{2E6AF729-D06D-4DD5-B202-D560C2A67201}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_02" ID="{43891837-673E-4577-A32C-A8E4F1D3598F}" ShortID="108527641" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_02" ID="{81D03F4B-092A-4BC8-9C59-8CA96D3CC55E}" ShortID="535777781">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_02" ID="{81D03F4B-092A-4BC8-9C59-8CA96D3CC55E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_03" ID="{BB363993-57AE-4AF5-943C-A6643755E537}" ShortID="174024906" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_03" ID="{60E65EEB-A892-4BE9-8B80-2921B5333163}" ShortID="629215075">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_03" ID="{60E65EEB-A892-4BE9-8B80-2921B5333163}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_04" ID="{A98EE350-A403-4EDB-8180-5B83D3D983BB}" ShortID="217923389" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_04" ID="{9A5AB26A-EA93-4C31-A648-5047F4809954}" ShortID="770064751">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_04" ID="{9A5AB26A-EA93-4C31-A648-5047F4809954}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_05" ID="{DD153435-540F-49AE-944D-0CD3ECE5F324}" ShortID="756947291" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_05" ID="{F47F372B-B695-43F4-B681-259187DA94D5}" ShortID="579117172">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_05" ID="{F47F372B-B695-43F4-B681-259187DA94D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_06" ID="{5B64A11B-3EF5-43A1-A6DF-8C1F6F67959D}" ShortID="53111767" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_06" ID="{5747147A-089C-4AA8-A68B-987AEFB0FCE2}" ShortID="244780652">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_06" ID="{5747147A-089C-4AA8-A68B-987AEFB0FCE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Solo_Boo_07" ID="{524F27CF-A1B7-4839-BA30-1A2CAD4A666C}" ShortID="573774559" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Solo_Boo_07" ID="{341C13D1-F535-4A95-9F30-CDA432876C9B}" ShortID="446277790">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Solo_Boo_07.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Solo_Boo_07" ID="{341C13D1-F535-4A95-9F30-CDA432876C9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Boos_Med" ID="{70C7DC2C-04AB-4910-9909-C876DFF52B64}" ShortID="39877038">
 									<PropertyList>

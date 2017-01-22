@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0022ADD4-597E-4992-B237-4FB54A11E3F8}" SchemaVersion="75">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{0022ADD4-597E-4992-B237-4FB54A11E3F8}" PersistMode="Standalone">
-			<ChildrenList>
-				<StateGroup Name="Crowd" ID="{DF2BB29D-D979-458D-8F2A-BFF7728011D6}">
-					<ChildrenList>
-						<State Name="None" ID="{89BB5087-5BA5-478A-AAB6-2E85A6033150}"/>
-						<State Name="Big_Crowd" ID="{433D4948-9191-4E36-A5DD-4D7832210B4E}"/>
-						<State Name="Small_Crowd" ID="{F5F24971-C038-4D68-B6F6-97BE7FCE65B8}"/>
-						<State Name="Solo_Dude" ID="{0D713AE0-5C0D-4C30-B7CD-76208A5841FE}"/>
-					</ChildrenList>
-				</StateGroup>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{0022ADD4-597E-4992-B237-4FB54A11E3F8}" PersistMode="Standalone"/>
 	</States>
 </WwiseDocument>
