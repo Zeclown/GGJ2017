@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2848349012	Crowd			\Default Work Unit\Crowd	
+
+State	ID	Name	State Group			Notes
+	739041760	Small_Crowd	Crowd			
+	748895195	None	Crowd			
+	1878668039	Solo_Dude	Crowd			
+	2181433755	Big_Crowd	Crowd			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	612082850	DownTempo			\Default Work Unit\Master Audio Bus\Music\DownTempo	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	

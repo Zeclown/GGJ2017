@@ -16,6 +16,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3240055948" Name="Crowd_Boos" ObjectPath="\Events\SFX\Crowd_Boos"/>
 				<Event Id="799754613" Name="Crowd_Cheers" ObjectPath="\Events\SFX\Crowd_Cheers"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -35,6 +36,10 @@
 					<ShortName>Applause_Med_04.wav</ShortName>
 					<Path>SFX\Applause_Med_04_9E69E797.wem</Path>
 				</File>
+				<File Id="170555658" Language="SFX">
+					<ShortName>Crowd_Small_Boos_02.wav</ShortName>
+					<Path>SFX\Crowd_Small_Boos_02_9E69E797.wem</Path>
+				</File>
 				<File Id="211139742" Language="SFX">
 					<ShortName>Cheer_Solo_01.wav</ShortName>
 					<Path>SFX\Cheer_Solo_01_9E69E797.wem</Path>
@@ -46,6 +51,10 @@
 				<File Id="306323479" Language="SFX">
 					<ShortName>Applause_Med_01.wav</ShortName>
 					<Path>SFX\Applause_Med_01_9E69E797.wem</Path>
+				</File>
+				<File Id="506838462" Language="SFX">
+					<ShortName>Crowd_Small_Boos_01.wav</ShortName>
+					<Path>SFX\Crowd_Small_Boos_01_9E69E797.wem</Path>
 				</File>
 				<File Id="595804008" Language="SFX">
 					<ShortName>Cheer_Solo_08.wav</ShortName>
@@ -59,6 +68,10 @@
 					<ShortName>Cheer_Solo_09.wav</ShortName>
 					<Path>SFX\Cheer_Solo_09_9E69E797.wem</Path>
 				</File>
+				<File Id="632763415" Language="SFX">
+					<ShortName>Crowd_Small_Boos_03.wav</ShortName>
+					<Path>SFX\Crowd_Small_Boos_03_9E69E797.wem</Path>
+				</File>
 				<File Id="677319034" Language="SFX">
 					<ShortName>Applause_Med_05.wav</ShortName>
 					<Path>SFX\Applause_Med_05_9E69E797.wem</Path>
@@ -66,6 +79,10 @@
 				<File Id="785022078" Language="SFX">
 					<ShortName>Cheer_Solo_03.wav</ShortName>
 					<Path>SFX\Cheer_Solo_03_9E69E797.wem</Path>
+				</File>
+				<File Id="819160723" Language="SFX">
+					<ShortName>Crowd_Big_Boos_Lp.wav</ShortName>
+					<Path>SFX\Crowd_Big_Boos_Lp_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="856097176" Language="SFX">
 					<ShortName>Cheer_Solo_07.wav</ShortName>
