@@ -3,8 +3,10 @@
 	<Platform GUID="{E57A78D0-7B32-4261-BDD4-378974BC350F}">
 		<Banks>
 			<Language ID="0">
+				<File Name="DownTempo" Hash="3794221808" Timestamp="131295426110000000"/>
+				<File Name="Folk" Hash="3184854093" Timestamp="131295426120000000"/>
 				<File Name="Init" Hash="531163022" Timestamp="131295382840000000"/>
-				<File Name="Metal" Hash="2790186435" Timestamp="131295382840000000"/>
+				<File Name="Metal" Hash="4132856000" Timestamp="131295426120000000"/>
 				<File Name="Music" Hash="2781227424" Timestamp="131294417430000000"/>
 				<File Name="Music_Tracks" Hash="433177648" Timestamp="131295334780000000"/>
 			</Language>
@@ -16,7 +18,7 @@
 				<File Name="Music_Tracks" Hash="1182193826" Timestamp="131294561350000000"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="4051891119" Timestamp="131295382840000000"/>
+				<File Name="" Hash="3723914023" Timestamp="131295426120000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

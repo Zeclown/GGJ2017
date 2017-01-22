@@ -2909,6 +2909,185 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Metal_Vocals_01" ID="{8F000E06-87E4-402E-8C73-128580DE7F3E}" ShortID="286748006">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Metal_Vocals_01" ID="{6BE91997-7166-4F91-B13E-44829A6D49C8}" ShortID="370668348">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal_Vocals_01" ID="{3C02FC66-15E7-4EB7-A239-D55072B6F16B}" ShortID="666790795">
+													<Language>SFX</Language>
+													<AudioFile>Metal_Vocals_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5126C2E7-1795-420D-8A00-57B529E9FB55}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1713B2BD-BBCE-4F7B-A947-884DDAA6F7C8}">
+													<ClipList>
+														<MusicClip Name="Metal_Vocals_01" ID="{4DACB23D-6685-4241-A67B-AEE5283E9B5B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="54500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Metal_Vocals_01" ID="{3C02FC66-15E7-4EB7-A239-D55072B6F16B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{CF430E36-139D-4C00-912B-3BF87E9BF98D}"/>
+										<MusicCue Name="Exit Cue" ID="{2C618AFD-CEB3-498C-BA5E-35169072B673}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="54500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Metal_Vocals_02" ID="{B27B1995-1F41-446E-BAB6-99CAAE0E1B24}" ShortID="571609956">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="27738.1875"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Metal_Vocals_02" ID="{FD0EC575-9E12-4AC2-BD26-BCEA31685964}" ShortID="486933439">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal_Vocals_02" ID="{D917AE90-8773-4A0C-95B3-02B878FBE325}" ShortID="982857474">
+													<Language>SFX</Language>
+													<AudioFile>Metal_Vocals_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F36149B1-507D-4166-87ED-14F88FE10A00}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FF5689F4-4CD9-486D-B435-5EE3555B506C}">
+													<ClipList>
+														<MusicClip Name="Metal_Vocals_02" ID="{E5D232A4-D4CA-4D4E-B633-FD2977955FE5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="27738.1875"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Metal_Vocals_02" ID="{D917AE90-8773-4A0C-95B3-02B878FBE325}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2869C656-410B-41E4-8D79-709B296C4EB8}"/>
+										<MusicCue Name="Exit Cue" ID="{EE721FC9-06B0-4B18-BFCC-88FA6EFFDD9F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="27738.1875"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Metal_Vocals_03" ID="{A0331323-00AA-4B29-A789-4B5C489ED30B}" ShortID="926704191">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="23668.7708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Metal_Vocals_03" ID="{F6C9982E-46A6-44F1-B52C-1344F1275BF1}" ShortID="239714055">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal_Vocals_03" ID="{4E05BDB1-A187-41A5-86F9-5787AC22F340}" ShortID="969960137">
+													<Language>SFX</Language>
+													<AudioFile>Metal_Vocals_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{88400F51-21BF-4483-82F2-28D970F9D4DF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{856994DD-1B40-447F-99C0-AC4E6F8DE8B1}">
+													<ClipList>
+														<MusicClip Name="Metal_Vocals_03" ID="{CCDC47E7-396F-4F97-86DB-EC36C41E2C89}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23668.7708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Metal_Vocals_03" ID="{4E05BDB1-A187-41A5-86F9-5787AC22F340}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{128A72A1-F8A8-46F4-881D-F60A15E10BD2}"/>
+										<MusicCue Name="Exit Cue" ID="{2DC62BBF-DFD3-4468-9D72-C32FA1CFE7E5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="23668.7708333333"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{04C2C669-606E-4AA3-8D55-2E6F0F88393E}">
 									<PropertyList>

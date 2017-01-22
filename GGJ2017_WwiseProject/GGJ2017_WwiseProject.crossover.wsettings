@@ -20,7 +20,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\SelectedLanguages" Type="string" Value="DAAAAA=="/>
 				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value="0Hh65TJ7YUK91DeJdLw1Dw=="/>
-				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="fucHnW49HE65lvlChnbuiQ=="/>
+				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="62MvRvrhW0OCsZsqOPFnf7JezrDPWztNoBc4iibEaT9+5wedbj0cTrmW+UKGdu6J"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\{01245D2F-47FB-4569-A292-2F2FBD63C6F6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3h4eHh4eFdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{188A3394-3469-47BE-B43C-3D1644B80FF3} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAAAkAAAAAAAADwP+e5wPqE9zdAAAAAAAAA8D8AAAAAADCPQAAAAAAAAAAA"/>
@@ -83,7 +83,7 @@
 				<Property Name="PluginUserAcknowledge\ConvolutionReverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\Expanded_10_1" Type="string" Value="xt+uDPl3GUaJP2Pn07yaSg=="/>
 				<Property Name="ProjectExplorer\Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value="FyhK+iaV1kCBAh5KMYHo4E8eSIelzq1HopUlsbYbNhI="/>
+				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value="FyhK+iaV1kCBAh5KMYHo4NzGJeK6zYNEjztxCFNen6zzgK45I9UaRYBq2QrvFIsWzEco5v9PUkWiBVafdQoSlk8eSIelzq1HopUlsbYbNhI="/>
 				<Property Name="ProjectExplorer\Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_15_1" Type="string" Value=""/>
@@ -94,7 +94,7 @@
 				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="mRGXfZ1fJEaXO8/356JZLg=="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="mJo2nLzRl0KxL9ibAK9jWM9ju1CWCLFDnuwtnoV1w34="/>
+				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="mJo2nLzRl0KxL9ibAK9jWM9ju1CWCLFDnuwtnoV1w34BpMAb5SW7S5OG30bukJYiSAybop4b1UyxxMsvFqheZY2L9vUqbR5OgkarfrFZun4="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_6_1" Type="string" Value="lGS6mwHmGUSX5AWzZpACwA=="/>

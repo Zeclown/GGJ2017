@@ -114,9 +114,21 @@
 					<ShortName>Metal_Kick.wav</ShortName>
 					<Path>SFX/Metal_Kick_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="666790795" Language="SFX">
+					<ShortName>Metal_Vocals_01.wav</ShortName>
+					<Path>SFX/Metal_Vocals_01_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="845187681" Language="SFX">
 					<ShortName>Metal_Snare.wav</ShortName>
 					<Path>SFX/Metal_Snare_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="969960137" Language="SFX">
+					<ShortName>Metal_Vocals_03.wav</ShortName>
+					<Path>SFX/Metal_Vocals_03_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="982857474" Language="SFX">
+					<ShortName>Metal_Vocals_02.wav</ShortName>
+					<Path>SFX/Metal_Vocals_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1011911810" Language="SFX">
 					<ShortName>Metal_LeadGuitar_01.wav</ShortName>
