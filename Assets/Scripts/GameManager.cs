@@ -38,12 +38,13 @@ public class GameManager : MonoBehaviour {
     }
     private void Update()
     {
-        
+        HandleCrowdSounds();
         if (state == GameState.Playing)
         {
             if(onFireTimer<=0)
             {
                 onFire = true;
+                
             } else
             {
                 onFire = false;
@@ -95,6 +96,34 @@ public class GameManager : MonoBehaviour {
         }
         if(crowd.crowd.Count!=0)
             popularity = totalHappiness / crowd.crowd.Count;
+    }
+    public void HandleCrowdSounds()
+    {
+        int happyCount=0;
+        int madCount=0;
+        foreach (var guy in crowd.crowd)
+        {
+            if(guy.GetComponent<Attendee>().happiness>30)
+            {
+                happyCount++;
+            }
+            else
+            {
+                madCount++;
+            }
+        }
+        if(happyCount>=10)
+        {
+            AkSoundEngine.SetSwitch("Crowd","Big_Crowd",gameObject);
+        }
+        else if (happyCount >= 2)
+        {
+            AkSoundEngine.SetSwitch("Crowd", "Small_Crowd", gameObject);
+        }
+        else
+        {
+            AkSoundEngine.SetSwitch("Crowd", "Solo", gameObject);
+        }
     }
     public void StartGame()
     {
