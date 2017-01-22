@@ -1,18 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	285133502	OFF_Metal_Bass			\Music_Tracks\OFF_Metal_Bass	
-	498299080	ON_Metal_Snare			\Music_Tracks\ON_Metal_Snare	
+	473249000	ON_Folk_RhythmGuitar			\Music_Tracks\ON_Folk_RhythmGuitar	
 	566894298	OFF_DownTempo_Bassline_Pad			\Music_Tracks\OFF_DownTempo_Bassline_Pad	
+	713686491	ON_Folk_Bass			\Music_Tracks\ON_Folk_Bass	
+	721600072	OFF_Folk_LeadGuitar			\Music_Tracks\OFF_Folk_LeadGuitar	
 	805464928	ON_Metal_Bass			\Music_Tracks\ON_Metal_Bass	
 	955387714	OFF_DownTempo_Drums			\Music_Tracks\OFF_DownTempo_Drums	
 	1080617516	ON_DownTempo_Bassline_Pad			\Music_Tracks\ON_DownTempo_Bassline_Pad	
 	1410423788	ON_DownTempo_Drums			\Music_Tracks\ON_DownTempo_Drums	
-	1695870511	ON_Metal_Kick			\Music_Tracks\ON_Metal_Kick	
+	2458160158	ON_Folk_LeadGuitar			\Music_Tracks\ON_Folk_LeadGuitar	
+	2532598705	OFF_Folk_Bass			\Music_Tracks\OFF_Folk_Bass	
 	2821427377	OFF_DownTempo_Lead			\Music_Tracks\OFF_DownTempo_Lead	
 	2869206043	ON_Metal_RhythmGuitar			\Music_Tracks\ON_Metal_RhythmGuitar	
 	2906252577	OFF_Metal_RhythmGuitar			\Music_Tracks\OFF_Metal_RhythmGuitar	
 	2976310903	PLAY_ALL			\Music_Tracks\PLAY_ALL	
 	3622661895	ON_DownTempo_Lead			\Music_Tracks\ON_DownTempo_Lead	
-	3724470386	OFF_Metal_Snare			\Music_Tracks\OFF_Metal_Snare	
+	3805003750	OFF_Folk_RhythmGuitar			\Music_Tracks\OFF_Folk_RhythmGuitar	
+	3912856488	ON_Metal_Drums			\Music_Tracks\ON_Metal_Drums	
 	3987475710	OFF_Metal_Drums			\Music_Tracks\OFF_Metal_Drums	
 	4015766154	ON_DownTempo_Bassline			\Music_Tracks\ON_DownTempo_Bassline	
 	4094045876	OFF_DownTempo_Bassline			\Music_Tracks\OFF_DownTempo_Bassline	
@@ -23,13 +27,20 @@ Effect plug-ins	ID	Name	Type				Notes
 	2791153688	Hall_Small	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70681145	Folk_LeadGuitar_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_LeadGuitar_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_LeadGuitar\Folk_LeadGuitar_03\Folk_LeadGuitar_03		4608064
 	219080407	Metal_Bass	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Bass_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal_Bass\Metal_Bass\Metal_Bass		6336064
+	237492399	Folk_LeadGuitar_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_LeadGuitar_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_LeadGuitar\Folk_LeadGuitar_02\Folk_LeadGuitar_02		4320064
 	248830396	DownTempo_Pad	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Pad_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo_BasslinePad\DownTempo_Pad\DownTempo_Pad		1632064
+	297106662	Folk_Bass	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_Bass_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_Bass\Folk_Bass\Folk_Bass		9408064
+	336707268	Folk_RhythmGuitar	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_RhythmGuitar_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_RhythmGuitar\Folk_RhythmGuitar\Folk_RhythmGuitar		4704064
 	379106065	Metal_RhythmGuitar	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_RhythmGuitar_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal_RhythmGuitar\Metal_RhythmGuitar\Metal_RhythmGuitar		6288448
 	441809825	DownTempo_Synth_Lead	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Synth_Lead_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo_Lead\DownTempo_Synth_Lead\DownTempo_Synth_Lead		6392888
 	482605420	DownTempo_Kick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Kick_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo_Kick\DownTempo_Kick\DownTempo_Kick		1584064
 	569872035	Metal_Kick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Kick_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal_Kick\Metal_Kick\Metal_Kick		1536064
 	674892571	DownTempo_Bassline	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Bassline_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo_Bassline\DownTempo_Bassline\DownTempo_Bassline		1571392
+	780264606	Folk_LeadGuitar_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_LeadGuitar_04_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_LeadGuitar\Folk_LeadGuitar_04\Folk_LeadGuitar_04		5856064
 	845187681	Metal_Snare	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Snare_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal_Snare\Metal_Snare\Metal_Snare		1536064
 	851731330	DownTempo_Snare	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Snare_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo_Snare\DownTempo_Snare\DownTempo_Snare		1536064
+	875782678	Folk_LeadGuitar_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_LeadGuitar_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_LeadGuitar\Folk_LeadGuitar_01\Folk_LeadGuitar_01		4608064
+	1050423620	Folk_LeadGuitar_05	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Folk_LeadGuitar_05_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Folk_LeadGuitar\Folk_LeadGuitar_05\Folk_LeadGuitar_05		4608064
 

@@ -411,9 +411,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_DownTempo_Lead
-    stopEvent: OFF_DownTempo_Lead
-    genre: 0
+    soundEvent: ON_Folk_RhythmGuitar
+    stopEvent: OFF_Folk_RhythmGuitar
+    genre: 1
   inAudioChanel: 0
 --- !u!225 &61904869
 CanvasGroup:
@@ -1192,8 +1192,8 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
+    soundEvent: ON_Metal_LeadGuitar
+    stopEvent: OFF_Metal_LeadGuitar
     genre: 2
   inAudioChanel: 0
 --- !u!225 &424881797
@@ -3845,9 +3845,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_Bass
-    stopEvent: OFF_Metal_Bass
-    genre: 2
+    soundEvent: ON_Folk_LeadGuitar
+    stopEvent: OFF_Folk_LeadGuitar
+    genre: 1
   inAudioChanel: 0
 --- !u!225 &1397601099
 CanvasGroup:
@@ -4432,8 +4432,8 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
+    soundEvent: ON_Metal_Drums
+    stopEvent: OFF_Metal_Drums
     genre: 2
   inAudioChanel: 0
 --- !u!225 &1532122649
@@ -4724,9 +4724,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
-    genre: 2
+    soundEvent: ON_DownTempo_Drums
+    stopEvent: OFF_DownTempo_Drums
+    genre: 0
   inAudioChanel: 0
 --- !u!225 &1606516558
 CanvasGroup:
@@ -4829,8 +4829,8 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
+    soundEvent: ON_Metal_Bass
+    stopEvent: OFF_Metal_Bass
     genre: 2
   inAudioChanel: 0
 --- !u!225 &1610580702
@@ -5237,9 +5237,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
-    genre: 2
+    soundEvent: ON_DownTempo_Lead
+    stopEvent: OFF_DownTempo_Lead
+    genre: 0
   inAudioChanel: 0
 --- !u!225 &1713710313
 CanvasGroup:
@@ -5573,9 +5573,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_DownTempo_Bassline
-    stopEvent: OFF_DownTempo_Bassline
-    genre: 0
+    soundEvent: ON_Folk_Bass
+    stopEvent: OFF_Folk_Bass
+    genre: 1
   inAudioChanel: 0
 --- !u!225 &1811289703
 CanvasGroup:
@@ -5678,9 +5678,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
-    genre: 2
+    soundEvent: ON_DownTempo_Bassline
+    stopEvent: OFF_DownTempo_Bassline
+    genre: 0
   inAudioChanel: 0
 --- !u!225 &1848179481
 CanvasGroup:
@@ -5863,9 +5863,9 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   startParent: {fileID: 0}
   sample:
-    soundEvent: ON_Metal_RhythmGuitar
-    stopEvent: OFF_Metal_RhythmGuitar
-    genre: 2
+    soundEvent: ON_DownTempo_Bassline_Pad
+    stopEvent: OFF_DownTempo_Bassline_Pad
+    genre: 0
   inAudioChanel: 0
 --- !u!225 &1921523578
 CanvasGroup:
