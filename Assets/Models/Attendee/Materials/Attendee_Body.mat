@@ -42,7 +42,7 @@ Material:
     - first:
         name: _Diffuse
       second:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: fb6bf376a67478d48b96fbf5ccdea7d7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -157,7 +157,7 @@ Material:
       second: {r: 0.71323526, g: 0.64537126, b: 0.5349264, a: 1}
     - first:
         name: _Diffuse_Tint
-      second: {r: 0.6764706, g: 0.57234937, b: 0.40289792, a: 1}
+      second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}

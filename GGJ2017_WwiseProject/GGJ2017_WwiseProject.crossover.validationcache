@@ -8,14 +8,14 @@
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
-	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Effects\Factory Effects.wwu" DateLow="3061395968" DateHigh="30569392"/>
+	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Effects\Factory Effects.wwu" DateLow="3576955648" DateHigh="30569562"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Events\Default Work Unit.wwu" DateLow="3609241216" DateHigh="30569479"/>
-	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Events\Music_Tracks.wwu" DateLow="304273920" DateHigh="30569480"/>
+	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Events\Music_Tracks.wwu" DateLow="1821922944" DateHigh="30569561"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
-	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\GGJ2017_WwiseProject.crossover.wsettings" DateLow="4285647488" DateHigh="30569522"/>
+	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\GGJ2017_WwiseProject.crossover.wsettings" DateLow="4026955648" DateHigh="30569562"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\GGJ2017_WwiseProject.wproj" DateLow="2507082752" DateHigh="30569413"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3004208512" DateHigh="30569478"/>
-	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Interactive Music Hierarchy\Music_Tracks.wwu" DateLow="3004208512" DateHigh="30569478"/>
+	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Interactive Music Hierarchy\Music_Tracks.wwu" DateLow="3576955648" DateHigh="30569562"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
@@ -23,7 +23,7 @@
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Queries\Factory Queries.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3004208512" DateHigh="30569478"/>
-	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3609241216" DateHigh="30569479"/>
+	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3576955648" DateHigh="30569562"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\States\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>
 	<ValidationCacheItem File="Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1510349440" DateHigh="30569360"/>

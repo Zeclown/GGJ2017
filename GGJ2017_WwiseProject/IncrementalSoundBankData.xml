@@ -3,9 +3,10 @@
 	<Platform GUID="{E57A78D0-7B32-4261-BDD4-378974BC350F}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="531163022" Timestamp="131294737774100360"/>
+				<File Name="Init" Hash="531163022" Timestamp="131295334780000000"/>
+				<File Name="Metal" Hash="2790186435" Timestamp="131295340220000000"/>
 				<File Name="Music" Hash="2781227424" Timestamp="131294417430000000"/>
-				<File Name="Music_Tracks" Hash="3003958269" Timestamp="131295200672267462"/>
+				<File Name="Music_Tracks" Hash="433177648" Timestamp="131295334780000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -15,7 +16,7 @@
 				<File Name="Music_Tracks" Hash="1182193826" Timestamp="131294561350000000"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="491932509" Timestamp="131295200672347676"/>
+				<File Name="" Hash="2814223593" Timestamp="131295340220000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -23,12 +24,12 @@
 		<Banks>
 			<Language ID="0">
 				<File Name="Init" Hash="3221149344" Timestamp="131294737771758591"/>
-				<File Name="Music_Tracks" Hash="3003958269" Timestamp="131295200670297482"/>
+				<File Name="Music_Tracks" Hash="4213701612" Timestamp="131295273171872499"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3885288875" Timestamp="131295200670427552"/>
+				<File Name="" Hash="2520799506" Timestamp="131295273172008144"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

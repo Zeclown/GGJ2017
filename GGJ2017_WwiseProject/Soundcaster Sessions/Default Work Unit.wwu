@@ -22,7 +22,7 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PLAY_ALL" ID="{E430FD04-6286-48DD-A8A1-E969D5980AD3}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<ObjectRef Name="PLAY_ALL_Metal" ID="{E430FD04-6286-48DD-A8A1-E969D5980AD3}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="0" Y="5"/>
 						</Module>
 						<Module>
