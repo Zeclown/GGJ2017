@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="DownTempo_Bassline" ID="{2BF99B7C-2DA2-45AF-986C-7327976D7278}" ShortID="204074994">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -111,6 +116,11 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="DownTempo_BasslinePad" ID="{20AA68B7-F6F6-4DB7-B57C-A15F2235AE61}" ShortID="151483983">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -120,6 +130,9 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
@@ -217,6 +230,11 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="DownTempo_Lead" ID="{E36BB8B5-5168-476A-87C5-900E2F8AFE32}" ShortID="693404196">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -226,6 +244,9 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
@@ -382,6 +403,11 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="DownTempo_Kick" ID="{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}" ShortID="686670390">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -1171,6 +1197,11 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Folk_LeadGuitar" ID="{76389B1E-E783-4CB9-82FC-493CC0932BAA}" ShortID="55041973">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -1828,6 +1859,16 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Folk_Bass" ID="{62D9C02A-EAFD-4F84-A0C1-85BFDB8C4839}" ShortID="467780471">
 					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>57</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
@@ -1837,6 +1878,34 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom CreatedFrom="{626B6E38-739B-4689-819F-F81AD3788BDE}">
+								<Effect Name="Hall_Medium_Dark (Custom)" ID="{28EDF650-2948-4CD7-AF0A-F90ED06DF1ED}" ShortID="444376767" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<PropertyList>
+										<Property Name="DecayTime" Type="Real32" Value="3.8"/>
+										<Property Name="Density" Type="Real32" Value="70"/>
+										<Property Name="Diffusion" Type="Real32" Value="64"/>
+										<Property Name="ERLevel" Type="Real32" Value="-23"/>
+										<Property Name="ERPattern" Type="int32" Value="10"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="4"/>
+										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-11.5"/>
+										<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+										<Property Name="PreDelay" Type="Real32" Value="48"/>
+										<Property Name="Quality" Type="int32" Value="16"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+										<Property Name="RoomShape" Type="Real32" Value="55"/>
+										<Property Name="RoomSize" Type="Real32" Value="53"/>
+										<Property Name="StereoWidth" Type="Real32" Value="165"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
