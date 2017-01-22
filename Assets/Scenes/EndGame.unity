@@ -367,7 +367,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4594165284449760, guid: 26ad6c77d9b98cb47892917a6a39e72d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.784
+      value: -1.864
       objectReference: {fileID: 0}
     - target: {fileID: 4594165284449760, guid: 26ad6c77d9b98cb47892917a6a39e72d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -375,7 +375,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4594165284449760, guid: 26ad6c77d9b98cb47892917a6a39e72d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.314
+      value: -6.445
       objectReference: {fileID: 0}
     - target: {fileID: 4594165284449760, guid: 26ad6c77d9b98cb47892917a6a39e72d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1933,7 +1933,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 40d754c7df22e6442b4c0b60ea96d93d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.98
+      value: 2.116
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40d754c7df22e6442b4c0b60ea96d93d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1941,7 +1941,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40d754c7df22e6442b4c0b60ea96d93d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.39
+      value: -1.262
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 40d754c7df22e6442b4c0b60ea96d93d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6389,6 +6389,7 @@ GameObject:
   - component: {fileID: 1424489555}
   - component: {fileID: 1424489557}
   - component: {fileID: 1424489556}
+  - component: {fileID: 1424489558}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6446,13 +6447,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Beers earned:'
+  m_Text: 'Total Beers earned: '
 --- !u!222 &1424489557
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1424489554}
+--- !u!114 &1424489558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424489554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2f7492ab148364bbdbb8c2395d2116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1431141184 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4594165284449760, guid: 26ad6c77d9b98cb47892917a6a39e72d,
@@ -7709,7 +7721,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4967448796635386, guid: bc9f52b0f98245c4498d55e7722280e6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.7000883
+      value: 3.78
       objectReference: {fileID: 0}
     - target: {fileID: 4967448796635386, guid: bc9f52b0f98245c4498d55e7722280e6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -7717,7 +7729,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4967448796635386, guid: bc9f52b0f98245c4498d55e7722280e6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.6577816
+      value: -2.526
       objectReference: {fileID: 0}
     - target: {fileID: 4967448796635386, guid: bc9f52b0f98245c4498d55e7722280e6, type: 2}
       propertyPath: m_LocalRotation.x
