@@ -12,6 +12,9 @@ public class SoundWaveParticle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         rendererComp.material.color = MusicPlayer.instance.GetCurrentColor();
-
+        if (!MusicPlayer.instance.IsPlayingAnything() && GetComponent<ParticleSystem>().isPlaying)
+            GetComponent<ParticleSystem>().Stop();
+        else if(MusicPlayer.instance.IsPlayingAnything() && !GetComponent<ParticleSystem>().isPlaying)
+            GetComponent<ParticleSystem>().Play();
     }
 }

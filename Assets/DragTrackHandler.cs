@@ -16,6 +16,7 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
         startPosition = transform.position;
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts=false;
+        //AkSoundEngine.PostEvent("")
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -39,6 +40,14 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
         }
        
     }
+    public void OnMouseEnter()
+    {
+        GetComponent<RectTransform>().localScale = new Vector3(1.3f, 1.3f, 1.3f);
+    }
+    public void OnMouseExit()
+    {
+        GetComponent<RectTransform>().localScale = new Vector3(1.0f, 1.0f, 1.0f);
+    }
 
-    
+
 }

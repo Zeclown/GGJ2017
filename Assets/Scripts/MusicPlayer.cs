@@ -65,18 +65,39 @@ public class MusicPlayer : MonoBehaviour
     }
     public Color GetCurrentColor()
     {
-        return Color.red;
+        Genre highest=0;
+        float toBeat=-1;
+        for (int i = 0; i < 3; i++)
+        {
+            if(GetGenreLevel((Genre)i)>toBeat)
+            {
+                toBeat = GetGenreLevel((Genre)i);
+                highest = (Genre)i;
+            }
+        }
+        return GetGenreColor(highest);
+    }
+    public bool IsPlayingAnything()
+    {
+        foreach (MusicSample? sample in playing)
+        {
+            if (sample != null)
+            {
+                return true;
+            }
+        }
+        return false;
     }
     public Color GetGenreColor(Genre genre)
     {
         switch (genre)
         {
             case Genre.Folk:
-                return Color.red;
+                return Color.yellow;
             case Genre.DownBeat:
                 return Color.blue;
             case Genre.Metal:
-                return Color.cyan;
+                return Color.red;
             default:
                 return Color.red;
         }
