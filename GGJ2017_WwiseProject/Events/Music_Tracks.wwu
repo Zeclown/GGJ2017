@@ -185,10 +185,32 @@
 						</Event>
 						<Event Name="ON_Metal_Vocals" ID="{7F099341-C5DB-4493-B870-A740FE93D8FD}">
 							<ChildrenList>
-								<Action Name="Set Voice Volume" ID="{7E297FFB-CDED-4010-BD65-81C4005C0DE6}" ShortID="645847194" Type="ChangeVolume" Scope="One" Global="false"/>
+								<Action Name="Set Voice Volume" ID="{7E297FFB-CDED-4010-BD65-81C4005C0DE6}" ShortID="645847194" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7211269C-FFE1-4651-AA34-3041D26C88F5}" Global="true">
+											<ObjectRef Name="Metal_Vocals" ID="{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="OFF_Metal_Vocals" ID="{EE7C2B13-C50F-4228-B98B-4BE16D479382}"/>
+						<Event Name="OFF_Metal_Vocals" ID="{EE7C2B13-C50F-4228-B98B-4BE16D479382}">
+							<ChildrenList>
+								<Action Name="Reset Voice Volume" ID="{03C7F227-C379-4B8D-9DE0-C08348E18B5D}" ShortID="1004508508" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A30D631A-D7A1-40BA-8F62-9BD22E78AFF1}" Global="true">
+											<ObjectRef Name="Metal_Vocals" ID="{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DownTempo" ID="{A29B0C48-1B9E-4CD5-B1C4-CB2F16A85E65}" ShortID="507987419">

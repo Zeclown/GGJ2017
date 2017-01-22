@@ -17,24 +17,31 @@ Switch	ID	Name	Switch Group			Notes
 	2181433755	Big_Crowd	Crowd_Boos			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	85299905	Applause_Med_06	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_06		216640
-	100589078	Cheer_Solo_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_02		96320
-	130796156	Cheer_Solo_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_04		150592
-	163655372	Applause_Med_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_04		259136
-	170555658	Crowd_Small_Boos_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_02		313664
-	211139742	Cheer_Solo_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_01		108608
-	279673212	Applause_Lg_Lp	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Lg_Lp_4B8CC0C5.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Lg\Applause_Lg_Lp		2064448
-	306323479	Applause_Med_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_01		150208
-	506838462	Crowd_Small_Boos_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_01		211776
-	595804008	Cheer_Solo_08	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_08_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_08		82496
-	607667068	Cheer_Solo_05	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_05		99648
-	631233158	Cheer_Solo_09	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_09_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_09		125504
-	632763415	Crowd_Small_Boos_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_03		492608
-	677319034	Applause_Med_05	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_05		191552
-	785022078	Cheer_Solo_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_03		119872
-	819160723	Crowd_Big_Boos_Lp	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Big_Boos_Lp_4B8CC0C5.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Lg\Crowd_Big_Boos_Lp		2965568
-	856097176	Cheer_Solo_07	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_07_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_07		74048
-	867490695	Cheer_Solo_06	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_06		87104
-	891670384	Applause_Med_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_02		153152
-	985045543	Applause_Med_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_03		120896
+	85299905	Applause_Med_06	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_06		216640
+	100589078	Cheer_Solo_02	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_02		96320
+	130796156	Cheer_Solo_04	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_04		150592
+	163655372	Applause_Med_04	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_04		259136
+	170555658	Crowd_Small_Boos_02	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_02		313664
+	211139742	Cheer_Solo_01	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_01		108608
+	244780652	Crowd_Solo_Boo_06	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_06		123456
+	279673212	Applause_Lg_Lp	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Lg_Lp_4B8CC0C5.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Lg\Applause_Lg_Lp		2064448
+	306323479	Applause_Med_01	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_01		150208
+	389960794	Crowd_Solo_Boo_01	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_01		190528
+	446277790	Crowd_Solo_Boo_07	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_07_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_07		137792
+	506838462	Crowd_Small_Boos_01	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_01		211776
+	535777781	Crowd_Solo_Boo_02	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_02		174656
+	579117172	Crowd_Solo_Boo_05	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_05		151104
+	595804008	Cheer_Solo_08	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_08_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_08		82496
+	607667068	Cheer_Solo_05	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_05		99648
+	629215075	Crowd_Solo_Boo_03	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_03		198208
+	631233158	Cheer_Solo_09	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_09_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_09		125504
+	632763415	Crowd_Small_Boos_03	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Small_Boos_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Med\Crowd_Small_Boos_03		492608
+	677319034	Applause_Med_05	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_05		191552
+	770064751	Crowd_Solo_Boo_04	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Solo_Boo_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Solo\Crowd_Solo_Boo_04		125504
+	785022078	Cheer_Solo_03	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_03		119872
+	819160723	Crowd_Big_Boos_Lp	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Crowd_Big_Boos_Lp_4B8CC0C5.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Booing\Boos_Lg\Crowd_Big_Boos_Lp		2965568
+	856097176	Cheer_Solo_07	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_07_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_07		74048
+	867490695	Cheer_Solo_06	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Cheer_Solo_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_06		87104
+	891670384	Applause_Med_02	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_02		153152
+	985045543	Applause_Med_03	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\Applause_Med_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_03		120896
 

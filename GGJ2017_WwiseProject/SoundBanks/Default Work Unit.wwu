@@ -29,6 +29,7 @@
 				</SoundBank>
 				<SoundBank Name="UI" ID="{C5A7E4F9-872A-4DB8-86E4-1F01DA820395}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{56BF7F66-9D46-450D-B579-5376ECC1310A}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI" ID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" WorkUnitID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
