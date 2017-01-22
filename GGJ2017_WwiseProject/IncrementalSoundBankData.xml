@@ -9,6 +9,7 @@
 				<File Name="Metal" Hash="398350058" Timestamp="131295457053000605"/>
 				<File Name="Music" Hash="2781227424" Timestamp="131294417430000000"/>
 				<File Name="Music_Tracks" Hash="433177648" Timestamp="131295334780000000"/>
+				<File Name="UI" Hash="639504581" Timestamp="131295459159526718"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -18,7 +19,7 @@
 				<File Name="Music_Tracks" Hash="1182193826" Timestamp="131294561350000000"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="587145042" Timestamp="131295457054835484"/>
+				<File Name="" Hash="1733243072" Timestamp="131295459159662082"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -30,11 +31,12 @@
 				<File Name="Init" Hash="2689433392" Timestamp="131295457051441739"/>
 				<File Name="Metal" Hash="398350058" Timestamp="131295457049336124"/>
 				<File Name="Music_Tracks" Hash="4213701612" Timestamp="131295273171872499"/>
+				<File Name="UI" Hash="639504581" Timestamp="131295459158935457"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3995753992" Timestamp="131295457051501923"/>
+				<File Name="" Hash="1738453098" Timestamp="131295459159055469"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

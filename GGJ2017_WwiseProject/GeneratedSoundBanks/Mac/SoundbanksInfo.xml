@@ -72,6 +72,30 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="349819299" Name="ClickSelect" ObjectPath="\Events\UI\ClickSelect"/>
+				<Event Id="1572546710" Name="Release_NoSlot" ObjectPath="\Events\UI\Release_NoSlot"/>
+				<Event Id="2395430635" Name="SetSlot" ObjectPath="\Events\UI\SetSlot"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="15687802" Language="SFX">
+					<ShortName>UI_ReleaseNoSLot.wav</ShortName>
+					<Path>SFX\UI_ReleaseNoSLot_1AAE2981.wem</Path>
+				</File>
+				<File Id="778952916" Language="SFX">
+					<ShortName>UI_SelectClick.wav</ShortName>
+					<Path>SFX\UI_SelectClick_8853C8C0.wem</Path>
+				</File>
+				<File Id="983460442" Language="SFX">
+					<ShortName>UI_Click_SetSlot.wav</ShortName>
+					<Path>SFX\UI_Click_SetSlot_2EA58FC9.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2473969246" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Metal</ObjectPath>
 			<ShortName>Metal</ShortName>

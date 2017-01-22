@@ -431,12 +431,48 @@ MonoBehaviour:
       ID: 579606703
       Guid: 04fd30e48662dd48a8a1e969d5980ad3
       maxAttenuation: 0
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: 
+    Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
+    m_lastTimePsrt1: 1215966013
+    m_lastTimePart2: -1999355235
+    List:
+    - Name: ClickSelect
+      Path: UI\ClickSelect
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: ClickSelect
+        ObjectType: 3
+      ID: 349819299
+      Guid: a8bf5a9320529141a5ab4049834efad4
+      maxAttenuation: 0
+    - Name: Release_NoSlot
+      Path: UI\Release_NoSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Release_NoSlot
+        ObjectType: 3
+      ID: 1572546710
+      Guid: 0b8af598306d5c4a8fbf36995cf818f6
+      maxAttenuation: 0
+    - Name: SetSlot
+      Path: UI\SetSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: SetSlot
+        ObjectType: 3
+      ID: -1899536661
+      Guid: a52b48da32364848ab44bff4596f4619
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7D971199-5F9D-4624-973B-CFF7E7A2592E}'
-    m_lastTimePsrt1: -2110077212
-    m_lastTimePart2: -1999355483
+    m_lastTimePsrt1: -1451408040
+    m_lastTimePart2: -1999355236
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -456,8 +492,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -2063964597
-    m_lastTimePart2: -1999355254
+    m_lastTimePsrt1: 1217585319
+    m_lastTimePart2: -1999355235
     List:
     - Name: DownTempo
       Path: Default Work Unit\DownTempo
@@ -486,11 +522,19 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1820998050
       Guid: 7ee7079d6e3d1c4eb996f9428676ee89
+    - Name: UI
+      Path: Default Work Unit\UI
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 7
+      ID: 1551306167
+      Guid: f9e4a7c52a87b84d86e41f01da820395
   ExpandedItems:
   - /GGJ2017_WwiseProject
   - /GGJ2017_WwiseProject/Events
-  - /GGJ2017_WwiseProject/Events/Music_Tracks
-  - /GGJ2017_WwiseProject/Events/Music_Tracks/Folk
+  - /GGJ2017_WwiseProject/Events/UI
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

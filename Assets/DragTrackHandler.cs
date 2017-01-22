@@ -16,6 +16,7 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
         startPosition = transform.position;
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts=false;
+
         AkSoundEngine.PostEvent("ClickSelect",gameObject);
     }
 
@@ -35,6 +36,7 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
             {
                 transform.parent = startParent;
                 transform.position = startPosition;
+                AkSoundEngine.PostEvent("Release_NoSlot", gameObject);
             }
             
         }
