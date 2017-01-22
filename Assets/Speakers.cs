@@ -17,6 +17,7 @@ public class Speakers : MonoBehaviour {
 	}
     void PlayBoom()
     {
-        anim.Play("SpeakerBoom");
+        if(MusicPlayer.instance.IsPlayingAnything())
+            anim.Play("SpeakerBoom");
     }
 }

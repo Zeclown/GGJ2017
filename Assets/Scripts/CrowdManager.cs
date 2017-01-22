@@ -95,7 +95,14 @@ public class CrowdManager : MonoBehaviour {
                 ScheduleTrickle();
             }
         }
-
+        for (int i = 0; i < crowd.Count; i++)
+        {
+            if (crowd[i].happiness <= 0 && !crowd[i].leaving && crowd[i].leaveCD>8)
+            {
+                crowd[i].Leave(exitPoint.position);
+                crowd.RemoveAt(i);
+            }
+        }
         //Debug.Log(genreWaves[0].frequencyWave.Evaluate(Time.time));
 	}
 
@@ -106,7 +113,7 @@ public class CrowdManager : MonoBehaviour {
         randomValue = UnityEngine.Random.Range(0, MaxSeededCount);
 
         int ii = 0;
-        while (randomValue > totalSeedValue[ii] && totalSeedValue.Count<ii) {
+        while (randomValue > totalSeedValue[ii]) {
             //Debug.Log(randomValue + " " + totalSeedValue[ii]);
             ii++;
         }
@@ -175,17 +182,21 @@ public class CrowdManager : MonoBehaviour {
             int randomTemp;
             for(int i = 0; i < countLeaving; i++) {
                 //TODO: Seed to pick more heavily in displeased persons.
-                
-                do { randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1);} while (crowd[randomTemp].leaving);
-
-                for (int ii = 0; ii< occupied.Count; ii++) {
-                    if(occupied[ii] == crowd[randomTemp].GetInstanceID()) {
-                        occupied[ii] = -1;
-                        break;
+                int maxNumber = 0;
+                do { randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1); maxNumber++; } while (crowd[randomTemp].leaving && maxNumber<30);
+                if (maxNumber < 30)
+                {
+                    for (int ii = 0; ii < occupied.Count; ii++)
+                    {
+                        if (occupied[ii] == crowd[randomTemp].GetInstanceID())
+                        {
+                            occupied[ii] = -1;
+                            break;
+                        }
                     }
+                    crowd[randomTemp].Leave(exitPoint.position);
+                    crowd.RemoveAt(randomTemp);
                 }
-                crowd[randomTemp].Leave(exitPoint.position);
-                crowd.RemoveAt(randomTemp);
             }
         }
     }

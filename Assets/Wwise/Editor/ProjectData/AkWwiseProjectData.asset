@@ -32,8 +32,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Music_Tracks.wwu
     ParentPhysicalPath: 
     Guid: '{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}'
-    m_lastTimePsrt1: 687598874
-    m_lastTimePart2: -1999355252
+    m_lastTimePsrt1: 375619906
+    m_lastTimePart2: -1999355240
     List:
     - Name: OFF_DownTempo_Bassline
       Path: Music_Tracks\DownTempo\OFF_DownTempo_Bassline
@@ -431,12 +431,84 @@ MonoBehaviour:
       ID: 579606703
       Guid: 04fd30e48662dd48a8a1e969d5980ad3
       maxAttenuation: 0
+  - PhysicalPath: Events\SFX.wwu
+    ParentPhysicalPath: 
+    Guid: '{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}'
+    m_lastTimePsrt1: 2014424817
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd_Cheers
+      Path: SFX\Crowd_Cheers
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Crowd_Cheers
+        ObjectType: 3
+      ID: 799754613
+      Guid: 3c13a4029685c4479055f0942b439f21
+      maxAttenuation: 0
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: 
+    Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
+    m_lastTimePsrt1: -849485905
+    m_lastTimePart2: -1999355228
+    List:
+    - Name: ClickSelect
+      Path: UI\ClickSelect
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: ClickSelect
+        ObjectType: 3
+      ID: 349819299
+      Guid: a8bf5a9320529141a5ab4049834efad4
+      maxAttenuation: 0
+    - Name: Close_UI
+      Path: UI\Close_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Close_UI
+        ObjectType: 3
+      ID: 458750760
+      Guid: 986c4461458a1a4d9524fcb783305d51
+      maxAttenuation: 0
+    - Name: Open_UI
+      Path: UI\Open_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Open_UI
+        ObjectType: 3
+      ID: 1420721594
+      Guid: 37688f8e89da8a4e8754c76888e85cc0
+      maxAttenuation: 0
+    - Name: Release_NoSlot
+      Path: UI\Release_NoSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Release_NoSlot
+        ObjectType: 3
+      ID: 1572546710
+      Guid: 0b8af598306d5c4a8fbf36995cf818f6
+      maxAttenuation: 0
+    - Name: SetSlot
+      Path: UI\SetSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: SetSlot
+        ObjectType: 3
+      ID: -1899536661
+      Guid: a52b48da32364848ab44bff4596f4619
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7D971199-5F9D-4624-973B-CFF7E7A2592E}'
-    m_lastTimePsrt1: -2110077212
-    m_lastTimePart2: -1999355483
+    m_lastTimePsrt1: -860310435
+    m_lastTimePart2: -1999355227
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -449,15 +521,40 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{3861B338-018F-4533-9D30-9163B64561A2}'
-    m_lastTimePsrt1: -2109526169
-    m_lastTimePart2: -1999355483
-    List: []
+    m_lastTimePsrt1: 2017212276
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd
+      Path: Default Work Unit\Crowd
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 11
+      ID: -1446618284
+      Guid: c58be120b2cd6947b711793f783024ca
+      values:
+      - Big_Crowd
+      - Small_Crowd
+      - Solo
+      ValueIcons:
+      - ElementName: Big_Crowd
+        ObjectType: 10
+      - ElementName: Small_Crowd
+        ObjectType: 10
+      - ElementName: Solo
+        ObjectType: 10
+      valueIDs: 9b090682e0e10c2cc89ef82d
+      ValueGuids:
+      - bytes: 6945a15b264af1448cfee77d6c510c84
+      - bytes: 655cdfbab57534448f18d10de4f7a6e3
+      - bytes: 567693e9213e3441b85814de3206b874
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -2063964597
-    m_lastTimePart2: -1999355254
+    m_lastTimePsrt1: -1455443965
+    m_lastTimePart2: -1999355213
     List:
     - Name: DownTempo
       Path: Default Work Unit\DownTempo
@@ -486,18 +583,41 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1820998050
       Guid: 7ee7079d6e3d1c4eb996f9428676ee89
+    - Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      ID: 393239870
+      Guid: 8ce5e0450eb3504dab5f402197611b3f
+    - Name: UI
+      Path: Default Work Unit\UI
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 7
+      ID: 1551306167
+      Guid: f9e4a7c52a87b84d86e41f01da820395
   ExpandedItems:
   - /GGJ2017_WwiseProject
   - /GGJ2017_WwiseProject/Events
-  - /GGJ2017_WwiseProject/Events/Music_Tracks
-  - /GGJ2017_WwiseProject/Events/Music_Tracks/Folk
+  - /GGJ2017_WwiseProject/Events/SFX
+  - /GGJ2017_WwiseProject/Events/UI
+  - /GGJ2017_WwiseProject/SoundBanks
+  - /GGJ2017_WwiseProject/SoundBanks/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit/Crowd
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
+  defaultPoolSize: 8000
+  lowerPoolSize: 4000
+  streamingPoolSize: 2000
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95

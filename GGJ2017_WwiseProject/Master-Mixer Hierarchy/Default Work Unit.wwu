@@ -6,18 +6,9 @@
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ChildrenList>
 						<Bus Name="UI_Bus" ID="{6BFEAC62-8901-46EB-94A4-57E0C9DBCBC9}">
-							<DuckingList>
-								<DuckItem>
-									<BusRef Name="Music" ID="{7E89EEDF-994F-4DCB-B5AE-0E59ACA2FB11}"/>
-									<DuckingParam>
-										<Volume>-8</Volume>
-										<FadeInTime>0.100000001490116</FadeInTime>
-										<FadeOutTime>0.100000001490116</FadeOutTime>
-										<FadeCurve>FadeLinear</FadeCurve>
-										<TargetProp>BusVolume</TargetProp>
-									</DuckingParam>
-								</DuckItem>
-							</DuckingList>
+							<PropertyList>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
 						</Bus>
 						<Bus Name="Music" ID="{7E89EEDF-994F-4DCB-B5AE-0E59ACA2FB11}">
 							<ChildrenList>

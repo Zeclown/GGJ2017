@@ -28,4 +28,8 @@ public class GameInstance : MonoBehaviour {
     {
         SceneManager.LoadScene("Main");
     }
+    public void ToEndGame()
+    {
+        SceneManager.LoadScene("EndGame");
+    }
 }

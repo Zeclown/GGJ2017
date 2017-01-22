@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	799754613	Crowd_Cheers			\SFX\Crowd_Cheers	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2848349012	Crowd			\Default Work Unit\Crowd	
+
+Switch	ID	Name	Switch Group			Notes
+	739041760	Small_Crowd	Crowd			
+	771268296	Solo	Crowd			
+	2181433755	Big_Crowd	Crowd			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85299905	Applause_Med_06	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_06		216640
+	100589078	Cheer_Solo_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_02		96320
+	130796156	Cheer_Solo_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_04		150592
+	163655372	Applause_Med_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_04_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_04		259136
+	211139742	Cheer_Solo_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_01		108608
+	279673212	Applause_Lg_Lp	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Lg_Lp_4B8CC0C5.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Lg\Applause_Lg_Lp		2064448
+	306323479	Applause_Med_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_01_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_01		150208
+	595804008	Cheer_Solo_08	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_08_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_08		82496
+	607667068	Cheer_Solo_05	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_05		99648
+	631233158	Cheer_Solo_09	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_09_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_09		125504
+	677319034	Applause_Med_05	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_05_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_05		191552
+	785022078	Cheer_Solo_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_03		119872
+	856097176	Cheer_Solo_07	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_07_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_07		74048
+	867490695	Cheer_Solo_06	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Cheer_Solo_06_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Solo\Cheer_Solo_06		87104
+	891670384	Applause_Med_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_02_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_02		153152
+	985045543	Applause_Med_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Applause_Med_03_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\Crowd\Cheering\Cheers_Med\Applause_Med_03		120896
+

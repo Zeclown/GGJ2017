@@ -1,16 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/BeatrixMoersch/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/z:/Volumes/SSD/[02] CALL-OF-THE-COFFEE/COTC_GIT/GGJ2017_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="799754613" Name="Crowd_Cheers" ObjectPath="\Events\SFX\Crowd_Cheers"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="85299905" Language="SFX">
+					<ShortName>Applause_Med_06.wav</ShortName>
+					<Path>SFX\Applause_Med_06_9E69E797.wem</Path>
+				</File>
+				<File Id="100589078" Language="SFX">
+					<ShortName>Cheer_Solo_02.wav</ShortName>
+					<Path>SFX\Cheer_Solo_02_9E69E797.wem</Path>
+				</File>
+				<File Id="130796156" Language="SFX">
+					<ShortName>Cheer_Solo_04.wav</ShortName>
+					<Path>SFX\Cheer_Solo_04_9E69E797.wem</Path>
+				</File>
+				<File Id="163655372" Language="SFX">
+					<ShortName>Applause_Med_04.wav</ShortName>
+					<Path>SFX\Applause_Med_04_9E69E797.wem</Path>
+				</File>
+				<File Id="211139742" Language="SFX">
+					<ShortName>Cheer_Solo_01.wav</ShortName>
+					<Path>SFX\Cheer_Solo_01_9E69E797.wem</Path>
+				</File>
+				<File Id="279673212" Language="SFX">
+					<ShortName>Applause_Lg_Lp.wav</ShortName>
+					<Path>SFX\Applause_Lg_Lp_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="306323479" Language="SFX">
+					<ShortName>Applause_Med_01.wav</ShortName>
+					<Path>SFX\Applause_Med_01_9E69E797.wem</Path>
+				</File>
+				<File Id="595804008" Language="SFX">
+					<ShortName>Cheer_Solo_08.wav</ShortName>
+					<Path>SFX\Cheer_Solo_08_9E69E797.wem</Path>
+				</File>
+				<File Id="607667068" Language="SFX">
+					<ShortName>Cheer_Solo_05.wav</ShortName>
+					<Path>SFX\Cheer_Solo_05_9E69E797.wem</Path>
+				</File>
+				<File Id="631233158" Language="SFX">
+					<ShortName>Cheer_Solo_09.wav</ShortName>
+					<Path>SFX\Cheer_Solo_09_9E69E797.wem</Path>
+				</File>
+				<File Id="677319034" Language="SFX">
+					<ShortName>Applause_Med_05.wav</ShortName>
+					<Path>SFX\Applause_Med_05_9E69E797.wem</Path>
+				</File>
+				<File Id="785022078" Language="SFX">
+					<ShortName>Cheer_Solo_03.wav</ShortName>
+					<Path>SFX\Cheer_Solo_03_9E69E797.wem</Path>
+				</File>
+				<File Id="856097176" Language="SFX">
+					<ShortName>Cheer_Solo_07.wav</ShortName>
+					<Path>SFX\Cheer_Solo_07_9E69E797.wem</Path>
+				</File>
+				<File Id="867490695" Language="SFX">
+					<ShortName>Cheer_Solo_06.wav</ShortName>
+					<Path>SFX\Cheer_Solo_06_9E69E797.wem</Path>
+				</File>
+				<File Id="891670384" Language="SFX">
+					<ShortName>Applause_Med_02.wav</ShortName>
+					<Path>SFX\Applause_Med_02_9E69E797.wem</Path>
+				</File>
+				<File Id="985045543" Language="SFX">
+					<ShortName>Applause_Med_03.wav</ShortName>
+					<Path>SFX\Applause_Med_03_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="612082850" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\DownTempo</ObjectPath>
 			<ShortName>DownTempo</ShortName>
@@ -31,39 +105,39 @@
 			<IncludedMemoryFiles>
 				<File Id="217461220" Language="SFX">
 					<ShortName>DownTempo_Vocals_01.wav</ShortName>
-					<Path>SFX/DownTempo_Vocals_01_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Vocals_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="248830396" Language="SFX">
 					<ShortName>DownTempo_Pad.wav</ShortName>
-					<Path>SFX/DownTempo_Pad_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Pad_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="441809825" Language="SFX">
 					<ShortName>DownTempo_Synth_Lead.wav</ShortName>
-					<Path>SFX/DownTempo_Synth_Lead_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Synth_Lead_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="482605420" Language="SFX">
 					<ShortName>DownTempo_Kick.wav</ShortName>
-					<Path>SFX/DownTempo_Kick_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Kick_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="562728260" Language="SFX">
 					<ShortName>DownTempo_Vocals_02.wav</ShortName>
-					<Path>SFX/DownTempo_Vocals_02_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Vocals_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="674892571" Language="SFX">
 					<ShortName>DownTempo_Bassline.wav</ShortName>
-					<Path>SFX/DownTempo_Bassline_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Bassline_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="842218714" Language="SFX">
 					<ShortName>DownTempo_Vocals_03.wav</ShortName>
-					<Path>SFX/DownTempo_Vocals_03_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Vocals_03_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="851731330" Language="SFX">
 					<ShortName>DownTempo_Snare.wav</ShortName>
-					<Path>SFX/DownTempo_Snare_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Snare_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="861633355" Language="SFX">
 					<ShortName>DownTempo_Vocals_04.wav</ShortName>
-					<Path>SFX/DownTempo_Vocals_04_4B8CC0C5.wem</Path>
+					<Path>SFX\DownTempo_Vocals_04_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -71,6 +145,40 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="349819299" Name="ClickSelect" ObjectPath="\Events\UI\ClickSelect"/>
+				<Event Id="458750760" Name="Close_UI" ObjectPath="\Events\UI\Close_UI"/>
+				<Event Id="1420721594" Name="Open_UI" ObjectPath="\Events\UI\Open_UI"/>
+				<Event Id="1572546710" Name="Release_NoSlot" ObjectPath="\Events\UI\Release_NoSlot"/>
+				<Event Id="2395430635" Name="SetSlot" ObjectPath="\Events\UI\SetSlot"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="15687802" Language="SFX">
+					<ShortName>UI_ReleaseNoSLot.wav</ShortName>
+					<Path>SFX\UI_ReleaseNoSLot_1AAE2981.wem</Path>
+				</File>
+				<File Id="81845897" Language="SFX">
+					<ShortName>UI_CloseUI.wav</ShortName>
+					<Path>SFX\UI_CloseUI_9E69E797.wem</Path>
+				</File>
+				<File Id="97574245" Language="SFX">
+					<ShortName>UI_OpenUI.wav</ShortName>
+					<Path>SFX\UI_OpenUI_9E69E797.wem</Path>
+				</File>
+				<File Id="778952916" Language="SFX">
+					<ShortName>UI_SelectClick.wav</ShortName>
+					<Path>SFX\UI_SelectClick_8853C8C0.wem</Path>
+				</File>
+				<File Id="983460442" Language="SFX">
+					<ShortName>UI_Click_SetSlot.wav</ShortName>
+					<Path>SFX\UI_Click_SetSlot_2EA58FC9.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2473969246" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Metal</ObjectPath>
@@ -92,47 +200,47 @@
 			<IncludedMemoryFiles>
 				<File Id="18624419" Language="SFX">
 					<ShortName>Metal_LeadGuitar_03.wav</ShortName>
-					<Path>SFX/Metal_LeadGuitar_03_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_LeadGuitar_03_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="112689779" Language="SFX">
 					<ShortName>Metal_LeadGuitar_04.wav</ShortName>
-					<Path>SFX/Metal_LeadGuitar_04_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_LeadGuitar_04_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="124682743" Language="SFX">
 					<ShortName>Metal_LeadGuitar_02.wav</ShortName>
-					<Path>SFX/Metal_LeadGuitar_02_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_LeadGuitar_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="219080407" Language="SFX">
 					<ShortName>Metal_Bass.wav</ShortName>
-					<Path>SFX/Metal_Bass_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Bass_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="379106065" Language="SFX">
 					<ShortName>Metal_RhythmGuitar.wav</ShortName>
-					<Path>SFX/Metal_RhythmGuitar_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_RhythmGuitar_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="569872035" Language="SFX">
 					<ShortName>Metal_Kick.wav</ShortName>
-					<Path>SFX/Metal_Kick_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Kick_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="666790795" Language="SFX">
 					<ShortName>Metal_Vocals_01.wav</ShortName>
-					<Path>SFX/Metal_Vocals_01_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Vocals_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="845187681" Language="SFX">
 					<ShortName>Metal_Snare.wav</ShortName>
-					<Path>SFX/Metal_Snare_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Snare_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="969960137" Language="SFX">
 					<ShortName>Metal_Vocals_03.wav</ShortName>
-					<Path>SFX/Metal_Vocals_03_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Vocals_03_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="982857474" Language="SFX">
 					<ShortName>Metal_Vocals_02.wav</ShortName>
-					<Path>SFX/Metal_Vocals_02_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_Vocals_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1011911810" Language="SFX">
 					<ShortName>Metal_LeadGuitar_01.wav</ShortName>
-					<Path>SFX/Metal_LeadGuitar_01_4B8CC0C5.wem</Path>
+					<Path>SFX\Metal_LeadGuitar_01_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -156,47 +264,47 @@
 			<IncludedMemoryFiles>
 				<File Id="64163183" Language="SFX">
 					<ShortName>Folk_Vocals_03.wav</ShortName>
-					<Path>SFX/Folk_Vocals_03_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_Vocals_03_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="70681145" Language="SFX">
 					<ShortName>Folk_LeadGuitar_03.wav</ShortName>
-					<Path>SFX/Folk_LeadGuitar_03_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_LeadGuitar_03_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="237492399" Language="SFX">
 					<ShortName>Folk_LeadGuitar_02.wav</ShortName>
-					<Path>SFX/Folk_LeadGuitar_02_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_LeadGuitar_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="297106662" Language="SFX">
 					<ShortName>Folk_Bass.wav</ShortName>
-					<Path>SFX/Folk_Bass_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_Bass_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="336707268" Language="SFX">
 					<ShortName>Folk_RhythmGuitar.wav</ShortName>
-					<Path>SFX/Folk_RhythmGuitar_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_RhythmGuitar_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="524961768" Language="SFX">
 					<ShortName>Folk_Drums.wav</ShortName>
-					<Path>SFX/Folk_Drums_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_Drums_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="690381765" Language="SFX">
 					<ShortName>Folk_Vocals_01.wav</ShortName>
-					<Path>SFX/Folk_Vocals_01_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_Vocals_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="778605386" Language="SFX">
 					<ShortName>Folk_Vocals_02.wav</ShortName>
-					<Path>SFX/Folk_Vocals_02_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_Vocals_02_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="780264606" Language="SFX">
 					<ShortName>Folk_LeadGuitar_04.wav</ShortName>
-					<Path>SFX/Folk_LeadGuitar_04_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_LeadGuitar_04_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="875782678" Language="SFX">
 					<ShortName>Folk_LeadGuitar_01.wav</ShortName>
-					<Path>SFX/Folk_LeadGuitar_01_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_LeadGuitar_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1050423620" Language="SFX">
 					<ShortName>Folk_LeadGuitar_05.wav</ShortName>
-					<Path>SFX/Folk_LeadGuitar_05_4B8CC0C5.wem</Path>
+					<Path>SFX\Folk_LeadGuitar_05_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
