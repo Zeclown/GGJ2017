@@ -40,50 +40,56 @@ public class GameManager : MonoBehaviour {
     }
     private void Update()
     {
-        HandleCrowdSounds();
-        if (state == GameState.Playing)
+        if (crowd)
         {
-            if(onFireTimer<=0)
+            HandleCrowdSounds();
+            if (state == GameState.Playing)
             {
-                onFire = true;
-                
-            } else
-            {
-                onFire = false;
-            }
+                if (onFireTimer <= 0)
+                {
+                    onFire = true;
 
-            if(popularity>=onFirePopularityRequired)
-            {
-                onFireTimer -= Time.deltaTime;
-            } else {
-                onFireTimer = onFireTimeRequired;
-            }
-            timePlayed += Time.deltaTime;
-            score += Time.deltaTime * crowd.crowd.Count;
-            ComputePopularity();
-            if (!infiniteMode)
-            {
-                if (score > 200 && level == 1)
-                {
-                    FindObjectOfType<SoundboardUI>().UnlockFolk();
-                    level = 2;
                 }
-                if (score > 220 && level == 2)
+                else
                 {
-                    level = 3;
-                    crowd.genreWaves[1].Activate(timePlayed);
-                    Debug.Log("Unlock");
-                }
-                else if (score > 1000 && level == 3)
-                {
-                    FindObjectOfType<SoundboardUI>().UnlockMetal();
-                    crowd.genreWaves[2].Activate(timePlayed);
-                    level = 4;
+                    onFire = false;
                 }
 
-                if (GameDuration <= timePlayed)
+                if (popularity >= onFirePopularityRequired)
                 {
-                    EndGame();
+                    onFireTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    onFireTimer = onFireTimeRequired;
+                }
+                timePlayed += Time.deltaTime;
+                score += Time.deltaTime * crowd.crowd.Count;
+                ComputePopularity();
+                if (!infiniteMode)
+                {
+                    if (score > 200 && level == 1)
+                    {
+                        FindObjectOfType<SoundboardUI>().UnlockFolk();
+                        level = 2;
+                    }
+                    if (score > 220 && level == 2)
+                    {
+                        level = 3;
+                        crowd.genreWaves[1].Activate(timePlayed);
+                        Debug.Log("Unlock");
+                    }
+                    else if (score > 1000 && level == 3)
+                    {
+                        FindObjectOfType<SoundboardUI>().UnlockMetal();
+                        crowd.genreWaves[2].Activate(timePlayed);
+                        level = 4;
+                    }
+
+                    if (GameDuration <= timePlayed)
+                    {
+                        EndGame();
+                    }
                 }
             }
         }
@@ -103,41 +109,47 @@ public class GameManager : MonoBehaviour {
     {
         int happyCount=0;
         int madCount=0;
-        foreach (var guy in crowd.crowd)
+        if (crowd)
         {
-            if(guy.GetComponent<Attendee>().happiness>30)
+            foreach (var guy in crowd.crowd)
             {
-                happyCount++;
+                if (guy)
+                {
+                    if (guy.GetComponent<Attendee>().happiness > 30)
+                    {
+                        happyCount++;
+                    }
+                    else
+                    {
+                        madCount++;
+                    }
+                }
+            }
+            if (happyCount >= 10)
+            {
+                AkSoundEngine.SetSwitch("Crowd_Cheers", "Big_Crowd", gameObject);
+            }
+            else if (happyCount >= 2)
+            {
+                AkSoundEngine.SetSwitch("Crowd_Cheers", "Small_Crowd", gameObject);
             }
             else
             {
-                madCount++;
+                AkSoundEngine.SetSwitch("Crowd_Cheers", "Solo", gameObject);
             }
-        }
-        if(happyCount>=10)
-        {
-            AkSoundEngine.SetSwitch("Crowd_Cheers","Big_Crowd",gameObject);
-        }
-        else if (happyCount >= 2)
-        {
-            AkSoundEngine.SetSwitch("Crowd_Cheers", "Small_Crowd", gameObject);
-        }
-        else
-        {
-            AkSoundEngine.SetSwitch("Crowd_Cheers", "Solo", gameObject);
-        }
 
-        if (madCount >= 10)
-        {
-            AkSoundEngine.SetSwitch("Crowd_Boos", "Big_Crowd", gameObject);
-        }
-        else if (happyCount >= 2)
-        {
-            AkSoundEngine.SetSwitch("Crowd_Boos", "Small_Crowd", gameObject);
-        }
-        else
-        {
-            AkSoundEngine.SetSwitch("Crowd_Boos", "Solo", gameObject);
+            if (madCount >= 10)
+            {
+                AkSoundEngine.SetSwitch("Crowd_Boos", "Big_Crowd", gameObject);
+            }
+            else if (happyCount >= 2)
+            {
+                AkSoundEngine.SetSwitch("Crowd_Boos", "Small_Crowd", gameObject);
+            }
+            else
+            {
+                AkSoundEngine.SetSwitch("Crowd_Boos", "Solo", gameObject);
+            }
         }
     }
     public void StartGame()
@@ -175,10 +187,13 @@ public class GameManager : MonoBehaviour {
     }
     IEnumerator ToggleInfinite()
     {
-        yield return new WaitForSeconds(2);
-        FindObjectOfType<SoundboardUI>().UnlockMetal();
-        yield return new WaitForSeconds(2);
-        FindObjectOfType<SoundboardUI>().UnlockFolk();
+        if (FindObjectOfType<SoundboardUI>())
+        {
+            yield return new WaitForSeconds(2);
+            FindObjectOfType<SoundboardUI>().UnlockMetal();
+            yield return new WaitForSeconds(2);
+            FindObjectOfType<SoundboardUI>().UnlockFolk();
+        }
        
     }
 }
