@@ -6,23 +6,39 @@
 				<SoundcasterSession Name="Music_Testing" ID="{FBCFCA97-9909-42A6-BDA8-1C8B0B826501}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="PLAY_ALL" ID="{E430FD04-6286-48DD-A8A1-E969D5980AD3}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<ObjectRef Name="ON_DownTempo_Bassline" ID="{C9D0D041-7095-4E1D-ABC6-58B4D18E250C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="ON_DownTempo_Bassline" ID="{C9D0D041-7095-4E1D-ABC6-58B4D18E250C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="ON_DownTempo_Bassline_Pad" ID="{D71F3C46-B9BD-40FD-9B84-F8858C7BE1B6}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="1" Y="1"/>
+							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="ON_DownTempo_Lead" ID="{70591180-2114-478D-A6BA-9A73639D340C}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="1" Y="2"/>
+							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="ON_DownTempo_Drums" ID="{4DA15330-2A52-4FF8-9A73-FF0647AAE094}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_ALL" ID="{E430FD04-6286-48DD-A8A1-E969D5980AD3}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_DownTempo_Bassline" ID="{53B8775A-C492-4F51-AA6F-4719E9385962}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_DownTempo_Bassline_Pad" ID="{9005829A-430B-423A-96E9-51BDA83BB705}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_DownTempo_Lead" ID="{1230D92B-17C8-4C52-96B9-934F62073420}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_DownTempo_Drums" ID="{12E2D780-3B28-493B-B545-05436F53855B}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
@@ -38,20 +54,40 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="OFF_Folk_LeadGuitar" ID="{6F29C431-0371-40BD-ABB3-BDABA31A426B}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="2" Y="5"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="ON_Metal_Bass" ID="{140EB5C4-4A30-412A-A4EA-5E003CA23137}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<ObjectRef Name="OFF_Folk_Bass" ID="{921FE78D-9B18-4CE4-AEFE-923D3CD753CC}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="OFF_Folk_LeadGuitar" ID="{6F29C431-0371-40BD-ABB3-BDABA31A426B}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_Folk_RhythmGuitar" ID="{32D68BDB-3DDB-4CE2-890A-8D7979258FC1}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ON_Metal_Bass" ID="{140EB5C4-4A30-412A-A4EA-5E003CA23137}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ON_Metal_RhythmGuitar" ID="{25D65049-6894-4DBD-AB2A-1DAC95C79EC7}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="3" Y="3"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ON_Metal_Drums" ID="{56145522-CD67-40D8-B2F8-2BAFEDA12804}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_Metal_Bass" ID="{0A4D3743-91D7-4FAC-81C2-B7AA8AE5BFBB}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OFF_Metal_RhythmGuitar" ID="{15FC75E1-94A1-4327-9E43-6A81BF735660}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="OFF_Metal_Drums" ID="{8C2D1E41-FB16-4822-BE04-4928338A5550}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
-							<Position X="3" Y="5"/>
+							<Position X="5" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

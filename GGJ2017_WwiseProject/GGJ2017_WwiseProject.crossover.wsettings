@@ -54,6 +54,7 @@
 				<Property Name="Music Transition List\{ADECA4C0-B2E9-4A8C-9A90-252EA96B2175}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B61752B1-6C34-4C18-A111-8A2C21107B3F}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{C447585A-4DB0-4FAD-9069-D76C9DC82D35}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D30A7E9F-DDB6-4674-A592-DB2BC7ABC7A7}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D5115AA6-A65C-41D8-9B57-21FD6591A189}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{DABCE546-49FF-4898-8AB2-9FCC1F0FAA8C}\Expand States" Type="string" Value=""/>
@@ -65,6 +66,7 @@
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
+				<Property Name="PluginUserAcknowledge\ConvolutionReverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\Expanded_10_1" Type="string" Value="xt+uDPl3GUaJP2Pn07yaSg=="/>
 				<Property Name="ProjectExplorer\Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value="FyhK+iaV1kCBAh5KMYHo4E8eSIelzq1HopUlsbYbNhI="/>
