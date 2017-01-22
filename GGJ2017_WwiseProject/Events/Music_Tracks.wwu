@@ -174,6 +174,13 @@
 										</Element>
 									</ElementList>
 								</Action>
+								<Action Name="Play" ID="{955ADAB6-1FE1-4B8B-AA58-C515032827E4}" ShortID="236163378" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{CBC9233F-3261-4941-868E-74ADF948CA92}" Global="false">
+											<ObjectRef Name="Metal_Vocals" ID="{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="ON_Metal_Vocals" ID="{7F099341-C5DB-4493-B870-A740FE93D8FD}">
