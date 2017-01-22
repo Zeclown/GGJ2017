@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="UI" ID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ClickSelect" ID="{935ABFA8-5220-4191-A5AB-4049834EFAD4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{53C261EE-BF4D-433B-AC0C-1B3D969C97A8}" ShortID="849671631" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7AC370B0-0276-4723-8F26-113BDE434FA5}" Global="false">
+									<ObjectRef Name="UI_SelectClick" ID="{4E634BCF-82D4-4D45-BC69-C8FE5C531F51}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Release_NoSlot" ID="{98F58A0B-6D30-4A5C-8FBF-36995CF818F6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AA9ECDFA-9DE5-401C-A197-03F45BB308E0}" ShortID="284164099" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{244A7780-603B-46F8-8AB3-FFF464C41858}" Global="false">
+									<ObjectRef Name="UI_ReleaseNoSlot" ID="{7E5D966A-BB36-4C22-B68B-A28030E428B9}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
