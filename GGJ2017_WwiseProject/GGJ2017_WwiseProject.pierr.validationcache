@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3039132768" DateHigh="30569265"/>
-	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="2867147005" DateHigh="30569613"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1436155561" DateHigh="30569628"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3039724561" DateHigh="30569265"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3039904938" DateHigh="30569265"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="200600119" DateHigh="30569266"/>
@@ -12,9 +12,10 @@
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Effects\Factory Effects.wwu" DateLow="2867222126" DateHigh="30569613"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Events\Default Work Unit.wwu" DateLow="3224621022" DateHigh="30569496"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Events\Music_Tracks.wwu" DateLow="4092363074" DateHigh="30569600"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Events\SFX.wwu" DateLow="1436200689" DateHigh="30569628"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Events\UI.wwu" DateLow="2867257263" DateHigh="30569613"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3039303517" DateHigh="30569265"/>
-	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GGJ2017_WwiseProject.pierr.wsettings" DateLow="2908750264" DateHigh="30569613"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GGJ2017_WwiseProject.pierr.wsettings" DateLow="1525682830" DateHigh="30569628"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\GGJ2017_WwiseProject.wproj" DateLow="4100935029" DateHigh="30569593"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1995831130" DateHigh="30569404"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Interactive Music Hierarchy\Music_Tracks.wwu" DateLow="2266022187" DateHigh="30569605"/>
@@ -24,9 +25,9 @@
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3039403704" DateHigh="30569265"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3039634376" DateHigh="30569265"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Queries\Factory Queries.wwu" DateLow="3792106033" DateHigh="30563276"/>
-	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="639361191" DateHigh="30569606"/>
-	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2265535902" DateHigh="30569605"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2261299203" DateHigh="30569628"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1438962801" DateHigh="30569628"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\States\Default Work Unit.wwu" DateLow="3039223012" DateHigh="30569265"/>
-	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3039172878" DateHigh="30569265"/>
+	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1438988148" DateHigh="30569628"/>
 	<ValidationCacheItem File="D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3039804565" DateHigh="30569265"/>
 </ValidationCache>

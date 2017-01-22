@@ -5,11 +5,12 @@
 			<Language ID="0">
 				<File Name="DownTempo" Hash="327462168" Timestamp="131295457053887965"/>
 				<File Name="Folk" Hash="1963694253" Timestamp="131295457054735214"/>
-				<File Name="Init" Hash="4190539120" Timestamp="131295495275936311"/>
+				<File Name="Init" Hash="2046605273" Timestamp="131295554105696011"/>
 				<File Name="Metal" Hash="398350058" Timestamp="131295457053000605"/>
 				<File Name="Music" Hash="2781227424" Timestamp="131294417430000000"/>
 				<File Name="Music_Tracks" Hash="433177648" Timestamp="131295334780000000"/>
-				<File Name="UI" Hash="1090441657" Timestamp="131295491041762577"/>
+				<File Name="SFX" Hash="1652579430" Timestamp="131295554105611049"/>
+				<File Name="UI" Hash="2632592657" Timestamp="131295554105492503"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -19,7 +20,7 @@
 				<File Name="Music_Tracks" Hash="1182193826" Timestamp="131294561350000000"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1141275442" Timestamp="131295495275981352"/>
+				<File Name="" Hash="539244546" Timestamp="131295554105756175"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -28,15 +29,16 @@
 			<Language ID="0">
 				<File Name="DownTempo" Hash="327462168" Timestamp="131295457050333513"/>
 				<File Name="Folk" Hash="1963694253" Timestamp="131295457051361514"/>
-				<File Name="Init" Hash="923448314" Timestamp="131295495274397199"/>
+				<File Name="Init" Hash="2158138431" Timestamp="131295554104553679"/>
 				<File Name="Metal" Hash="398350058" Timestamp="131295457049336124"/>
 				<File Name="Music_Tracks" Hash="4213701612" Timestamp="131295273171872499"/>
-				<File Name="UI" Hash="1090441657" Timestamp="131295491039537361"/>
+				<File Name="SFX" Hash="1652579430" Timestamp="131295554104448474"/>
+				<File Name="UI" Hash="2632592657" Timestamp="131295554104279328"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3695888376" Timestamp="131295495274447273"/>
+				<File Name="" Hash="1938952400" Timestamp="131295554104597594"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

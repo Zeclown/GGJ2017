@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
     private float score;
     public float timePlayed=0;
     public int level;
-
+    public bool infiniteMode = false;
     public float GameDuration = 180;
     private void Awake()
     {
@@ -58,24 +58,30 @@ public class GameManager : MonoBehaviour {
             timePlayed += Time.deltaTime;
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
-
-            if (score > 200 && level == 1) {
-                FindObjectOfType<SoundboardUI>().UnlockFolk();
-                crowd.genreWaves[1].Activate(timePlayed);
-                level = 2;
-            }
-            if (score > 400 && level == 2) {
-                level = 3;
-                Debug.Log("Unlock");
-            } else if (score > 1000 && level == 3) {
-                FindObjectOfType<SoundboardUI>().UnlockMetal();
-                crowd.genreWaves[2].Activate(timePlayed);
-                level = 4;
-            }
-
-            if (GameDuration <= timePlayed)
+            if (!infiniteMode)
             {
-                EndGame();
+                if (score > 200 && level == 1)
+                {
+                    FindObjectOfType<SoundboardUI>().UnlockFolk();
+                    crowd.genreWaves[1].Activate(timePlayed);
+                    level = 2;
+                }
+                if (score > 400 && level == 2)
+                {
+                    level = 3;
+                    Debug.Log("Unlock");
+                }
+                else if (score > 1000 && level == 3)
+                {
+                    FindObjectOfType<SoundboardUI>().UnlockMetal();
+                    crowd.genreWaves[2].Activate(timePlayed);
+                    level = 4;
+                }
+
+                if (GameDuration <= timePlayed)
+                {
+                    EndGame();
+                }
             }
         }
         
@@ -93,10 +99,19 @@ public class GameManager : MonoBehaviour {
     public void StartGame()
     {
         state = GameState.Playing;
-        level = 1;
+        level = 4;
         crowd.genreWaves[0].Activate(timePlayed);
-        crowd.genreWaves[1].Deactivate();
-        crowd.genreWaves[2].Deactivate();
+        if (infiniteMode)
+        {
+            crowd.genreWaves[1].Activate(timePlayed);
+            crowd.genreWaves[2].Activate(timePlayed);
+            StartCoroutine("ToggleInfinite");
+        }
+        else
+        {
+            crowd.genreWaves[1].Deactivate();
+            crowd.genreWaves[2].Deactivate();
+        }
     }
     public void PauseGame()
     {
@@ -112,5 +127,13 @@ public class GameManager : MonoBehaviour {
 
         state = GameState.Ending;
         GameInstance.instance.ToMainMenu();
+    }
+    IEnumerator ToggleInfinite()
+    {
+        yield return new WaitForSeconds(2);
+        FindObjectOfType<SoundboardUI>().UnlockMetal();
+        yield return new WaitForSeconds(2);
+        FindObjectOfType<SoundboardUI>().UnlockFolk();
+       
     }
 }

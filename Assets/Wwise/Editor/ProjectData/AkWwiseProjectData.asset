@@ -431,6 +431,22 @@ MonoBehaviour:
       ID: 579606703
       Guid: 04fd30e48662dd48a8a1e969d5980ad3
       maxAttenuation: 0
+  - PhysicalPath: Events\SFX.wwu
+    ParentPhysicalPath: 
+    Guid: '{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}'
+    m_lastTimePsrt1: 2014424817
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd_Cheers
+      Path: SFX\Crowd_Cheers
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Crowd_Cheers
+        ObjectType: 3
+      ID: 799754613
+      Guid: 3c13a4029685c4479055f0942b439f21
+      maxAttenuation: 0
   - PhysicalPath: Events\UI.wwu
     ParentPhysicalPath: 
     Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
@@ -505,15 +521,40 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{3861B338-018F-4533-9D30-9163B64561A2}'
-    m_lastTimePsrt1: -2109526169
-    m_lastTimePart2: -1999355483
-    List: []
+    m_lastTimePsrt1: 2017212276
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd
+      Path: Default Work Unit\Crowd
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 11
+      ID: -1446618284
+      Guid: c58be120b2cd6947b711793f783024ca
+      values:
+      - Big_Crowd
+      - Small_Crowd
+      - Solo
+      ValueIcons:
+      - ElementName: Big_Crowd
+        ObjectType: 10
+      - ElementName: Small_Crowd
+        ObjectType: 10
+      - ElementName: Solo
+        ObjectType: 10
+      valueIDs: 9b090682e0e10c2cc89ef82d
+      ValueGuids:
+      - bytes: 6945a15b264af1448cfee77d6c510c84
+      - bytes: 655cdfbab57534448f18d10de4f7a6e3
+      - bytes: 567693e9213e3441b85814de3206b874
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: 1217585319
-    m_lastTimePart2: -1999355235
+    m_lastTimePsrt1: -1455443965
+    m_lastTimePart2: -1999355213
     List:
     - Name: DownTempo
       Path: Default Work Unit\DownTempo
@@ -542,6 +583,15 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1820998050
       Guid: 7ee7079d6e3d1c4eb996f9428676ee89
+    - Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      ID: 393239870
+      Guid: 8ce5e0450eb3504dab5f402197611b3f
     - Name: UI
       Path: Default Work Unit\UI
       PathAndIcons:

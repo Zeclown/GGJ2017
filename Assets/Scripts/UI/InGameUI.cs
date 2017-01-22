@@ -13,7 +13,13 @@ public class InGameUI : MonoBehaviour {
     private bool tutorial3Completed = false;
     // Use this for initialization
     void Start () {
-		
+		if(GameManager.instance.infiniteMode)
+        {
+            tutorial1Completed = true;
+            tutorial2Completed = true;
+            tutorial3Completed = true;
+            clockText.enabled = false;
+        }
 	}
 	
 	// Update is called once per frame
