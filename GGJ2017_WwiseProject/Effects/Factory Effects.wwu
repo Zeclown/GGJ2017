@@ -7,8 +7,11 @@
 					<ChildrenList>
 						<Effect Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
+								<Property Name="AttackTime" Type="Real32" Value="0.07"/>
+								<Property Name="OutputGain" Type="Real32" Value="5.9"/>
 								<Property Name="Ratio" Type="Real32" Value="3"/>
-								<Property Name="Threshold" Type="Real32" Value="-20"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.31"/>
+								<Property Name="Threshold" Type="Real32" Value="-25.8"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
@@ -621,7 +624,7 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="7244"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
@@ -738,7 +741,7 @@
 						</Effect>
 						<Effect Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 							<PropertyList>
-								<Property Name="HFRatio" Type="Real32" Value="10"/>
+								<Property Name="HFRatio" Type="Real32" Value="6.7"/>
 								<Property Name="NumberOfDelays" Type="int32" Value="12"/>
 								<Property Name="ReverbTime" Type="Real32" Value="1.5"/>
 								<Property Name="WetLevel" Type="Real32" Value="-30"/>
@@ -809,19 +812,19 @@
 								</Effect>
 								<Effect Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="2.2"/>
-										<Property Name="Density" Type="Real32" Value="44"/>
+										<Property Name="DecayTime" Type="Real32" Value="0.6"/>
+										<Property Name="Density" Type="Real32" Value="28"/>
 										<Property Name="ERLevel" Type="Real32" Value="-25"/>
-										<Property Name="ERPattern" Type="int32" Value="13"/>
+										<Property Name="ERPattern" Type="int32" Value="1"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="780"/>
 										<Property Name="Filter3Gain" Type="Real32" Value="4.5"/>
-										<Property Name="HFDamping" Type="Real32" Value="1.85"/>
-										<Property Name="PreDelay" Type="Real32" Value="40"/>
+										<Property Name="HFDamping" Type="Real32" Value="6.8"/>
+										<Property Name="PreDelay" Type="Real32" Value="18"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
-										<Property Name="RoomShape" Type="Real32" Value="55"/>
+										<Property Name="RoomShape" Type="Real32" Value="88"/>
 										<Property Name="RoomSize" Type="Real32" Value="24"/>
 									</PropertyList>
 								</Effect>

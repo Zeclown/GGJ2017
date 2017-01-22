@@ -3,10 +3,41 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{9BBA6494-E601-4419-97E4-05B3669002C0}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Music_Tracks" ID="{9D07E77E-3D6E-4E1C-B996-F9428676EE89}">
+				<SoundBank Name="Metal" ID="{9D07E77E-3D6E-4E1C-B996-F9428676EE89}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Music_Tracks" ID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Music_Tracks" ID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Metal" ID="{E225C6DC-CDBA-4483-8F3B-7108535E9FAC}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Metal" ID="{1BC0A401-25E5-4BBB-9386-DF46EE909622}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Folk" ID="{B0CE5EB2-5BCF-4D3B-A017-388A26C4693F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Folk" ID="{39AE80F3-D523-451A-806A-D90AEF148B16}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Folk" ID="{F5F68B8D-6D2A-4E1E-8246-AB7EB159BA7E}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DownTempo" ID="{462F63EB-E1FA-435B-82B1-9B2A38F1677F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DownTempo" ID="{E62847CC-4FFF-4552-A205-569F750A1296}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DownTempo" ID="{A29B0C48-1B9E-4CD5-B1C4-CB2F16A85E65}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{C5A7E4F9-872A-4DB8-86E4-1F01DA820395}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" WorkUnitID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{45E0E58C-B30E-4D50-AB5F-402197611B3F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" WorkUnitID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Crowd" ID="{826C544F-FD89-448A-A60C-5FA1A7D8E14F}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

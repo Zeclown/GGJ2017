@@ -284,9 +284,9 @@ MonoBehaviour:
     type: 2}
   happiness: 0
   happinessFallOff: 5
-  happinessLoseRate: 4
-  happinessGainRate: 10
-  timeBetweenEmotes: 5
+  happinessLoseRate: 2
+  happinessGainRate: 12
+  timeBetweenEmotes: 15
   finalLocation: {x: 0, y: 0, z: 0}
   leaving: 0
 --- !u!195 &195680309723857764

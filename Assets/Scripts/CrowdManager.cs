@@ -77,23 +77,32 @@ public class CrowdManager : MonoBehaviour {
     void Update () {
 
         //TODO: Modulate speed of arrival on Popularity.
+        if (GameManager.instance.state==GameState.Playing)
+        {
+            if (Time.time >= nextExitWave) {
+                MakeAttendeeLeave((int)(UnityEngine.Random.Range(11, 13) - (GameManager.instance.popularity * 0.1f)));
+                Debug.Log(crowd.Count);
+                ScheduleNextExitWaves();
+            }
+            if (Time.time >= nextArrivalWave) {
+                MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.07f));
+                Debug.Log(crowd.Count);
+                ScheduleNextArrivalWaves();
+            }
 
-        if(Time.time >= nextExitWave) {
-            MakeAttendeeLeave((int)(UnityEngine.Random.Range(11,13) - (GameManager.instance.popularity * 0.1f) ) );
-            Debug.Log(crowd.Count);
-            ScheduleNextExitWaves();
+            if (Time.time >= nextTrickleArrival) {
+                MakeAttendeeArrive(1);
+                ScheduleTrickle();
+            }
         }
-        if (Time.time >= nextArrivalWave) {
-            MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.07f) );
-            Debug.Log(crowd.Count);
-            ScheduleNextArrivalWaves();
+        for (int i = 0; i < crowd.Count; i++)
+        {
+            if (crowd[i].happiness <= 0 && !crowd[i].leaving && crowd[i].leaveCD>8)
+            {
+                crowd[i].Leave(exitPoint.position);
+                crowd.RemoveAt(i);
+            }
         }
-
-        if(Time.time >= nextTrickleArrival) {
-            MakeAttendeeArrive(1);
-            ScheduleTrickle();
-        }
-
         //Debug.Log(genreWaves[0].frequencyWave.Evaluate(Time.time));
 	}
 
@@ -173,17 +182,21 @@ public class CrowdManager : MonoBehaviour {
             int randomTemp;
             for(int i = 0; i < countLeaving; i++) {
                 //TODO: Seed to pick more heavily in displeased persons.
-                
-                do { randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1);} while (crowd[randomTemp].leaving);
-
-                for (int ii = 0; ii< occupied.Count; ii++) {
-                    if(occupied[ii] == crowd[randomTemp].GetInstanceID()) {
-                        occupied[ii] = -1;
-                        break;
+                int maxNumber = 0;
+                do { randomTemp = UnityEngine.Random.Range(0, crowd.Count - 1); maxNumber++; } while (crowd[randomTemp].leaving && maxNumber<30);
+                if (maxNumber < 30)
+                {
+                    for (int ii = 0; ii < occupied.Count; ii++)
+                    {
+                        if (occupied[ii] == crowd[randomTemp].GetInstanceID())
+                        {
+                            occupied[ii] = -1;
+                            break;
+                        }
                     }
+                    crowd[randomTemp].Leave(exitPoint.position);
+                    crowd.RemoveAt(randomTemp);
                 }
-                crowd[randomTemp].Leave(exitPoint.position);
-                crowd.RemoveAt(randomTemp);
             }
         }
     }

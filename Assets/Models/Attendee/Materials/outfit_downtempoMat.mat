@@ -145,10 +145,10 @@ Material:
       second: {r: 0.6544118, g: 0.30314666, b: 0.30314666, a: 1}
     - first:
         name: _Diffuse_Tint
-      second: {r: 0.2647059, g: 0.2647059, b: 0.2647059, a: 1}
+      second: {r: 0.21761462, g: 0.79361796, b: 0.8455882, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _LightWrapping
-      second: {r: 0, g: 0, b: 0, a: 1}
+      second: {r: 0.19944851, g: 0.6234154, b: 0.875, a: 1}

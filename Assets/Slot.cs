@@ -16,13 +16,8 @@ public class Slot : MonoBehaviour,IDropHandler {
 
     public virtual void OnDrop(PointerEventData eventData)
     {
-        if(item)
-        {
-            item.transform.position = item.GetComponent<DragTrackHandler>().startPosition;
-            item.transform.parent=item.GetComponent<DragTrackHandler>().startParent;
 
-        }
-        DragTrackHandler.trackDragged.transform.SetParent(transform);
-        DragTrackHandler.trackDragged.GetComponent<DragTrackHandler>().inAudioChanel = false;
+
     }
+
 }

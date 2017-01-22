@@ -32,185 +32,483 @@ MonoBehaviour:
   - PhysicalPath: Events\Music_Tracks.wwu
     ParentPhysicalPath: 
     Guid: '{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}'
-    m_lastTimePsrt1: -492081787
-    m_lastTimePart2: -1999355345
+    m_lastTimePsrt1: 375619906
+    m_lastTimePart2: -1999355240
     List:
     - Name: OFF_DownTempo_Bassline
-      Path: Music_Tracks\OFF_DownTempo_Bassline
+      Path: Music_Tracks\DownTempo\OFF_DownTempo_Bassline
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: OFF_DownTempo_Bassline
         ObjectType: 3
       ID: -200921420
       Guid: 5a77b85392c4514faa6f4719e9385962
       maxAttenuation: 0
     - Name: OFF_DownTempo_Bassline_Pad
-      Path: Music_Tracks\OFF_DownTempo_Bassline_Pad
+      Path: Music_Tracks\DownTempo\OFF_DownTempo_Bassline_Pad
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: OFF_DownTempo_Bassline_Pad
         ObjectType: 3
       ID: 566894298
       Guid: 9a8205900b433a4296e951bda83bb705
       maxAttenuation: 0
     - Name: OFF_DownTempo_Drums
-      Path: Music_Tracks\OFF_DownTempo_Drums
+      Path: Music_Tracks\DownTempo\OFF_DownTempo_Drums
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: OFF_DownTempo_Drums
         ObjectType: 3
       ID: 955387714
       Guid: 80d7e212283b3b49b54505436f53855b
       maxAttenuation: 0
     - Name: OFF_DownTempo_Lead
-      Path: Music_Tracks\OFF_DownTempo_Lead
+      Path: Music_Tracks\DownTempo\OFF_DownTempo_Lead
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: OFF_DownTempo_Lead
         ObjectType: 3
       ID: -1473539919
       Guid: 2bd93012c817524c96b9934f62073420
       maxAttenuation: 0
-    - Name: OFF_Metal_Bass
-      Path: Music_Tracks\OFF_Metal_Bass
+    - Name: OFF_DownTempo_Vocals
+      Path: Music_Tracks\DownTempo\OFF_DownTempo_Vocals
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
+      - ElementName: OFF_DownTempo_Vocals
+        ObjectType: 3
+      ID: 1693297081
+      Guid: fd8b7e302cd0f645a1ff1c6fcaf512fc
+      maxAttenuation: 0
+    - Name: OFF_Folk_Bass
+      Path: Music_Tracks\Folk\OFF_Folk_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: OFF_Folk_Bass
+        ObjectType: 3
+      ID: -1762368591
+      Guid: 8de71f92189be44caefe923d3cd753cc
+      maxAttenuation: 0
+    - Name: OFF_Folk_Drums
+      Path: Music_Tracks\Folk\OFF_Folk_Drums
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: OFF_Folk_Drums
+        ObjectType: 3
+      ID: -924408509
+      Guid: bd376fd90dab74449ee463de8be6eede
+      maxAttenuation: 0
+    - Name: OFF_Folk_LeadGuitar
+      Path: Music_Tracks\Folk\OFF_Folk_LeadGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: OFF_Folk_LeadGuitar
+        ObjectType: 3
+      ID: 721600072
+      Guid: 31c4296f7103bd40abb3bdaba31a426b
+      maxAttenuation: 0
+    - Name: OFF_Folk_RhythmGuitar
+      Path: Music_Tracks\Folk\OFF_Folk_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: OFF_Folk_RhythmGuitar
+        ObjectType: 3
+      ID: -489963546
+      Guid: db8bd632db3de24c890a8d7979258fc1
+      maxAttenuation: 0
+    - Name: OFF_Folk_Vocals
+      Path: Music_Tracks\Folk\OFF_Folk_Vocals
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: OFF_Folk_Vocals
+        ObjectType: 3
+      ID: -1910521246
+      Guid: 6c306527e24ffe4ea134ad6964fdc839
+      maxAttenuation: 0
+    - Name: OFF_Metal_Bass
+      Path: Music_Tracks\Metal\OFF_Metal_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
       - ElementName: OFF_Metal_Bass
         ObjectType: 3
       ID: 285133502
       Guid: 43374d0ad791ac4f81c2b7aa8ae5bfbb
       maxAttenuation: 0
     - Name: OFF_Metal_Drums
-      Path: Music_Tracks\OFF_Metal_Drums
+      Path: Music_Tracks\Metal\OFF_Metal_Drums
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
       - ElementName: OFF_Metal_Drums
         ObjectType: 3
       ID: -307491586
       Guid: 411e2d8c16fb2248be044928338a5550
       maxAttenuation: 0
-    - Name: OFF_Metal_RhythmGuitar
-      Path: Music_Tracks\OFF_Metal_RhythmGuitar
+    - Name: OFF_Metal_LeadGuitar
+      Path: Music_Tracks\Metal\OFF_Metal_LeadGuitar
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: OFF_Metal_LeadGuitar
+        ObjectType: 3
+      ID: 2009044547
+      Guid: 8e88988bb2058e4384a929110afcece2
+      maxAttenuation: 0
+    - Name: OFF_Metal_RhythmGuitar
+      Path: Music_Tracks\Metal\OFF_Metal_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
       - ElementName: OFF_Metal_RhythmGuitar
         ObjectType: 3
       ID: -1388714719
       Guid: e175fc15a19427439e436a81bf735660
       maxAttenuation: 0
-    - Name: OFF_Metal_Snare
-      Path: Music_Tracks\OFF_Metal_Snare
+    - Name: OFF_Metal_Vocals
+      Path: Music_Tracks\Metal\OFF_Metal_Vocals
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
-      - ElementName: OFF_Metal_Snare
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: OFF_Metal_Vocals
         ObjectType: 3
-      ID: -570496910
-      Guid: bc723d32a3d80848874dea2d9fb306aa
+      ID: -1967569363
+      Guid: 132b7cee0fc52842b98b4be16d479382
       maxAttenuation: 0
     - Name: ON_DownTempo_Bassline
-      Path: Music_Tracks\ON_DownTempo_Bassline
+      Path: Music_Tracks\DownTempo\ON_DownTempo_Bassline
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: ON_DownTempo_Bassline
         ObjectType: 3
       ID: -279201142
       Guid: 41d0d0c995701d4eabc658b4d18e250c
       maxAttenuation: 0
     - Name: ON_DownTempo_Bassline_Pad
-      Path: Music_Tracks\ON_DownTempo_Bassline_Pad
+      Path: Music_Tracks\DownTempo\ON_DownTempo_Bassline_Pad
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: ON_DownTempo_Bassline_Pad
         ObjectType: 3
       ID: 1080617516
       Guid: 463c1fd7bdb9fd409b84f8858c7be1b6
       maxAttenuation: 0
     - Name: ON_DownTempo_Drums
-      Path: Music_Tracks\ON_DownTempo_Drums
+      Path: Music_Tracks\DownTempo\ON_DownTempo_Drums
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: ON_DownTempo_Drums
         ObjectType: 3
       ID: 1410423788
       Guid: 3053a14d522af84f9a73ff0647aae094
       maxAttenuation: 0
     - Name: ON_DownTempo_Lead
-      Path: Music_Tracks\ON_DownTempo_Lead
+      Path: Music_Tracks\DownTempo\ON_DownTempo_Lead
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
       - ElementName: ON_DownTempo_Lead
         ObjectType: 3
       ID: -672305401
       Guid: 8011597014218d47a6ba9a73639d340c
       maxAttenuation: 0
-    - Name: ON_Metal_Bass
-      Path: Music_Tracks\ON_Metal_Bass
+    - Name: ON_DownTempo_Vocals
+      Path: Music_Tracks\DownTempo\ON_DownTempo_Vocals
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: DownTempo
+        ObjectType: 4
+      - ElementName: ON_DownTempo_Vocals
+        ObjectType: 3
+      ID: 1398006727
+      Guid: a3c0a177d2d67340a26fd67b0223c7cb
+      maxAttenuation: 0
+    - Name: ON_Folk_Bass
+      Path: Music_Tracks\Folk\ON_Folk_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: ON_Folk_Bass
+        ObjectType: 3
+      ID: 713686491
+      Guid: a8f370b611eece46b504d2a28fc02de8
+      maxAttenuation: 0
+    - Name: ON_Folk_Drums
+      Path: Music_Tracks\Folk\ON_Folk_Drums
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: ON_Folk_Drums
+        ObjectType: 3
+      ID: 2082494973
+      Guid: 213db1de909bd04aa1690eb62b26156f
+      maxAttenuation: 0
+    - Name: ON_Folk_LeadGuitar
+      Path: Music_Tracks\Folk\ON_Folk_LeadGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: ON_Folk_LeadGuitar
+        ObjectType: 3
+      ID: -1836807138
+      Guid: dab53cb50badbd45b3e286319e56d873
+      maxAttenuation: 0
+    - Name: ON_Folk_RhythmGuitar
+      Path: Music_Tracks\Folk\ON_Folk_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: ON_Folk_RhythmGuitar
+        ObjectType: 3
+      ID: 473249000
+      Guid: 74c90284964476419d2d730a74b14ce7
+      maxAttenuation: 0
+    - Name: ON_Folk_Vocals
+      Path: Music_Tracks\Folk\ON_Folk_Vocals
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: ON_Folk_Vocals
+        ObjectType: 3
+      ID: 814447848
+      Guid: 92a65361e188b54b823848d3b7316416
+      maxAttenuation: 0
+    - Name: ON_Metal_Bass
+      Path: Music_Tracks\Metal\ON_Metal_Bass
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
       - ElementName: ON_Metal_Bass
         ObjectType: 3
       ID: 805464928
       Guid: c4b50e14304a2a41a4ea5e003ca23137
       maxAttenuation: 0
-    - Name: ON_Metal_Kick
-      Path: Music_Tracks\ON_Metal_Kick
+    - Name: ON_Metal_Drums
+      Path: Music_Tracks\Metal\ON_Metal_Drums
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
-      - ElementName: ON_Metal_Kick
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: ON_Metal_Drums
         ObjectType: 3
-      ID: 1695870511
+      ID: -382110808
       Guid: 2255145667cdd840b2f82bafeda12804
       maxAttenuation: 0
-    - Name: ON_Metal_RhythmGuitar
-      Path: Music_Tracks\ON_Metal_RhythmGuitar
+    - Name: ON_Metal_LeadGuitar
+      Path: Music_Tracks\Metal\ON_Metal_LeadGuitar
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: ON_Metal_LeadGuitar
+        ObjectType: 3
+      ID: -1207946223
+      Guid: bce74df6b75c5547bc16c26fcea0ddc5
+      maxAttenuation: 0
+    - Name: ON_Metal_RhythmGuitar
+      Path: Music_Tracks\Metal\ON_Metal_RhythmGuitar
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
       - ElementName: ON_Metal_RhythmGuitar
         ObjectType: 3
       ID: -1425761253
       Guid: 4950d6259468bd4dab2a1dac95c79ec7
       maxAttenuation: 0
-    - Name: ON_Metal_Snare
-      Path: Music_Tracks\ON_Metal_Snare
+    - Name: ON_Metal_Vocals
+      Path: Music_Tracks\Metal\ON_Metal_Vocals
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
-      - ElementName: ON_Metal_Snare
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: ON_Metal_Vocals
         ObjectType: 3
-      ID: 498299080
-      Guid: 5e792bf4cba32b48b12791827dd3c005
+      ID: -1160580325
+      Guid: 4193097fdbc59344b870a740fe93d8fd
       maxAttenuation: 0
-    - Name: PLAY_ALL
-      Path: Music_Tracks\PLAY_ALL
+    - Name: PLAY_ALL_DownTempo
+      Path: Music_Tracks\DownTempo\PLAY_ALL_DownTempo
       PathAndIcons:
       - ElementName: Music_Tracks
         ObjectType: 12
-      - ElementName: PLAY_ALL
+      - ElementName: DownTempo
+        ObjectType: 4
+      - ElementName: PLAY_ALL_DownTempo
         ObjectType: 3
-      ID: -1318656393
+      ID: -1598588869
+      Guid: d23b5c158afc2d4cbba23f46114bf415
+      maxAttenuation: 0
+    - Name: PLAY_ALL_Folk
+      Path: Music_Tracks\Folk\PLAY_ALL_Folk
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 4
+      - ElementName: PLAY_ALL_Folk
+        ObjectType: 3
+      ID: -1303318912
+      Guid: 00c30289a7d45a4fabb2f102e260de17
+      maxAttenuation: 0
+    - Name: PLAY_ALL_Metal
+      Path: Music_Tracks\Metal\PLAY_ALL_Metal
+      PathAndIcons:
+      - ElementName: Music_Tracks
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 4
+      - ElementName: PLAY_ALL_Metal
+        ObjectType: 3
+      ID: 579606703
       Guid: 04fd30e48662dd48a8a1e969d5980ad3
+      maxAttenuation: 0
+  - PhysicalPath: Events\SFX.wwu
+    ParentPhysicalPath: 
+    Guid: '{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}'
+    m_lastTimePsrt1: 2014424817
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd_Cheers
+      Path: SFX\Crowd_Cheers
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Crowd_Cheers
+        ObjectType: 3
+      ID: 799754613
+      Guid: 3c13a4029685c4479055f0942b439f21
+      maxAttenuation: 0
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: 
+    Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
+    m_lastTimePsrt1: -849485905
+    m_lastTimePart2: -1999355228
+    List:
+    - Name: ClickSelect
+      Path: UI\ClickSelect
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: ClickSelect
+        ObjectType: 3
+      ID: 349819299
+      Guid: a8bf5a9320529141a5ab4049834efad4
+      maxAttenuation: 0
+    - Name: Close_UI
+      Path: UI\Close_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Close_UI
+        ObjectType: 3
+      ID: 458750760
+      Guid: 986c4461458a1a4d9524fcb783305d51
+      maxAttenuation: 0
+    - Name: Open_UI
+      Path: UI\Open_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Open_UI
+        ObjectType: 3
+      ID: 1420721594
+      Guid: 37688f8e89da8a4e8754c76888e85cc0
+      maxAttenuation: 0
+    - Name: Release_NoSlot
+      Path: UI\Release_NoSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Release_NoSlot
+        ObjectType: 3
+      ID: 1572546710
+      Guid: 0b8af598306d5c4a8fbf36995cf818f6
+      maxAttenuation: 0
+    - Name: SetSlot
+      Path: UI\SetSlot
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: SetSlot
+        ObjectType: 3
+      ID: -1899536661
+      Guid: a52b48da32364848ab44bff4596f4619
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7D971199-5F9D-4624-973B-CFF7E7A2592E}'
-    m_lastTimePsrt1: -2110077212
-    m_lastTimePart2: -1999355483
+    m_lastTimePsrt1: -860310435
+    m_lastTimePart2: -1999355227
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -223,36 +521,103 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{3861B338-018F-4533-9D30-9163B64561A2}'
-    m_lastTimePsrt1: -2109526169
-    m_lastTimePart2: -1999355483
-    List: []
+    m_lastTimePsrt1: 2017212276
+    m_lastTimePart2: -1999355213
+    List:
+    - Name: Crowd
+      Path: Default Work Unit\Crowd
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 11
+      ID: -1446618284
+      Guid: c58be120b2cd6947b711793f783024ca
+      values:
+      - Big_Crowd
+      - Small_Crowd
+      - Solo
+      ValueIcons:
+      - ElementName: Big_Crowd
+        ObjectType: 10
+      - ElementName: Small_Crowd
+        ObjectType: 10
+      - ElementName: Solo
+        ObjectType: 10
+      valueIDs: 9b090682e0e10c2cc89ef82d
+      ValueGuids:
+      - bytes: 6945a15b264af1448cfee77d6c510c84
+      - bytes: 655cdfbab57534448f18d10de4f7a6e3
+      - bytes: 567693e9213e3441b85814de3206b874
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -101819423
-    m_lastTimePart2: -1999355384
+    m_lastTimePsrt1: -1455443965
+    m_lastTimePart2: -1999355213
     List:
-    - Name: Music_Tracks
-      Path: Default Work Unit\Music_Tracks
+    - Name: DownTempo
+      Path: Default Work Unit\DownTempo
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Music_Tracks
+      - ElementName: DownTempo
         ObjectType: 7
-      ID: -37055355
+      ID: 612082850
+      Guid: eb632f46fae15b4382b19b2a38f1677f
+    - Name: Folk
+      Path: Default Work Unit\Folk
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Folk
+        ObjectType: 7
+      ID: -1313795237
+      Guid: b25eceb0cf5b3b4da017388a26c4693f
+    - Name: Metal
+      Path: Default Work Unit\Metal
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metal
+        ObjectType: 7
+      ID: -1820998050
       Guid: 7ee7079d6e3d1c4eb996f9428676ee89
+    - Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      ID: 393239870
+      Guid: 8ce5e0450eb3504dab5f402197611b3f
+    - Name: UI
+      Path: Default Work Unit\UI
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 7
+      ID: 1551306167
+      Guid: f9e4a7c52a87b84d86e41f01da820395
   ExpandedItems:
   - /GGJ2017_WwiseProject
   - /GGJ2017_WwiseProject/Events
-  - /GGJ2017_WwiseProject/Events/Music_Tracks
+  - /GGJ2017_WwiseProject/Events/SFX
+  - /GGJ2017_WwiseProject/Events/UI
+  - /GGJ2017_WwiseProject/SoundBanks
+  - /GGJ2017_WwiseProject/SoundBanks/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit/Crowd
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
+  defaultPoolSize: 8000
+  lowerPoolSize: 4000
+  streamingPoolSize: 2000
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95

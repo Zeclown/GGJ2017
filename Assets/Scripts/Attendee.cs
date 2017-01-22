@@ -10,6 +10,7 @@ public class Attendee : MonoBehaviour {
     public GameObject heartSignal;
     public GameObject sadFaceSignal;
     public float happiness;
+    public float leaveCD;
     //The rate at which the attendee lose happiness every tick;
     public float happinessFallOff=0.5f;
     //The rate at which the attendee lose happiness from other genres
@@ -30,6 +31,7 @@ public class Attendee : MonoBehaviour {
     {
         happiness = GameManager.instance.crowd.crowd.Count == 1 ?
             50 : GameManager.instance.popularity;
+        happiness=Mathf.Clamp(happiness, 20, 100);
         leaving = false;
         mood = GetMood();
         emoteCD = 0;
@@ -45,6 +47,7 @@ public class Attendee : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        leaveCD += Time.deltaTime;
         CalculateHappiness();
         anim.SetBool("Walking", false);
         anim.SetBool("Dancing", false);
@@ -62,31 +65,33 @@ public class Attendee : MonoBehaviour {
                 Destroy(gameObject, 0.3f);
             }
         }
+        if (mood != GetMood())
+            leaveCD = 0;
         mood = GetMood();
         anim.SetBool("Dancing", mood!=Mood.Sad);
+        if(Mathf.Abs(nav.velocity.x)>0 || Mathf.Abs(nav.velocity.y) > 0)
+            anim.SetBool("Walking", true);
         if (emoteCD<=0)
         {
             emoteCD = timeBetweenEmotes+Random.Range(0,3);
             if(mood==Mood.Happy)
             {
                 GameObject newHeart = Instantiate(heartSignal);
-                newHeart.transform.position = transform.position+Vector3.up;
+                newHeart.transform.position = transform.position;
                 newHeart.GetComponent<Animation>().Play();
                 Destroy(newHeart, 2);
             }
             else if(mood == Mood.Sad)
             {
                 GameObject newHeart = Instantiate(sadFaceSignal);
-                newHeart.transform.position = transform.position + Vector3.up;
+                newHeart.transform.position = transform.position;
                 newHeart.GetComponent<Animation>().Play();
                 Destroy(newHeart, 2);
             }
         }
         emoteCD -= Time.deltaTime;
 
-        if (happiness <= 0) {
-            Leave(GameManager.instance.crowd.getExitToLeave(GetInstanceID()));
-        }
+
 
     }
 
@@ -131,8 +136,12 @@ public class Attendee : MonoBehaviour {
 
     public void ReceiveTargetPlace(Vector3 target)
     {
-        if(!nav)
+        if (this == null)
+            return;
+        if (!nav)
+        {
             nav = GetComponent<NavMeshAgent>();
+        }
         nav.SetDestination(target);
     }
 }

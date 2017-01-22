@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
     private float score;
     public float timePlayed=0;
     public int level;
-
+    public bool infiniteMode = false;
     public float GameDuration = 180;
     private void Awake()
     {
@@ -58,23 +58,31 @@ public class GameManager : MonoBehaviour {
             timePlayed += Time.deltaTime;
             score += Time.deltaTime * crowd.crowd.Count;
             ComputePopularity();
-
-            if (score > 200 && level == 1) {
-                //Activate Folk.
-            }
-            if (score > 400 && level == 2) {
-                crowd.genreWaves[1].Activate(timePlayed);
-                level = 2;
-                Debug.Log("Unlock");
-            } else if (score > 1000 && level == 2) {
-                crowd.genreWaves[2].Activate(timePlayed);
-                level = 3;
-            }
-
-            /*if (GameDuration<=timePlayed)
+            if (!infiniteMode)
             {
-                EndGame();
-            }*/
+                if (score > 200 && level == 1)
+                {
+                    FindObjectOfType<SoundboardUI>().UnlockFolk();
+                    crowd.genreWaves[1].Activate(timePlayed);
+                    level = 2;
+                }
+                if (score > 400 && level == 2)
+                {
+                    level = 3;
+                    Debug.Log("Unlock");
+                }
+                else if (score > 1000 && level == 3)
+                {
+                    FindObjectOfType<SoundboardUI>().UnlockMetal();
+                    crowd.genreWaves[2].Activate(timePlayed);
+                    level = 4;
+                }
+
+                if (GameDuration <= timePlayed)
+                {
+                    EndGame();
+                }
+            }
         }
         
     }
@@ -86,15 +94,25 @@ public class GameManager : MonoBehaviour {
             totalHappiness += (int)item.happiness;
         }
         if(crowd.crowd.Count!=0)
-        popularity = totalHappiness / crowd.crowd.Count;
+            popularity = totalHappiness / crowd.crowd.Count;
     }
     public void StartGame()
     {
         state = GameState.Playing;
-        level = 1;
         crowd.genreWaves[0].Activate(timePlayed);
-        crowd.genreWaves[1].Deactivate();
-        crowd.genreWaves[2].Deactivate();
+        if (infiniteMode)
+        {
+            level = 4;
+            crowd.genreWaves[1].Activate(timePlayed);
+            crowd.genreWaves[2].Activate(timePlayed);
+            StartCoroutine("ToggleInfinite");
+        }
+        else
+        {
+            level = 1;
+            crowd.genreWaves[1].Deactivate();
+            crowd.genreWaves[2].Deactivate();
+        }
     }
     public void PauseGame()
     {
@@ -109,6 +127,14 @@ public class GameManager : MonoBehaviour {
         timePlayed = 0;
 
         state = GameState.Ending;
-        GameInstance.instance.ToMainMenu();
+        GameInstance.instance.ToEndGame();
+    }
+    IEnumerator ToggleInfinite()
+    {
+        yield return new WaitForSeconds(2);
+        FindObjectOfType<SoundboardUI>().UnlockMetal();
+        yield return new WaitForSeconds(2);
+        FindObjectOfType<SoundboardUI>().UnlockFolk();
+       
     }
 }
