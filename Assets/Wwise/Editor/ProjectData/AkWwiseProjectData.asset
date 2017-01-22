@@ -32,8 +32,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Music_Tracks.wwu
     ParentPhysicalPath: 
     Guid: '{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}'
-    m_lastTimePsrt1: 375619906
-    m_lastTimePart2: -1999355240
+    m_lastTimePsrt1: 2028153262
+    m_lastTimePart2: -1999355149
     List:
     - Name: OFF_DownTempo_Bassline
       Path: Music_Tracks\DownTempo\OFF_DownTempo_Bassline
@@ -434,9 +434,19 @@ MonoBehaviour:
   - PhysicalPath: Events\SFX.wwu
     ParentPhysicalPath: 
     Guid: '{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}'
-    m_lastTimePsrt1: 2014424817
-    m_lastTimePart2: -1999355213
+    m_lastTimePsrt1: 2028193289
+    m_lastTimePart2: -1999355149
     List:
+    - Name: Crowd_Boos
+      Path: SFX\Crowd_Boos
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Crowd_Boos
+        ObjectType: 3
+      ID: -1054911348
+      Guid: b0329ac68a1efa45bcfe78413b9e6c54
+      maxAttenuation: 0
     - Name: Crowd_Cheers
       Path: SFX\Crowd_Cheers
       PathAndIcons:
@@ -450,8 +460,8 @@ MonoBehaviour:
   - PhysicalPath: Events\UI.wwu
     ParentPhysicalPath: 
     Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
-    m_lastTimePsrt1: -849485905
-    m_lastTimePart2: -1999355228
+    m_lastTimePsrt1: 2028238321
+    m_lastTimePart2: -1999355149
     List:
     - Name: ClickSelect
       Path: UI\ClickSelect
@@ -507,22 +517,15 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7D971199-5F9D-4624-973B-CFF7E7A2592E}'
-    m_lastTimePsrt1: -860310435
-    m_lastTimePart2: -1999355227
+    m_lastTimePsrt1: 2074608692
+    m_lastTimePart2: -1999355149
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0022ADD4-597E-4992-B237-4FB54A11E3F8}'
-    m_lastTimePsrt1: -2109566279
-    m_lastTimePart2: -1999355483
-    List: []
-  SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
-    ParentPhysicalPath: 
-    Guid: '{3861B338-018F-4533-9D30-9163B64561A2}'
-    m_lastTimePsrt1: 2017212276
-    m_lastTimePart2: -1999355213
+    m_lastTimePsrt1: 2107172743
+    m_lastTimePart2: -1999355149
     List:
     - Name: Crowd
       Path: Default Work Unit\Crowd
@@ -530,31 +533,100 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Crowd
-        ObjectType: 11
+        ObjectType: 9
       ID: -1446618284
-      Guid: c58be120b2cd6947b711793f783024ca
+      Guid: 9db22bdf79d98d458f2abff7728011d6
       values:
       - Big_Crowd
+      - None
       - Small_Crowd
-      - Solo
+      - Solo_Dude
+      ValueIcons:
+      - ElementName: Big_Crowd
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Small_Crowd
+        ObjectType: 8
+      - ElementName: Solo_Dude
+        ObjectType: 8
+      valueIDs: 9b090682db3ba32ce0e10c2c0733fa6f
+      ValueGuids:
+      - bytes: 48493d439191364ea5dd4d7832210b4e
+      - bytes: 8750bb89a55b8a47aab62e85a6033150
+      - bytes: 7149f2f538c0684db6f697be7fce65b8
+      - bytes: e03a710d0d5c304cb7cd76208a5841fe
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{3861B338-018F-4533-9D30-9163B64561A2}'
+    m_lastTimePsrt1: 2107227782
+    m_lastTimePart2: -1999355149
+    List:
+    - Name: Crowd_Boos
+      Path: Default Work Unit\Crowd_Boos
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd_Boos
+        ObjectType: 11
+      ID: -1054911348
+      Guid: 20d02a49c84d7b49a497189ced2f0b7e
+      values:
+      - Big_Crowd
+      - Default
+      - Small_Crowd
+      - Solo_Dude
       ValueIcons:
       - ElementName: Big_Crowd
         ObjectType: 10
+      - ElementName: Default
+        ObjectType: 10
       - ElementName: Small_Crowd
         ObjectType: 10
-      - ElementName: Solo
+      - ElementName: Solo_Dude
         ObjectType: 10
-      valueIDs: 9b090682e0e10c2cc89ef82d
+      valueIDs: 9b09068298fba82ee0e10c2c0733fa6f
       ValueGuids:
-      - bytes: 6945a15b264af1448cfee77d6c510c84
-      - bytes: 655cdfbab57534448f18d10de4f7a6e3
-      - bytes: 567693e9213e3441b85814de3206b874
+      - bytes: 64ff8d1385706149b830489ca82e6ea5
+      - bytes: 7ace3befd82e214aa41b5710ee8b2f7d
+      - bytes: cd59a3e24a6ce44ead442a352dd212fc
+      - bytes: 42c95d1ca9999f41a0ca7ced7b0e08f9
+    - Name: Crowd_Cheers
+      Path: Default Work Unit\Crowd_Cheers
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd_Cheers
+        ObjectType: 11
+      ID: 799754613
+      Guid: 1352107b81f6bc449eff0846d3a0af59
+      values:
+      - Big_Crowd
+      - Default
+      - Small_Crowd
+      - Solo_Dude
+      ValueIcons:
+      - ElementName: Big_Crowd
+        ObjectType: 10
+      - ElementName: Default
+        ObjectType: 10
+      - ElementName: Small_Crowd
+        ObjectType: 10
+      - ElementName: Solo_Dude
+        ObjectType: 10
+      valueIDs: 9b09068298fba82ee0e10c2c0733fa6f
+      ValueGuids:
+      - bytes: 56ec475374869f41963869701c87cae5
+      - bytes: 16f49dc97fdbf046a4a16402fba85209
+      - bytes: f457db17f6555349b86e76bb5a93951e
+      - bytes: afb54d44ce807040bf04b3d8d8e2df58
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9BBA6494-E601-4419-97E4-05B3669002C0}'
-    m_lastTimePsrt1: -1455443965
-    m_lastTimePart2: -1999355213
+    m_lastTimePsrt1: 2107037651
+    m_lastTimePart2: -1999355149
     List:
     - Name: DownTempo
       Path: Default Work Unit\DownTempo
@@ -604,13 +676,7 @@ MonoBehaviour:
   ExpandedItems:
   - /GGJ2017_WwiseProject
   - /GGJ2017_WwiseProject/Events
-  - /GGJ2017_WwiseProject/Events/SFX
-  - /GGJ2017_WwiseProject/Events/UI
-  - /GGJ2017_WwiseProject/SoundBanks
-  - /GGJ2017_WwiseProject/SoundBanks/Default Work Unit
-  - /GGJ2017_WwiseProject/Switches
-  - /GGJ2017_WwiseProject/Switches/Default Work Unit
-  - /GGJ2017_WwiseProject/Switches/Default Work Unit/Crowd
+  - /GGJ2017_WwiseProject/Events/Music_Tracks
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
