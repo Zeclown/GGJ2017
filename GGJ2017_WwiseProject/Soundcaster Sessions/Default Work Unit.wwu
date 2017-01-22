@@ -117,7 +117,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Small_Crowd" ID="{BADF5C65-75B5-4434-8F18-D10DE4F7A6E3}"/>
+						<CurrentSwitchRef Name="Solo_Dude" ID="{444DB5AF-80CE-4070-BF04-B3D8D8E2DF58}"/>
+						<CurrentSwitchRef Name="Solo_Dude" ID="{1C5DC942-99A9-419F-A0CA-7CED7B0E08F9}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

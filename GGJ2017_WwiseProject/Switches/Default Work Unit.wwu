@@ -3,11 +3,20 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{3861B338-018F-4533-9D30-9163B64561A2}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Crowd" ID="{20E18BC5-CDB2-4769-B711-793F783024CA}">
+				<SwitchGroup Name="Crowd_Cheers" ID="{7B105213-F681-44BC-9EFF-0846D3A0AF59}">
 					<ChildrenList>
-						<Switch Name="Big_Crowd" ID="{5BA14569-4A26-44F1-8CFE-E77D6C510C84}"/>
-						<Switch Name="Small_Crowd" ID="{BADF5C65-75B5-4434-8F18-D10DE4F7A6E3}"/>
-						<Switch Name="Solo" ID="{E9937656-3E21-4134-B858-14DE3206B874}"/>
+						<Switch Name="Big_Crowd" ID="{5347EC56-8674-419F-9638-69701C87CAE5}"/>
+						<Switch Name="Small_Crowd" ID="{17DB57F4-55F6-4953-B86E-76BB5A93951E}"/>
+						<Switch Name="Solo_Dude" ID="{444DB5AF-80CE-4070-BF04-B3D8D8E2DF58}"/>
+						<Switch Name="Default" ID="{C99DF416-DB7F-46F0-A4A1-6402FBA85209}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Crowd_Boos" ID="{492AD020-4DC8-497B-A497-189CED2F0B7E}">
+					<ChildrenList>
+						<Switch Name="Solo_Dude" ID="{1C5DC942-99A9-419F-A0CA-7CED7B0E08F9}"/>
+						<Switch Name="Small_Crowd" ID="{E2A359CD-6C4A-4EE4-AD44-2A352DD212FC}"/>
+						<Switch Name="Big_Crowd" ID="{138DFF64-7085-4961-B830-489CA82E6EA5}"/>
+						<Switch Name="Default" ID="{EF3BCE7A-2ED8-4A21-A41B-5710EE8B2F7D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
