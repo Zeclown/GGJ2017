@@ -74,6 +74,14 @@
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Cheers_Solo" ID="{8DE5D1AC-A072-4224-8E25-7742526260DE}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cheers_Med" ID="{B090B445-AF8F-4694-BE56-C817DB293734}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ON_Metal_Bass" ID="{140EB5C4-4A30-412A-A4EA-5E003CA23137}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="4" Y="0"/>
 						</Module>
@@ -90,6 +98,10 @@
 							<Position X="4" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Cheering" ID="{1A5AA5C4-B04B-428C-90B1-A27B488945F6}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="OFF_Metal_Bass" ID="{0A4D3743-91D7-4FAC-81C2-B7AA8AE5BFBB}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="5" Y="0"/>
 						</Module>
@@ -104,7 +116,9 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Small_Crowd" ID="{BADF5C65-75B5-4434-8F18-D10DE4F7A6E3}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -35,6 +35,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SFX" ID="{45E0E58C-B30E-4D50-AB5F-402197611B3F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" WorkUnitID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Crowd" ID="{826C544F-FD89-448A-A60C-5FA1A7D8E14F}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="SFX" ID="{C4CE8FD2-E5D6-41D0-8FDE-54D47CC36077}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Crowd_Cheers" ID="{02A4133C-8596-47C4-9055-F0942B439F21}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8AE474AA-91FF-46C8-878A-C927E14FE072}" ShortID="359933597" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{95D4FCEB-1703-44E8-AA22-20116E9BFA1F}" Global="false">
+									<ObjectRef Name="Cheering" ID="{1A5AA5C4-B04B-428C-90B1-A27B488945F6}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
