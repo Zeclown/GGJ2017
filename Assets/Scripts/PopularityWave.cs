@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,5 +24,9 @@ public class PopularityWave : ScriptableObject {
         active = true;
         randomStartOffset = UnityEngine.Random.Range(-5f, 0f);
         return true;
+    }
+
+    internal void Deactivate() {
+        active = false;
     }
 }

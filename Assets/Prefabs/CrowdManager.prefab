@@ -119,7 +119,9 @@ MonoBehaviour:
   nextTrickleArrival: 0
   offset: {x: 0, y: 0, z: -1}
   attendeePrefabs:
+  - {fileID: 1176531539539430, guid: 003b8840c0b16a24c8a23e5a4242cd55, type: 2}
   - {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957, type: 2}
+  - {fileID: 1137636546270646, guid: 1ed9c3b53155f0b4e8e462b7194f81e0, type: 2}
   attendeePrefab: {fileID: 1941157361385214, guid: 49863c1dc4a04384f959531fd1518957,
     type: 2}
   entryPoint: {fileID: 4491573619006890}
