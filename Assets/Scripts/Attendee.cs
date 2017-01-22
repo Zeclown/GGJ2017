@@ -64,6 +64,8 @@ public class Attendee : MonoBehaviour {
         }
         mood = GetMood();
         anim.SetBool("Dancing", mood!=Mood.Sad);
+        if(Mathf.Abs(nav.velocity.x)>0 || Mathf.Abs(nav.velocity.y) > 0)
+            anim.SetBool("Walking", true);
         if (emoteCD<=0)
         {
             emoteCD = timeBetweenEmotes+Random.Range(0,3);
