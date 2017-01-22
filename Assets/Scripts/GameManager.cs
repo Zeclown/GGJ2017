@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour {
     {
         state = GameState.Starting;
         StartGame();
+        AkSoundEngine.PostEvent("Crowd_Boos",gameObject);
+        AkSoundEngine.PostEvent("Crowd_Cheers", gameObject);
     }
     private void Update()
     {
@@ -114,15 +116,28 @@ public class GameManager : MonoBehaviour {
         }
         if(happyCount>=10)
         {
-            AkSoundEngine.SetSwitch("Crowd","Big_Crowd",gameObject);
+            AkSoundEngine.SetSwitch("Crowd_Cheers","Big_Crowd",gameObject);
         }
         else if (happyCount >= 2)
         {
-            AkSoundEngine.SetSwitch("Crowd", "Small_Crowd", gameObject);
+            AkSoundEngine.SetSwitch("Crowd_Cheers", "Small_Crowd", gameObject);
         }
         else
         {
-            AkSoundEngine.SetSwitch("Crowd", "Solo", gameObject);
+            AkSoundEngine.SetSwitch("Crowd_Cheers", "Solo", gameObject);
+        }
+
+        if (madCount >= 10)
+        {
+            AkSoundEngine.SetSwitch("Crowd_Boos", "Big_Crowd", gameObject);
+        }
+        else if (happyCount >= 2)
+        {
+            AkSoundEngine.SetSwitch("Crowd_Boos", "Small_Crowd", gameObject);
+        }
+        else
+        {
+            AkSoundEngine.SetSwitch("Crowd_Boos", "Solo", gameObject);
         }
     }
     public void StartGame()
