@@ -8395,6 +8395,7 @@ GameObject:
   - component: {fileID: 1913925693}
   - component: {fileID: 1913925694}
   - component: {fileID: 1913925695}
+  - component: {fileID: 1913925696}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -8529,6 +8530,25 @@ MonoBehaviour:
   useOtherObject: 0
   valueGuid: f9e4a7c52a87b84d86e41f01da820395
   bankName: UI
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+--- !u!114 &1913925696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1913925687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6990bb738981f844b9070c48e3d2ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 8ce5e0450eb3504dab5f402197611b3f
+  bankName: SFX
   loadAsynchronous: 0
   decodeBank: 0
   saveDecodedBank: 0

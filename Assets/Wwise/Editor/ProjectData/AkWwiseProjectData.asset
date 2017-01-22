@@ -604,7 +604,13 @@ MonoBehaviour:
   ExpandedItems:
   - /GGJ2017_WwiseProject
   - /GGJ2017_WwiseProject/Events
+  - /GGJ2017_WwiseProject/Events/SFX
   - /GGJ2017_WwiseProject/Events/UI
+  - /GGJ2017_WwiseProject/SoundBanks
+  - /GGJ2017_WwiseProject/SoundBanks/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit
+  - /GGJ2017_WwiseProject/Switches/Default Work Unit/Crowd
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

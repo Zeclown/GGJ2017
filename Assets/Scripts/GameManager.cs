@@ -99,16 +99,17 @@ public class GameManager : MonoBehaviour {
     public void StartGame()
     {
         state = GameState.Playing;
-        level = 4;
         crowd.genreWaves[0].Activate(timePlayed);
         if (infiniteMode)
         {
+            level = 4;
             crowd.genreWaves[1].Activate(timePlayed);
             crowd.genreWaves[2].Activate(timePlayed);
             StartCoroutine("ToggleInfinite");
         }
         else
         {
+            level = 1;
             crowd.genreWaves[1].Deactivate();
             crowd.genreWaves[2].Deactivate();
         }
@@ -126,7 +127,7 @@ public class GameManager : MonoBehaviour {
         timePlayed = 0;
 
         state = GameState.Ending;
-        GameInstance.instance.ToMainMenu();
+        GameInstance.instance.ToEndGame();
     }
     IEnumerator ToggleInfinite()
     {
