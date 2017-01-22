@@ -634,6 +634,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Folk_Unlock" ID="{E08B18F8-9884-4B54-BBF3-A249E53B7E05}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3A80F6DB-5966-4433-B184-B7E718B37867}" ShortID="769145782" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{16640A50-7F4A-4C49-A422-B9B372485F7E}" Global="false">
+									<ObjectRef Name="FolkUnlock" ID="{03437149-056D-4A32-9941-CC06A413EDB1}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Metal_Unlock" ID="{35043614-2F68-4A50-904F-4D856D8BBE6B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4207E738-B2BB-4633-AD32-04B582D76494}" ShortID="420399263" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4F63A73D-DDD8-4138-8EE0-BCB579FE21B2}" Global="false">
+									<ObjectRef Name="Metal_Unlock" ID="{1EEAE340-E41C-4436-B49D-B824D457F1CC}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
