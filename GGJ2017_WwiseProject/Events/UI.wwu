@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Open_UI" ID="{8E8F6837-DA89-4E8A-8754-C76888E85CC0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{68996F48-FE10-4542-B4CD-95A769947A92}" ShortID="885313117" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EA3270D1-8339-472A-A441-F0B027D14AAD}" Global="false">
+									<ObjectRef Name="UI_Open" ID="{AF61D6EB-A55C-4F16-B9AC-389496FE957F}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -207,6 +207,37 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<BlendContainer Name="UI_Open" ID="{AF61D6EB-A55C-4F16-B9AC-389496FE957F}" ShortID="74560395">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI_OpenUI" ID="{0707E65C-41CE-4A9A-8768-CC75A2E8EB57}" ShortID="178728554" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_OpenUI" ID="{736F6E2C-481C-4D74-9989-B470D50B91A5}" ShortID="97574245">
+											<Language>SFX</Language>
+											<AudioFile>UI_OpenUI.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_OpenUI" ID="{736F6E2C-481C-4D74-9989-B470D50B91A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
@@ -226,6 +257,9 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="UI_SelectClick" ID="{4E634BCF-82D4-4D45-BC69-C8FE5C531F51}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="UI_Open" ID="{AF61D6EB-A55C-4F16-B9AC-389496FE957F}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>
