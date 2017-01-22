@@ -7,8 +7,11 @@
 					<ChildrenList>
 						<Effect Name="Gentle_Program_Compressor_Minus_20dB_RMS" ID="{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
+								<Property Name="AttackTime" Type="Real32" Value="0.07"/>
+								<Property Name="OutputGain" Type="Real32" Value="5.9"/>
 								<Property Name="Ratio" Type="Real32" Value="3"/>
-								<Property Name="Threshold" Type="Real32" Value="-20"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.31"/>
+								<Property Name="Threshold" Type="Real32" Value="-25.8"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">

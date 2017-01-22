@@ -21,11 +21,31 @@ MonoBehaviour:
       outSlope: 0
       tangentMode: 136
     - serializedVersion: 2
-      time: 20.072573
-      value: 9.839211
+      time: 16.907436
+      value: 5.5655713
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 21.267328
+      value: 3.6409285
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 24.06332
+      value: 10.674473
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 26.91362
+      value: -0.07302475
       inSlope: 0
       outSlope: 0
       tangentMode: 136
     m_PreInfinity: 0
-    m_PostInfinity: 0
+    m_PostInfinity: 1
     m_RotationOrder: 0
+  genreName: 2
+  active: 1

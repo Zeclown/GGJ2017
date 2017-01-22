@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	285133502	OFF_Metal_Bass			\Music_Tracks\Metal\OFF_Metal_Bass	
+	579606703	PLAY_ALL_Metal			\Music_Tracks\Metal\PLAY_ALL_Metal	
+	805464928	ON_Metal_Bass			\Music_Tracks\Metal\ON_Metal_Bass	
+	2009044547	OFF_Metal_LeadGuitar			\Music_Tracks\Metal\OFF_Metal_LeadGuitar	
+	2327397933	OFF_Metal_Vocals			\Music_Tracks\Metal\OFF_Metal_Vocals	
+	2869206043	ON_Metal_RhythmGuitar			\Music_Tracks\Metal\ON_Metal_RhythmGuitar	
+	2906252577	OFF_Metal_RhythmGuitar			\Music_Tracks\Metal\OFF_Metal_RhythmGuitar	
+	3087021073	ON_Metal_LeadGuitar			\Music_Tracks\Metal\ON_Metal_LeadGuitar	
+	3134386971	ON_Metal_Vocals			\Music_Tracks\Metal\ON_Metal_Vocals	
+	3912856488	ON_Metal_Drums			\Music_Tracks\Metal\ON_Metal_Drums	
+	3987475710	OFF_Metal_Drums			\Music_Tracks\Metal\OFF_Metal_Drums	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18624419	Metal_LeadGuitar_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_LeadGuitar_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_LeadGuitar\Metal_LeadGuitar_03\Metal_LeadGuitar_03		6865528
+	112689779	Metal_LeadGuitar_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_LeadGuitar_04_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_LeadGuitar\Metal_LeadGuitar_04\Metal_LeadGuitar_04		6745820
+	124682743	Metal_LeadGuitar_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_LeadGuitar_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_LeadGuitar\Metal_LeadGuitar_02\Metal_LeadGuitar_02		6950464
+	219080407	Metal_Bass	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Bass_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_Bass\Metal_Bass\Metal_Bass		6336064
+	379106065	Metal_RhythmGuitar	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_RhythmGuitar_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_RhythmGuitar\Metal_RhythmGuitar\Metal_RhythmGuitar		6288448
+	569872035	Metal_Kick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Kick_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_Kick\Metal_Kick\Metal_Kick		1536064
+	845187681	Metal_Snare	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_Snare_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_Snare\Metal_Snare\Metal_Snare		1536064
+	1011911810	Metal_LeadGuitar_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\Metal_LeadGuitar_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\Metal\Metal_LeadGuitar\Metal_LeadGuitar_01\Metal_LeadGuitar_01		6345664
+

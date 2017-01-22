@@ -30,10 +30,12 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
         {
             trackDragged = null;
             GetComponent<CanvasGroup>().blocksRaycasts = true;
-            if (transform.parent == startParent)
+            if (transform.parent == startParent || transform.parent.GetComponent<AudioChanelSlot>() ==null)
             {
+                transform.parent = startParent;
                 transform.position = startPosition;
             }
+            
         }
        
     }
