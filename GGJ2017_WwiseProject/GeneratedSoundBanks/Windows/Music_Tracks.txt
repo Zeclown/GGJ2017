@@ -1,22 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
 	285133502	OFF_Metal_Bass			\Music_Tracks\OFF_Metal_Bass	
-	322902949	OFF_Metal_Kick			\Music_Tracks\OFF_Metal_Kick	
 	498299080	ON_Metal_Snare			\Music_Tracks\ON_Metal_Snare	
 	566894298	OFF_DownTempo_Bassline_Pad			\Music_Tracks\OFF_DownTempo_Bassline_Pad	
 	805464928	ON_Metal_Bass			\Music_Tracks\ON_Metal_Bass	
+	955387714	OFF_DownTempo_Drums			\Music_Tracks\OFF_DownTempo_Drums	
 	1080617516	ON_DownTempo_Bassline_Pad			\Music_Tracks\ON_DownTempo_Bassline_Pad	
-	1083338366	OFF_DownTempo_Snare			\Music_Tracks\OFF_DownTempo_Snare	
-	1580525705	OFF_DownTempo_Kick			\Music_Tracks\OFF_DownTempo_Kick	
+	1410423788	ON_DownTempo_Drums			\Music_Tracks\ON_DownTempo_Drums	
 	1695870511	ON_Metal_Kick			\Music_Tracks\ON_Metal_Kick	
-	2712920436	ON_DownTempo_Snare			\Music_Tracks\ON_DownTempo_Snare	
 	2821427377	OFF_DownTempo_Lead			\Music_Tracks\OFF_DownTempo_Lead	
 	2869206043	ON_Metal_RhythmGuitar			\Music_Tracks\ON_Metal_RhythmGuitar	
 	2906252577	OFF_Metal_RhythmGuitar			\Music_Tracks\OFF_Metal_RhythmGuitar	
 	2976310903	PLAY_ALL			\Music_Tracks\PLAY_ALL	
 	3622661895	ON_DownTempo_Lead			\Music_Tracks\ON_DownTempo_Lead	
 	3724470386	OFF_Metal_Snare			\Music_Tracks\OFF_Metal_Snare	
+	3987475710	OFF_Metal_Drums			\Music_Tracks\OFF_Metal_Drums	
 	4015766154	ON_DownTempo_Bassline			\Music_Tracks\ON_DownTempo_Bassline	
-	4022390627	ON_DownTempo_Kick			\Music_Tracks\ON_DownTempo_Kick	
 	4094045876	OFF_DownTempo_Bassline			\Music_Tracks\OFF_DownTempo_Bassline	
 
 Effect plug-ins	ID	Name	Type				Notes

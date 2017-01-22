@@ -15,13 +15,18 @@ public class AudioChanelSlot : Slot, IPointerClickHandler
 
     public override void OnDrop(PointerEventData eventData)
     {
+       
         if (item)
         {
+
             pController.RemoveTrack(TrackID);
             item.GetComponent<DragTrackHandler>().inAudioChanel = false;
+            item.transform.position = item.GetComponent<DragTrackHandler>().startPosition;
+            item.transform.parent = item.GetComponent<DragTrackHandler>().startParent;
         }
         pController.PutTrack(DragTrackHandler.trackDragged.GetComponent<DragTrackHandler>().sample, TrackID);
         base.OnDrop(eventData);
+        DragTrackHandler.trackDragged.transform.SetParent(transform);
         DragTrackHandler.trackDragged.GetComponent<DragTrackHandler>().inAudioChanel = true;
     }
 

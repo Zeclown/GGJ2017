@@ -23,18 +23,16 @@
 			<IncludedEvents>
 				<Event Id="4094045876" Name="OFF_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Bassline" MaxAttenuation="0.000000"/>
 				<Event Id="566894298" Name="OFF_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Bassline_Pad" MaxAttenuation="0.000000"/>
-				<Event Id="1580525705" Name="OFF_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="955387714" Name="OFF_DownTempo_Drums" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Drums" MaxAttenuation="0.000000"/>
 				<Event Id="2821427377" Name="OFF_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Lead" MaxAttenuation="0.000000"/>
-				<Event Id="1083338366" Name="OFF_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\OFF_DownTempo_Snare" MaxAttenuation="0.000000"/>
 				<Event Id="285133502" Name="OFF_Metal_Bass" ObjectPath="\Events\Music_Tracks\OFF_Metal_Bass" MaxAttenuation="0.000000"/>
-				<Event Id="322902949" Name="OFF_Metal_Kick" ObjectPath="\Events\Music_Tracks\OFF_Metal_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="3987475710" Name="OFF_Metal_Drums" ObjectPath="\Events\Music_Tracks\OFF_Metal_Drums" MaxAttenuation="0.000000"/>
 				<Event Id="2906252577" Name="OFF_Metal_RhythmGuitar" ObjectPath="\Events\Music_Tracks\OFF_Metal_RhythmGuitar" MaxAttenuation="0.000000"/>
 				<Event Id="3724470386" Name="OFF_Metal_Snare" ObjectPath="\Events\Music_Tracks\OFF_Metal_Snare" MaxAttenuation="0.000000"/>
 				<Event Id="4015766154" Name="ON_DownTempo_Bassline" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline" MaxAttenuation="0.000000"/>
 				<Event Id="1080617516" Name="ON_DownTempo_Bassline_Pad" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Bassline_Pad" MaxAttenuation="0.000000"/>
-				<Event Id="4022390627" Name="ON_DownTempo_Kick" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Kick" MaxAttenuation="0.000000"/>
+				<Event Id="1410423788" Name="ON_DownTempo_Drums" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Drums" MaxAttenuation="0.000000"/>
 				<Event Id="3622661895" Name="ON_DownTempo_Lead" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Lead" MaxAttenuation="0.000000"/>
-				<Event Id="2712920436" Name="ON_DownTempo_Snare" ObjectPath="\Events\Music_Tracks\ON_DownTempo_Snare" MaxAttenuation="0.000000"/>
 				<Event Id="805464928" Name="ON_Metal_Bass" ObjectPath="\Events\Music_Tracks\ON_Metal_Bass" MaxAttenuation="0.000000"/>
 				<Event Id="1695870511" Name="ON_Metal_Kick" ObjectPath="\Events\Music_Tracks\ON_Metal_Kick" MaxAttenuation="0.000000"/>
 				<Event Id="2869206043" Name="ON_Metal_RhythmGuitar" ObjectPath="\Events\Music_Tracks\ON_Metal_RhythmGuitar" MaxAttenuation="0.000000"/>

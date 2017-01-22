@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b49bedcc3f3c9043bb120bb7b566c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  favoriteGenre: 0
+  favoriteGenre: 1
   heartSignal: {fileID: 1544484774428316, guid: 5dd9a843b15e443488ee8512243d5a76,
     type: 2}
   sadFaceSignal: {fileID: 1544484774428316, guid: e6a5025874d3c224eb38240b939da3c0,
