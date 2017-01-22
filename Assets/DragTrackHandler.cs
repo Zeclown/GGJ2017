@@ -16,7 +16,7 @@ public class DragTrackHandler : MonoBehaviour , IBeginDragHandler,IDragHandler,I
         startPosition = transform.position;
         startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts=false;
-        //AkSoundEngine.PostEvent("")
+        AkSoundEngine.PostEvent("ClickSelect",gameObject);
     }
 
     public void OnDrag(PointerEventData eventData)
