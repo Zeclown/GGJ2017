@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	566894298	OFF_DownTempo_Bassline_Pad			\Music_Tracks\DownTempo\OFF_DownTempo_Bassline_Pad	
+	955387714	OFF_DownTempo_Drums			\Music_Tracks\DownTempo\OFF_DownTempo_Drums	
+	1080617516	ON_DownTempo_Bassline_Pad			\Music_Tracks\DownTempo\ON_DownTempo_Bassline_Pad	
+	1398006727	ON_DownTempo_Vocals			\Music_Tracks\DownTempo\ON_DownTempo_Vocals	
+	1410423788	ON_DownTempo_Drums			\Music_Tracks\DownTempo\ON_DownTempo_Drums	
+	1693297081	OFF_DownTempo_Vocals			\Music_Tracks\DownTempo\OFF_DownTempo_Vocals	
+	2696378427	PLAY_ALL_DownTempo			\Music_Tracks\DownTempo\PLAY_ALL_DownTempo	
+	2821427377	OFF_DownTempo_Lead			\Music_Tracks\DownTempo\OFF_DownTempo_Lead	
+	3622661895	ON_DownTempo_Lead			\Music_Tracks\DownTempo\ON_DownTempo_Lead	
+	4015766154	ON_DownTempo_Bassline			\Music_Tracks\DownTempo\ON_DownTempo_Bassline	
+	4094045876	OFF_DownTempo_Bassline			\Music_Tracks\DownTempo\OFF_DownTempo_Bassline	
+
+Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	684947203	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	2791153688	Hall_Small	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	217461220	DownTempo_Vocals_01	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Vocals_01_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Vocals\DownTempo_Vocals_01\DownTempo_Vocals_01		1461296
+	248830396	DownTempo_Pad	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Pad_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_BasslinePad\DownTempo_Pad\DownTempo_Pad		1632064
+	441809825	DownTempo_Synth_Lead	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Synth_Lead_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Lead\DownTempo_Synth_Lead\DownTempo_Synth_Lead		6392888
+	482605420	DownTempo_Kick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Kick_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Kick\DownTempo_Kick\DownTempo_Kick		1584064
+	562728260	DownTempo_Vocals_02	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Vocals_02_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Vocals\DownTempo_Vocals_02\DownTempo_Vocals_02		1227352
+	674892571	DownTempo_Bassline	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Bassline_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Bassline\DownTempo_Bassline\DownTempo_Bassline		1571392
+	842218714	DownTempo_Vocals_03	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Vocals_03_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Vocals\DownTempo_Vocals_03\DownTempo_Vocals_03		1275516
+	851731330	DownTempo_Snare	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Snare_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Snare\DownTempo_Snare\DownTempo_Snare		1536064
+	861633355	DownTempo_Vocals_04	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\DownTempo_Vocals_04_4B8CC0C5.wem		\Interactive Music Hierarchy\Music_Tracks\DownTempo\DownTempo_Vocals\DownTempo_Vocals_04\DownTempo_Vocals_04		1165548
+

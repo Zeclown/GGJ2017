@@ -30,6 +30,7 @@ public class Attendee : MonoBehaviour {
     {
         happiness = GameManager.instance.crowd.crowd.Count == 1 ?
             50 : GameManager.instance.popularity;
+        happiness=Mathf.Clamp(happiness, 20, 100);
         leaving = false;
         mood = GetMood();
         emoteCD = 0;
@@ -72,21 +73,21 @@ public class Attendee : MonoBehaviour {
             if(mood==Mood.Happy)
             {
                 GameObject newHeart = Instantiate(heartSignal);
-                newHeart.transform.position = transform.position+Vector3.up;
+                newHeart.transform.position = transform.position;
                 newHeart.GetComponent<Animation>().Play();
                 Destroy(newHeart, 2);
             }
             else if(mood == Mood.Sad)
             {
                 GameObject newHeart = Instantiate(sadFaceSignal);
-                newHeart.transform.position = transform.position + Vector3.up;
+                newHeart.transform.position = transform.position;
                 newHeart.GetComponent<Animation>().Play();
                 Destroy(newHeart, 2);
             }
         }
         emoteCD -= Time.deltaTime;
 
-        if (happiness <= 0) {
+        if (happiness <= 0 && !leaving) {
             Leave(GameManager.instance.crowd.getExitToLeave(GetInstanceID()));
         }
 
@@ -133,8 +134,12 @@ public class Attendee : MonoBehaviour {
 
     public void ReceiveTargetPlace(Vector3 target)
     {
-        if(!nav)
+        if (this == null)
+            return;
+        if (!nav)
+        {
             nav = GetComponent<NavMeshAgent>();
+        }
         nav.SetDestination(target);
     }
 }

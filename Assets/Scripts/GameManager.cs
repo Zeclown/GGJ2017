@@ -71,10 +71,10 @@ public class GameManager : MonoBehaviour {
                 level = 3;
             }
 
-            /*if (GameDuration<=timePlayed)
+            if (GameDuration <= timePlayed)
             {
                 EndGame();
-            }*/
+            }
         }
         
     }

@@ -183,7 +183,11 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ON_Metal_Vocals" ID="{7F099341-C5DB-4493-B870-A740FE93D8FD}"/>
+						<Event Name="ON_Metal_Vocals" ID="{7F099341-C5DB-4493-B870-A740FE93D8FD}">
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{7E297FFB-CDED-4010-BD65-81C4005C0DE6}" ShortID="645847194" Type="ChangeVolume" Scope="One" Global="false"/>
+							</ChildrenList>
+						</Event>
 						<Event Name="OFF_Metal_Vocals" ID="{EE7C2B13-C50F-4228-B98B-4BE16D479382}"/>
 					</ChildrenList>
 				</Folder>

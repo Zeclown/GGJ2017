@@ -77,21 +77,23 @@ public class CrowdManager : MonoBehaviour {
     void Update () {
 
         //TODO: Modulate speed of arrival on Popularity.
+        if (GameManager.instance.state==GameState.Playing)
+        {
+            if (Time.time >= nextExitWave) {
+                MakeAttendeeLeave((int)(UnityEngine.Random.Range(11, 13) - (GameManager.instance.popularity * 0.1f)));
+                Debug.Log(crowd.Count);
+                ScheduleNextExitWaves();
+            }
+            if (Time.time >= nextArrivalWave) {
+                MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.07f));
+                Debug.Log(crowd.Count);
+                ScheduleNextArrivalWaves();
+            }
 
-        if(Time.time >= nextExitWave) {
-            MakeAttendeeLeave((int)(UnityEngine.Random.Range(11,13) - (GameManager.instance.popularity * 0.1f) ) );
-            Debug.Log(crowd.Count);
-            ScheduleNextExitWaves();
-        }
-        if (Time.time >= nextArrivalWave) {
-            MakeAttendeeArrive((int)(GameManager.instance.popularity * 0.07f) );
-            Debug.Log(crowd.Count);
-            ScheduleNextArrivalWaves();
-        }
-
-        if(Time.time >= nextTrickleArrival) {
-            MakeAttendeeArrive(1);
-            ScheduleTrickle();
+            if (Time.time >= nextTrickleArrival) {
+                MakeAttendeeArrive(1);
+                ScheduleTrickle();
+            }
         }
 
         //Debug.Log(genreWaves[0].frequencyWave.Evaluate(Time.time));
@@ -104,7 +106,7 @@ public class CrowdManager : MonoBehaviour {
         randomValue = UnityEngine.Random.Range(0, MaxSeededCount);
 
         int ii = 0;
-        while (randomValue > totalSeedValue[ii]) {
+        while (randomValue > totalSeedValue[ii] && totalSeedValue.Count<ii) {
             //Debug.Log(randomValue + " " + totalSeedValue[ii]);
             ii++;
         }

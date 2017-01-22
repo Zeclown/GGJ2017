@@ -86,6 +86,10 @@
 							<Position X="4" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="ON_Metal_Vocals" ID="{7F099341-C5DB-4493-B870-A740FE93D8FD}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="OFF_Metal_Bass" ID="{0A4D3743-91D7-4FAC-81C2-B7AA8AE5BFBB}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="5" Y="0"/>
 						</Module>

@@ -20,9 +20,11 @@ public class AudioChanelSlot : Slot, IPointerClickHandler
         {
 
             pController.RemoveTrack(TrackID);
+            item.GetComponent<CanvasGroup>().blocksRaycasts = true;
             item.GetComponent<DragTrackHandler>().inAudioChanel = false;
             item.transform.position = item.GetComponent<DragTrackHandler>().startPosition;
             item.transform.parent = item.GetComponent<DragTrackHandler>().startParent;
+     
         }
         pController.PutTrack(DragTrackHandler.trackDragged.GetComponent<DragTrackHandler>().sample, TrackID);
         base.OnDrop(eventData);
