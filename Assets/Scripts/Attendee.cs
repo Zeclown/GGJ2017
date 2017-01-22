@@ -10,6 +10,7 @@ public class Attendee : MonoBehaviour {
     public GameObject heartSignal;
     public GameObject sadFaceSignal;
     public float happiness;
+    public float leaveCD;
     //The rate at which the attendee lose happiness every tick;
     public float happinessFallOff=0.5f;
     //The rate at which the attendee lose happiness from other genres
@@ -46,6 +47,7 @@ public class Attendee : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        leaveCD += Time.deltaTime;
         CalculateHappiness();
         anim.SetBool("Walking", false);
         anim.SetBool("Dancing", false);
@@ -63,6 +65,8 @@ public class Attendee : MonoBehaviour {
                 Destroy(gameObject, 0.3f);
             }
         }
+        if (mood != GetMood())
+            leaveCD = 0;
         mood = GetMood();
         anim.SetBool("Dancing", mood!=Mood.Sad);
         if(Mathf.Abs(nav.velocity.x)>0 || Mathf.Abs(nav.velocity.y) > 0)
@@ -87,9 +91,7 @@ public class Attendee : MonoBehaviour {
         }
         emoteCD -= Time.deltaTime;
 
-        if (happiness <= 0 && !leaving) {
-            Leave(GameManager.instance.crowd.getExitToLeave(GetInstanceID()));
-        }
+
 
     }
 

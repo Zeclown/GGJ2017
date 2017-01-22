@@ -57,7 +57,12 @@ public class InGameUI : MonoBehaviour {
         arrow2.SetActive(false);
         tutorial2Completed = true;
         yield return new WaitForSeconds(6);
-        arrow1.SetActive(true);
-        GetComponent<Animation>().Play("Tutorial1Arrow");
+        if (FindObjectOfType<FolderButton>().opened)
+        {
+            arrow1.SetActive(true);
+            GetComponent<Animation>().Play("Tutorial1Arrow");
+        }
+        else
+            tutorial3Completed = true;
     }
 }
