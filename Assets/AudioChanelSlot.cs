@@ -26,6 +26,7 @@ public class AudioChanelSlot : Slot, IPointerClickHandler
             item.transform.parent = item.GetComponent<DragTrackHandler>().startParent;
      
         }
+        AkSoundEngine.PostEvent("SetSlot",gameObject);
         pController.PutTrack(DragTrackHandler.trackDragged.GetComponent<DragTrackHandler>().sample, TrackID);
         base.OnDrop(eventData);
         DragTrackHandler.trackDragged.transform.SetParent(transform);
@@ -36,6 +37,7 @@ public class AudioChanelSlot : Slot, IPointerClickHandler
     {
         if (item)
         {
+            AkSoundEngine.PostEvent("Release_NoSlot", gameObject);
             DragTrackHandler drag = item.GetComponent<DragTrackHandler>();
             pController.RemoveTrack(TrackID);
             item.GetComponent<CanvasGroup>().blocksRaycasts = true;

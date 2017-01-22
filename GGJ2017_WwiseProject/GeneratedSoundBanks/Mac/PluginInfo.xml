@@ -2,6 +2,7 @@
 <PluginInfo Project="GGJ2017_WwiseProject" Platform="Mac" BasePlatform="Mac">
 	<Plugins>
 		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
 		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion"/>
 	</Plugins>

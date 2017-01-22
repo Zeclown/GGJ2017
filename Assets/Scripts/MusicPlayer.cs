@@ -63,19 +63,37 @@ public class MusicPlayer : MonoBehaviour
     {
         return (Mathf.Cos(GameManager.instance.timePlayed * (BPM / 60.0f) * 2 * Mathf.PI) + 1.0f) / 2;
     }
-    public Color GetCurrentColor()
+    public Color GetCurrentColor(bool random=true)
     {
-        Genre highest=0;
-        float toBeat=-1;
-        for (int i = 0; i < 3; i++)
+        if (!random)
         {
-            if(GetGenreLevel((Genre)i)>toBeat)
+            Genre highest = 0;
+            float toBeat = -1;
+            for (int i = 0; i < 3; i++)
             {
-                toBeat = GetGenreLevel((Genre)i);
-                highest = (Genre)i;
+                if (GetGenreLevel((Genre)i) > toBeat)
+                {
+                    toBeat = GetGenreLevel((Genre)i);
+                    highest = (Genre)i;
+                }
+            }
+            return GetGenreColor(highest);
+        }
+        else
+        {
+            float pick=UnityEngine.Random.Range(0.01f, 1);
+            for (int i = 0; i < 3; i++)
+            {
+                pick -= GetGenreLevel((Genre)i);
+                if(pick<=0)
+                {
+                    return GetGenreColor((Genre)i);
+                }
+
+                
             }
         }
-        return GetGenreColor(highest);
+        return Color.black;
     }
     public bool IsPlayingAnything()
     {

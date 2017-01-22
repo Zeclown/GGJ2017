@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
-	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	15687802	UI_ReleaseNoSLot	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_ReleaseNoSLot_1AAE2981.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_ReleaseNoSlot\UI_ReleaseNoSLot		6700

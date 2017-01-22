@@ -106,7 +106,7 @@ public class CrowdManager : MonoBehaviour {
         randomValue = UnityEngine.Random.Range(0, MaxSeededCount);
 
         int ii = 0;
-        while (randomValue > totalSeedValue[ii] && totalSeedValue.Count<ii) {
+        while (randomValue < totalSeedValue[ii] && totalSeedValue.Count<ii) {
             //Debug.Log(randomValue + " " + totalSeedValue[ii]);
             ii++;
         }

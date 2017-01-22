@@ -2054,7 +2054,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 7
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.9977823, g: 1, b: 0.8392157, a: 1}
   m_Intensity: 1.09
   m_Range: 10
   m_SpotAngle: 30
@@ -8192,9 +8192,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
+  defaultPoolSize: 8000
+  lowerPoolSize: 4000
+  streamingPoolSize: 2000
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
   engineLogging: 1
