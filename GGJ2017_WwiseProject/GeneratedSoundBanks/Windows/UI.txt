@@ -6,9 +6,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2395430635	SetSlot			\UI\SetSlot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	15687802	UI_ReleaseNoSLot	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_ReleaseNoSLot_1AAE2981.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_ReleaseNoSlot\UI_ReleaseNoSLot		6700
-	81845897	UI_CloseUI	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_CloseUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Close\UI_CloseUI		113560
-	97574245	UI_OpenUI	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_OpenUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Open\UI_OpenUI		126656
-	778952916	UI_SelectClick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_SelectClick_8853C8C0.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SelectClick\UI_SelectClick		5664
-	983460442	UI_Click_SetSlot	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_Click_SetSlot_2EA58FC9.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SetSlot\UI_Click_SetSlot		37932
+	15687802	UI_ReleaseNoSLot	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_ReleaseNoSLot_2A5E7F7E.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_ReleaseNoSlot\UI_ReleaseNoSLot		6700
+	81845897	UI_CloseUI	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_CloseUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Close\UI_CloseUI		113560
+	97574245	UI_OpenUI	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_OpenUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Open\UI_OpenUI		126656
+	180244857	UI_UnSlot	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_UnSlot_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_UnSlot\UI_UnSlot		23872
+	778952916	UI_SelectClick	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_SelectClick_E46336A7.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SelectClick\UI_SelectClick		5664
+	983460442	UI_Click_SetSlot	Z:\Volumes\SSD\[02] CALL-OF-THE-COFFEE\COTC_GIT\GGJ2017_WwiseProject\.cache\Windows\SFX\UI_Click_SetSlot_6DE17A47.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SetSlot\UI_Click_SetSlot		37932
 
