@@ -3,10 +3,15 @@
 	<Platform GUID="{E57A78D0-7B32-4261-BDD4-378974BC350F}">
 		<Banks>
 			<Language ID="0">
+<<<<<<< HEAD
 				<File Name="DownTempo" Hash="2566945749" Timestamp="131295406817663837"/>
 				<File Name="Folk" Hash="1806095829" Timestamp="131295406816880422"/>
 				<File Name="Init" Hash="531163022" Timestamp="131295406817718999"/>
 				<File Name="Metal" Hash="1847437240" Timestamp="131295406816071288"/>
+=======
+				<File Name="Init" Hash="531163022" Timestamp="131295382840000000"/>
+				<File Name="Metal" Hash="2790186435" Timestamp="131295382840000000"/>
+>>>>>>> d46f68c665a29ad31a85ff941f64081a25cf47a4
 				<File Name="Music" Hash="2781227424" Timestamp="131294417430000000"/>
 				<File Name="Music_Tracks" Hash="433177648" Timestamp="131295334780000000"/>
 			</Language>
@@ -18,23 +23,35 @@
 				<File Name="Music_Tracks" Hash="1182193826" Timestamp="131294561350000000"/>
 			</Language>
 			<Language ID="-1">
+<<<<<<< HEAD
 				<File Name="" Hash="4208213025" Timestamp="131295406817779139"/>
+=======
+				<File Name="" Hash="4051891119" Timestamp="131295382840000000"/>
+>>>>>>> d46f68c665a29ad31a85ff941f64081a25cf47a4
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{894DFC2F-6736-4CC0-B3CB-E3190516292D}">
 		<Banks>
 			<Language ID="0">
+<<<<<<< HEAD
 				<File Name="DownTempo" Hash="2566945749" Timestamp="131295406812504811"/>
 				<File Name="Folk" Hash="1806095829" Timestamp="131295406811555462"/>
 				<File Name="Init" Hash="3221149344" Timestamp="131295406812597761"/>
 				<File Name="Metal" Hash="1847437240" Timestamp="131295406810643632"/>
+=======
+				<File Name="Init" Hash="3221149344" Timestamp="131294737771758591"/>
+>>>>>>> d46f68c665a29ad31a85ff941f64081a25cf47a4
 				<File Name="Music_Tracks" Hash="4213701612" Timestamp="131295273171872499"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
+<<<<<<< HEAD
 				<File Name="" Hash="534648015" Timestamp="131295406812653472"/>
+=======
+				<File Name="" Hash="2520799506" Timestamp="131295273172008144"/>
+>>>>>>> d46f68c665a29ad31a85ff941f64081a25cf47a4
 			</Language>
 		</XMLInfo>
 	</Platform>
