@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Light))]
 public class MusicLight : MonoBehaviour {
-    float intensity;
+    public float intensity;
     Light lightComp;
+    public bool genreUnified = true;
+    public float defaultIntensity;
 	// Use this for initialization
 	void Start () {
         lightComp=GetComponent<Light>();
@@ -13,7 +15,13 @@ public class MusicLight : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        lightComp.intensity = MusicPlayer.instance.GetBeat();
+        if (MusicPlayer.instance.IsPlayingAnything()) {
+            if(genreUnified)
+                lightComp.color = MusicPlayer.instance.GetCurrentColor();
+            lightComp.intensity = MusicPlayer.instance.GetBeat() * intensity;
+        }else {
+            lightComp.intensity = defaultIntensity;
+        }
         
 	}
 }

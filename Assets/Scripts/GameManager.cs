@@ -64,12 +64,12 @@ public class GameManager : MonoBehaviour {
                 if (score > 200 && level == 1)
                 {
                     FindObjectOfType<SoundboardUI>().UnlockFolk();
-                    crowd.genreWaves[1].Activate(timePlayed);
                     level = 2;
                 }
-                if (score > 400 && level == 2)
+                if (score > 220 && level == 2)
                 {
                     level = 3;
+                    crowd.genreWaves[1].Activate(timePlayed);
                     Debug.Log("Unlock");
                 }
                 else if (score > 1000 && level == 3)

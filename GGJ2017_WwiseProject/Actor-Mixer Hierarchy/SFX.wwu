@@ -288,7 +288,19 @@
 					<ChildrenList>
 						<SwitchContainer Name="Cheering" ID="{1A5AA5C4-B04B-428C-90B1-A27B488945F6}" ShortID="508435653">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -615,6 +627,21 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Cheers_Lg" ID="{A16386A2-70AA-48E8-A5FC-17B7813E4A1B}" ShortID="839242690">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
@@ -650,8 +677,8 @@
 								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
-								<GroupRef Name="Crowd" ID="{20E18BC5-CDB2-4769-B711-793F783024CA}"/>
-								<DefaultSwitchRef Name="Solo" ID="{E9937656-3E21-4134-B858-14DE3206B874}"/>
+								<GroupRef Name="Crowd_Cheers" ID="{7B105213-F681-44BC-9EFF-0846D3A0AF59}"/>
+								<DefaultSwitchRef Name="Default" ID="{C99DF416-DB7F-46F0-A4A1-6402FBA85209}"/>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Cheers_Med" ID="{6F837E25-51A8-4626-908E-A3DE707BFB9C}"/>
@@ -677,27 +704,30 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="Solo" ID="{E9937656-3E21-4134-B858-14DE3206B874}"/>
+										<SwitchRef Name="Big_Crowd" ID="{5347EC56-8674-419F-9638-69701C87CAE5}"/>
+										<ItemList>
+											<ItemRef Name="Cheers_Lg" ID="{A16386A2-70AA-48E8-A5FC-17B7813E4A1B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Solo_Dude" ID="{444DB5AF-80CE-4070-BF04-B3D8D8E2DF58}"/>
 										<ItemList>
 											<ItemRef Name="Cheers_Solo" ID="{DA38BA2F-4F64-40B7-81E3-6D342078FF41}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Small_Crowd" ID="{BADF5C65-75B5-4434-8F18-D10DE4F7A6E3}"/>
+										<SwitchRef Name="Small_Crowd" ID="{17DB57F4-55F6-4953-B86E-76BB5A93951E}"/>
 										<ItemList>
 											<ItemRef Name="Cheers_Med" ID="{6F837E25-51A8-4626-908E-A3DE707BFB9C}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Big_Crowd" ID="{5BA14569-4A26-44F1-8CFE-E77D6C510C84}"/>
-										<ItemList>
-											<ItemRef Name="Cheers_Lg" ID="{A16386A2-70AA-48E8-A5FC-17B7813E4A1B}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Booing" ID="{2375B6C3-CFE7-4D8B-ABE1-450A26FBDB2B}" ShortID="437601808">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
@@ -706,9 +736,158 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Boos_Solo" ID="{8878DA9B-CD36-491B-B6AE-4857E60F4FFF}" ShortID="47533981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Boos_Med" ID="{70C7DC2C-04AB-4910-9909-C876DFF52B64}" ShortID="39877038">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crowd_Small_Boos_01" ID="{4813CA5F-563D-4C99-8172-746DC27AED36}" ShortID="504390916" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_01" ID="{BCF9AF37-B578-460C-8E45-8C9DEAEDD5B7}" ShortID="506838462">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_01" ID="{BCF9AF37-B578-460C-8E45-8C9DEAEDD5B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Small_Boos_02" ID="{2308A79B-6853-48D0-AD8D-EFD86E1055C2}" ShortID="374637601" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_02" ID="{1A8A9FEB-DBEC-413C-AC0F-5E0E34169F92}" ShortID="170555658">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_02" ID="{1A8A9FEB-DBEC-413C-AC0F-5E0E34169F92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Small_Boos_03" ID="{2BC78E98-41EF-4D1E-BA7B-7970BBE530B7}" ShortID="550991537" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_03" ID="{1A7F69A6-2544-4E3A-AC99-FC5C1487FF19}" ShortID="632763415">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_03" ID="{1A7F69A6-2544-4E3A-AC99-FC5C1487FF19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<BlendContainer Name="Boos_Lg" ID="{17995E76-6BB3-486D-9D69-6DC0D86DC46C}" ShortID="33501379">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crowd_Big_Boos_Lp" ID="{1271B84B-A62A-4E44-8E13-2C6BDA0D15AA}" ShortID="974102397" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Big_Boos_Lp" ID="{2F8A1F5F-8C47-4BDC-B478-9BA57CEB6BF0}" ShortID="819160723">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Big_Boos_Lp.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Big_Boos_Lp" ID="{2F8A1F5F-8C47-4BDC-B478-9BA57CEB6BF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
 							<GroupingInfo>
-								<GroupRef Name="Crowd" ID="{20E18BC5-CDB2-4769-B711-793F783024CA}"/>
-								<DefaultSwitchRef Name="Solo" ID="{E9937656-3E21-4134-B858-14DE3206B874}"/>
+								<GroupRef Name="Crowd_Boos" ID="{492AD020-4DC8-497B-A497-189CED2F0B7E}"/>
+								<DefaultSwitchRef Name="Default" ID="{EF3BCE7A-2ED8-4A21-A41B-5710EE8B2F7D}"/>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Boos_Med" ID="{70C7DC2C-04AB-4910-9909-C876DFF52B64}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Boos_Lg" ID="{17995E76-6BB3-486D-9D69-6DC0D86DC46C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Boos_Solo" ID="{8878DA9B-CD36-491B-B6AE-4857E60F4FFF}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Solo_Dude" ID="{1C5DC942-99A9-419F-A0CA-7CED7B0E08F9}"/>
+										<ItemList>
+											<ItemRef Name="Boos_Solo" ID="{8878DA9B-CD36-491B-B6AE-4857E60F4FFF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Big_Crowd" ID="{138DFF64-7085-4961-B830-489CA82E6EA5}"/>
+										<ItemList>
+											<ItemRef Name="Boos_Lg" ID="{17995E76-6BB3-486D-9D69-6DC0D86DC46C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Small_Crowd" ID="{E2A359CD-6C4A-4EE4-AD44-2A352DD212FC}"/>
+										<ItemList>
+											<ItemRef Name="Boos_Med" ID="{70C7DC2C-04AB-4910-9909-C876DFF52B64}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Cheers_Solo" ID="{8DE5D1AC-A072-4224-8E25-7742526260DE}" ShortID="575121291">
