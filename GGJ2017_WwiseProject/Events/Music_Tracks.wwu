@@ -351,10 +351,43 @@
 										</Element>
 									</ElementList>
 								</Action>
+								<Action Name="Play" ID="{5588D788-00EF-4A93-A096-EE2F1855E4AA}" ShortID="675898860" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0D572A6D-FDCE-444A-94D3-3990EE852A1B}" Global="false">
+											<ObjectRef Name="DownTempo_Vocals" ID="{01B9D61D-E559-469B-8AC4-37B28CCE73B1}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ON_DownTempo_Vocals" ID="{77A1C0A3-D6D2-4073-A26F-D67B0223C7CB}"/>
-						<Event Name="OFF_DownTempo_Vocals" ID="{307E8BFD-D02C-45F6-A1FF-1C6FCAF512FC}"/>
+						<Event Name="ON_DownTempo_Vocals" ID="{77A1C0A3-D6D2-4073-A26F-D67B0223C7CB}">
+							<ChildrenList>
+								<Action Name="Set Voice Volume" ID="{14E4A61C-3389-4538-A25A-2EBD206CE696}" ShortID="233333439" Type="ChangeVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3F1524B5-BD62-448E-9176-58B9D9228E98}" Global="true">
+											<ObjectRef Name="DownTempo_Vocals" ID="{01B9D61D-E559-469B-8AC4-37B28CCE73B1}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="OFF_DownTempo_Vocals" ID="{307E8BFD-D02C-45F6-A1FF-1C6FCAF512FC}">
+							<ChildrenList>
+								<Action Name="Reset Voice Volume" ID="{D4CB366C-84CA-4A30-B2C7-459E05BC7B33}" ShortID="964980360" Type="ResetVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1BD27E6B-5993-4BCB-B186-EF98B0DB3CFA}" Global="true">
+											<ObjectRef Name="DownTempo_Vocals" ID="{01B9D61D-E559-469B-8AC4-37B28CCE73B1}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Folk" ID="{F5F68B8D-6D2A-4E1E-8246-AB7EB159BA7E}" ShortID="611825979">
