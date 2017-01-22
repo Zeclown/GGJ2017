@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="UI" ID="{C2B2D6BA-8828-4F30-86A6-5167E0AB944B}" ShortID="475090958">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI_Bus" ID="{6BFEAC62-8901-46EB-94A4-57E0C9DBCBC9}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="UI_SelectClick" ID="{4E634BCF-82D4-4D45-BC69-C8FE5C531F51}" ShortID="358900265">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI_SelectClick" ID="{A1E7CE65-B5B5-4ADA-A11B-AED42D5ED765}" ShortID="72197042" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_SelectClick" ID="{2FEF2EE4-97A7-4D52-A920-BED01AD88563}" ShortID="778952916">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0103309628008753"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0291562727935815"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI_SelectClick.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_SelectClick" ID="{2FEF2EE4-97A7-4D52-A920-BED01AD88563}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="UI_ReleaseNoSlot" ID="{7E5D966A-BB36-4C22-B68B-A28030E428B9}" ShortID="21598567">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI_ReleaseNoSLot" ID="{EAF6CDAC-3F0C-49B9-98D6-C0B284E71070}" ShortID="515915784" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_ReleaseNoSLot" ID="{98B1A243-F2DC-4007-8A2E-A4EA510329E0}" ShortID="15687802">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00521845368344272"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0345722556528081"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI_ReleaseNoSLot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_ReleaseNoSLot" ID="{98B1A243-F2DC-4007-8A2E-A4EA510329E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+						<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="UI_ReleaseNoSlot" ID="{7E5D966A-BB36-4C22-B68B-A28030E428B9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="UI_SelectClick" ID="{4E634BCF-82D4-4D45-BC69-C8FE5C531F51}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -3,7 +3,31 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="UI_Bus" ID="{6BFEAC62-8901-46EB-94A4-57E0C9DBCBC9}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{7E89EEDF-994F-4DCB-B5AE-0E59ACA2FB11}"/>
+									<DuckingParam>
+										<Volume>-8</Volume>
+										<FadeInTime>0.100000001490116</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{7E89EEDF-994F-4DCB-B5AE-0E59ACA2FB11}">
+							<ChildrenList>
+								<Bus Name="DownTempo" ID="{0E770D5F-6436-4DAF-889F-357C57109BF0}"/>
+								<Bus Name="Folk" ID="{A64F403E-FFF7-420C-B0BF-F77EA27DCEA3}"/>
+								<Bus Name="Metal" ID="{3BCBAE5D-D545-42AF-B3B3-642F7BDCDE3E}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

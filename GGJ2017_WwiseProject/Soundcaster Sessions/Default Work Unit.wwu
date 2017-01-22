@@ -54,6 +54,14 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="ClickSelect" ID="{935ABFA8-5220-4191-A5AB-4049834EFAD4}" WorkUnitID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Release_NoSlot" ID="{98F58A0B-6D30-4A5C-8FBF-36995CF818F6}" WorkUnitID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="OFF_Folk_Bass" ID="{921FE78D-9B18-4CE4-AEFE-923D3CD753CC}" WorkUnitID="{50BB63CF-0896-43B1-9EEC-2D9E8575C37E}"/>
 							<Position X="3" Y="0"/>
 						</Module>
