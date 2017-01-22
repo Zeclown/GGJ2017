@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class InGameUI : MonoBehaviour {
-    public Text scoreText;
     public Text clockText;
-    public Text popularityText;
     public GameObject arrow1;
     public GameObject arrow2;
     private bool tutorial1Completed = false;
@@ -29,8 +27,7 @@ public class InGameUI : MonoBehaviour {
             arrow1.SetActive(true);
             GetComponent<Animation>().Play("Tutorial1Arrow");
         }
-        scoreText.text = GameManager.instance.Score.ToString();
-        popularityText.text = GameManager.instance.popularity.ToString();
+       
         clockText.text = ((int)GameManager.instance.GameDuration-(int)GameManager.instance.timePlayed).ToString();
     }
     public void CompleteTutorial1()

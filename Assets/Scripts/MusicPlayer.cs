@@ -106,16 +106,27 @@ public class MusicPlayer : MonoBehaviour
         }
         return false;
     }
+    public void StopMusic()
+    {
+        foreach (MusicSample? sample in playing)
+        {
+            if (sample != null)
+            {
+                AkSoundEngine.PostEvent(sample.Value.stopEvent, gameObject);
+            }
+        }
+    }
     public Color GetGenreColor(Genre genre)
     {
         switch (genre)
         {
             case Genre.Folk:
-                return Color.yellow;
+                
+                return new Color(229 / 255.0f, 200 / 255.0f, 78 / 255.0f);
             case Genre.DownBeat:
-                return Color.blue;
+                return new Color(131 / 255.0f, 223 / 255.0f, 255 / 255.0f);
             case Genre.Metal:
-                return Color.red;
+                return new Color(247 / 255.0f, 114 / 255.0f, 97 / 255.0f);
             default:
                 return Color.red;
         }
