@@ -748,6 +748,9 @@
 									</ReferenceList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Boos_Med" ID="{70C7DC2C-04AB-4910-9909-C876DFF52B64}" ShortID="39877038">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
@@ -756,6 +759,65 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crowd_Small_Boos_01" ID="{4813CA5F-563D-4C99-8172-746DC27AED36}" ShortID="504390916" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_01" ID="{BCF9AF37-B578-460C-8E45-8C9DEAEDD5B7}" ShortID="506838462">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_01" ID="{BCF9AF37-B578-460C-8E45-8C9DEAEDD5B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Small_Boos_02" ID="{2308A79B-6853-48D0-AD8D-EFD86E1055C2}" ShortID="374637601" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_02" ID="{1A8A9FEB-DBEC-413C-AC0F-5E0E34169F92}" ShortID="170555658">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_02" ID="{1A8A9FEB-DBEC-413C-AC0F-5E0E34169F92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crowd_Small_Boos_03" ID="{2BC78E98-41EF-4D1E-BA7B-7970BBE530B7}" ShortID="550991537" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Small_Boos_03" ID="{1A7F69A6-2544-4E3A-AC99-FC5C1487FF19}" ShortID="632763415">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Small_Boos_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Small_Boos_03" ID="{1A7F69A6-2544-4E3A-AC99-FC5C1487FF19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Boos_Lg" ID="{17995E76-6BB3-486D-9D69-6DC0D86DC46C}" ShortID="33501379">
 									<ReferenceList>
@@ -766,6 +828,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crowd_Big_Boos_Lp" ID="{1271B84B-A62A-4E44-8E13-2C6BDA0D15AA}" ShortID="974102397" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crowd_Big_Boos_Lp" ID="{2F8A1F5F-8C47-4BDC-B478-9BA57CEB6BF0}" ShortID="819160723">
+													<Language>SFX</Language>
+													<AudioFile>Crowd_Big_Boos_Lp.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Crowd_Big_Boos_Lp" ID="{2F8A1F5F-8C47-4BDC-B478-9BA57CEB6BF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
