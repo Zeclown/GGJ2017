@@ -2906,13 +2906,6 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Metal_Vocals" ID="{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}" ShortID="457086471">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-96</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
@@ -3114,31 +3107,7 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{0EA271CB-0042-4985-8AEC-190A64F934EF}" ShortID="970460886">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{649CE726-4B80-471C-8BEC-C4CA1245719F}" ShortID="690865636">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="Metal_Vocals_01" ID="{8F000E06-87E4-402E-8C73-128580DE7F3E}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{E3DC5A98-CF0A-43E0-B188-A2F65D07F14C}" ShortID="678170349">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="Metal_Vocals_02" ID="{B27B1995-1F41-446E-BAB6-99CAAE0E1B24}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{97AE46DA-377C-4536-AC1F-06564B60CB8B}" ShortID="1035658547">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="Metal_Vocals_03" ID="{A0331323-00AA-4B29-A789-4B5C489ED30B}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
-								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0EA271CB-0042-4985-8AEC-190A64F934EF}" ShortID="970460886"/>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>

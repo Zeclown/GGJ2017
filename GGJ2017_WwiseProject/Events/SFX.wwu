@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Crowd_Boos" ID="{C69A32B0-1E8A-45FA-BCFE-78413B9E6C54}">
+					<ChildrenList>
+						<Action Name="Play" ID="{61354808-D75B-44C5-A945-4D0894A5375F}" ShortID="210965936" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F0322DF-6A42-46C1-A671-9F148ED4AFEB}" Global="false">
+									<ObjectRef Name="Booing" ID="{2375B6C3-CFE7-4D8B-ABE1-450A26FBDB2B}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

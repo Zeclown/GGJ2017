@@ -22,6 +22,7 @@ public class GameInstance : MonoBehaviour {
     }
     public void ToMainMenu()
     {
+        MusicPlayer.instance.StopMusic();
         SceneManager.LoadScene("MainMenu");
     } 
     public void ToMainGame()
@@ -30,6 +31,7 @@ public class GameInstance : MonoBehaviour {
     }
     public void ToEndGame()
     {
+        MusicPlayer.instance.StopMusic();
         SceneManager.LoadScene("EndGame");
     }
 }
