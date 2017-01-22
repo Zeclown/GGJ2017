@@ -221,6 +221,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{919400B8-C8CB-4E15-875E-1C76E1E02777}" ShortID="468502782" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{75B3668C-FCA5-428B-9EDC-278F35909D56}" Global="false">
+									<ObjectRef Name="Metal_LeadGuitar" ID="{05596338-E370-457E-ADA2-219C4287A10C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ON_Metal_RhythmGuitar" ID="{25D65049-6894-4DBD-AB2A-1DAC95C79EC7}">
@@ -406,6 +413,34 @@
 							<ElementList>
 								<Element ID="{A1D8AB07-7EC7-458A-8337-7D4DE6F1A290}" Global="true">
 									<ObjectRef Name="Folk_LeadGuitar" ID="{76389B1E-E783-4CB9-82FC-493CC0932BAA}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Metal_LeadGuitar" ID="{F64DE7BC-5CB7-4755-BC16-C26FCEA0DDC5}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{CCF42254-9BE5-4574-AE60-6C3665C6DB5E}" ShortID="790387210" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A51C0CD7-A2DA-4AC2-942D-BF69BB44801B}" Global="true">
+									<ObjectRef Name="Metal_LeadGuitar" ID="{05596338-E370-457E-ADA2-219C4287A10C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Metal_LeadGuitar" ID="{8B98888E-05B2-438E-84A9-29110AFCECE2}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{ABD4BF9E-5A35-415A-A60D-EC64080731F5}" ShortID="132535863" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4538C72B-596A-4665-B0FB-C2ECF24C489D}" Global="true">
+									<ObjectRef Name="Metal_LeadGuitar" ID="{05596338-E370-457E-ADA2-219C4287A10C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
 								</Element>
 							</ElementList>
 						</Action>

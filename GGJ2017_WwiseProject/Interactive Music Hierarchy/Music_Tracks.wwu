@@ -1780,6 +1780,13 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Metal_LeadGuitar" ID="{05596338-E370-457E-ADA2-219C4287A10C}" ShortID="626221318">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
@@ -1788,6 +1795,256 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Metal_LeadGuitar_01" ID="{3CA793BA-711E-413A-9AEF-8CE33E4EAE69}" ShortID="854944802">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="33050"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Metal_LeadGuitar_01" ID="{E636B1B9-32DC-4AD0-85FF-79C1A33F327E}" ShortID="1027765246">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal_LeadGuitar_01" ID="{20DDFC4E-3A79-4694-8228-A73BE4FD8597}" ShortID="1011911810">
+											<Language>SFX</Language>
+											<AudioFile>Metal_LeadGuitar_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{806E62D7-DF01-4710-8576-7CC18CC34C6C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A45CB2C2-8FF1-4EE0-A136-93AE2FA03608}">
+											<ClipList>
+												<MusicClip Name="Metal_LeadGuitar_01" ID="{18F8FA83-20FB-4E29-AD2B-208564F9B6AB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="33050"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="289.912280701752"/>
+													</PropertyList>
+													<AudioSourceRef Name="Metal_LeadGuitar_01" ID="{20DDFC4E-3A79-4694-8228-A73BE4FD8597}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{25BECB2C-0FC3-4851-8436-EC07A018EADB}"/>
+								<MusicCue Name="Exit Cue" ID="{B116E193-415F-4019-9C0A-AE38772012BE}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="32000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Metal_LeadGuitar_02" ID="{30BFE202-B49E-47E0-A364-947A176CCC82}" ShortID="591321689">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="38377.4436090226"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Metal_LeadGuitar_02" ID="{F9387A7C-9CF4-4AF7-852C-735B636AE53D}" ShortID="268183555">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal_LeadGuitar_02" ID="{82EF259E-2653-4CC0-8C04-BD7755F7B15D}" ShortID="124682743">
+											<Language>SFX</Language>
+											<AudioFile>Metal_LeadGuitar_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4A7C48A2-C9FB-49EA-9A98-E2C45C86C181}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{78D0FA93-CE00-491D-99A2-36ECE7E5F36C}">
+											<ClipList>
+												<MusicClip Name="Metal_LeadGuitar_02" ID="{3D5BD066-778D-485D-9E73-091149336E59}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="36200"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="544.360902255641"/>
+													</PropertyList>
+													<AudioSourceRef Name="Metal_LeadGuitar_02" ID="{82EF259E-2653-4CC0-8C04-BD7755F7B15D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{18EDA4C8-109F-4B5D-92C5-E3276D929B74}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="2000"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{B39E75F8-B10F-42AC-9488-358F72596692}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="34000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Metal_LeadGuitar_03" ID="{CBCA7486-B80C-4819-A54A-2439F889CC29}" ShortID="99649407">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="38257.625"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Metal_LeadGuitar_03" ID="{8B2A16F9-3743-4580-9ADE-B8D3FFB7FD9B}" ShortID="383615445">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal_LeadGuitar_03" ID="{115E0617-B3B7-4E39-97E5-6FDC4663E42E}" ShortID="18624419">
+											<Language>SFX</Language>
+											<AudioFile>Metal_LeadGuitar_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{332C0B5A-7F8F-4656-9C91-2271C2B83D5D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{46F6F0AF-628C-4A87-B54C-F80A02B6FB1D}">
+											<ClipList>
+												<MusicClip Name="Metal_LeadGuitar_03" ID="{40513F9A-57DB-4C4B-B4CE-0B637F0BC7BA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="35757.625"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="358.472431077694"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="313.663377192985"/>
+													</PropertyList>
+													<AudioSourceRef Name="Metal_LeadGuitar_03" ID="{115E0617-B3B7-4E39-97E5-6FDC4663E42E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7558C05A-C041-4B63-A98E-FB03122208EE}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="2000"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{392D2977-2F08-4BBF-BC73-DCF97C31A03D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="34000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Metal_LeadGuitar_04" ID="{8A4B94AE-5C0B-40D2-8E0C-7E3F47A26A90}" ShortID="985587393">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="37134.1458333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Metal_LeadGuitar_04" ID="{D3CE0C4D-6507-4223-B11B-EB602D0BAA94}" ShortID="191501389">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal_LeadGuitar_04" ID="{33FB2329-9B52-4075-AD63-A62827EDF090}" ShortID="112689779">
+											<Language>SFX</Language>
+											<AudioFile>Metal_LeadGuitar_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2F531392-AF6D-4FE7-A4AA-2114B7FF4433}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{18D45D4D-CD27-472E-954C-C941042A0B79}">
+											<ClipList>
+												<MusicClip Name="Metal_LeadGuitar_04" ID="{FC0DE988-138B-4686-BA41-97F625F35D40}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="35134.1458333333"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="220.138758354219"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="660.416275062656"/>
+													</PropertyList>
+													<AudioSourceRef Name="Metal_LeadGuitar_04" ID="{33FB2329-9B52-4075-AD63-A62827EDF090}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{5322F555-DEF4-4109-AAE4-AB1D94302391}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="2000"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{6B293E3D-B87E-4A71-BF76-79AA7F666356}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="34000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{69512623-34DD-4549-A71A-CFAEBC819BB7}">
 							<PropertyList>
@@ -1802,7 +2059,39 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{43E71D07-66C4-40A8-B3C1-E6520568BFEB}" ShortID="56479806"/>
+						<MusicPlaylistItem Name="" ID="{43E71D07-66C4-40A8-B3C1-E6520568BFEB}" ShortID="56479806">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="2"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{67B7AA58-7BD9-4F0D-AE72-2AD8ED50584F}" ShortID="795489660">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Metal_LeadGuitar_01" ID="{3CA793BA-711E-413A-9AEF-8CE33E4EAE69}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A957C226-D830-40C4-9A2B-CF4DA1CB4200}" ShortID="92865364">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Metal_LeadGuitar_02" ID="{30BFE202-B49E-47E0-A364-947A176CCC82}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{FBA9FD88-77B4-424B-B09F-AF4558A3E576}" ShortID="1025297366">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Metal_LeadGuitar_03" ID="{CBCA7486-B80C-4819-A54A-2439F889CC29}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{E73B7388-FB3D-434F-902E-E3864B3A1D2C}" ShortID="29705794">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Metal_LeadGuitar_04" ID="{8A4B94AE-5C0B-40D2-8E0C-7E3F47A26A90}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Metal_Vocals" ID="{CB96790E-7CF0-4E76-AE4A-B55EBA1C0A23}" ShortID="457086471">
