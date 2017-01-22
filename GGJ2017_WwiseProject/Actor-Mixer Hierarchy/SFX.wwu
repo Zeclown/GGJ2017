@@ -173,6 +173,40 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<BlendContainer Name="UI_Close" ID="{79CC9BC8-A806-46C0-A690-9F817AAB7A75}" ShortID="634034546">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="UI_CloseUI" ID="{F9043E34-6651-45B6-BC04-19DF2801E757}" ShortID="353119868" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_CloseUI" ID="{9E65A281-B5E4-43A1-92A5-AC46DD4C51D3}" ShortID="81845897">
+											<Language>SFX</Language>
+											<AudioFile>UI_CloseUI.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_CloseUI" ID="{9E65A281-B5E4-43A1-92A5-AC46DD4C51D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
@@ -186,6 +220,9 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="UI_ReleaseNoSlot" ID="{7E5D966A-BB36-4C22-B68B-A28030E428B9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="UI_Close" ID="{79CC9BC8-A806-46C0-A690-9F817AAB7A75}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="UI_SelectClick" ID="{4E634BCF-82D4-4D45-BC69-C8FE5C531F51}"/>
