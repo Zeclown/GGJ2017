@@ -200,6 +200,27 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{9C9E36E8-079F-48FD-B5C8-6CA2D93EC29A}" ShortID="257338475" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{38C6EDA5-3266-4914-9936-7816EF499E55}" Global="false">
+									<ObjectRef Name="Folk_LeadGuitar" ID="{76389B1E-E783-4CB9-82FC-493CC0932BAA}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{C181F0AE-C647-4954-A2AA-86D447399CAE}" ShortID="691588536" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9B5FBF20-14AB-495B-8FA9-FE213E56E889}" Global="false">
+									<ObjectRef Name="Folk_Bass" ID="{62D9C02A-EAFD-4F84-A0C1-85BFDB8C4839}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{5A4D0E29-B283-4CCB-A85E-94F0935F18CB}" ShortID="473758853" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A620F518-91B9-4CB6-9F87-CEC0A088B84B}" Global="false">
+									<ObjectRef Name="Folk_RhythmGuitar" ID="{FE1ECF7A-5978-4214-BFAB-4CEBDA76BD1C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ON_Metal_RhythmGuitar" ID="{25D65049-6894-4DBD-AB2A-1DAC95C79EC7}">
@@ -230,7 +251,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="ON_Metal_Kick" ID="{56145522-CD67-40D8-B2F8-2BAFEDA12804}">
+				<Event Name="ON_Metal_Drums" ID="{56145522-CD67-40D8-B2F8-2BAFEDA12804}">
 					<ChildrenList>
 						<Action Name="Set Voice Volume" ID="{14CAD862-07E1-4848-80AA-429AD3606D8F}" ShortID="309648186" Type="ChangeVolume" Scope="One" Global="true">
 							<PropertyList>
@@ -248,20 +269,6 @@
 							</PropertyList>
 							<ElementList>
 								<Element ID="{EFD5364A-FB5C-4680-B96E-17F35B424421}" Global="true">
-									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="ON_Metal_Snare" ID="{F42B795E-A3CB-482B-B127-91827DD3C005}">
-					<ChildrenList>
-						<Action Name="Set Voice Volume" ID="{24A9FC01-A9BE-4248-8270-91B44A92B35F}" ShortID="13399529" Type="ChangeVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{128F6520-65B7-404A-BBE2-29AFA1C1279F}" Global="true">
 									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
 								</Element>
 							</ElementList>
@@ -296,20 +303,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="OFF_Metal_Snare" ID="{323D72BC-D8A3-4808-874D-EA2D9FB306AA}">
-					<ChildrenList>
-						<Action Name="Reset Voice Volume" ID="{48C0E0CE-8931-4C1A-8429-B305C399013A}" ShortID="605856561" Type="ResetVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{F40D1F68-F1B5-4FF9-AF3F-4D845501A085}" Global="true">
-									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="OFF_Metal_Drums" ID="{8C2D1E41-FB16-4822-BE04-4928338A5550}">
 					<ChildrenList>
 						<Action Name="Reset Voice Volume" ID="{EC7289E2-5E74-4657-9446-E2A0171C3B61}" ShortID="714021274" Type="ResetVolume" Scope="One" Global="true">
@@ -329,6 +322,90 @@
 							<ElementList>
 								<Element ID="{B56DCA87-FBC2-439D-B377-9B21B9C96927}" Global="true">
 									<ObjectRef Name="Metal_Snare" ID="{E684CAEF-A63B-4FE3-A03F-FF2E624BA509}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Folk_RhythmGuitar" ID="{8402C974-4496-4176-9D2D-730A74B14CE7}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{48CF35D0-AE5C-4754-8CA9-BC44E614E8DC}" ShortID="305849725" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D0ED03EE-0411-4739-BA5E-EB6EB42B9375}" Global="true">
+									<ObjectRef Name="Folk_RhythmGuitar" ID="{FE1ECF7A-5978-4214-BFAB-4CEBDA76BD1C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Folk_LeadGuitar" ID="{B53CB5DA-AD0B-45BD-B3E2-86319E56D873}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{8874A399-E46C-455A-AA72-7CD47FD8A933}" ShortID="114786847" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0BB4551B-A9B6-4B0D-AE88-D05AA5706425}" Global="true">
+									<ObjectRef Name="Folk_LeadGuitar" ID="{76389B1E-E783-4CB9-82FC-493CC0932BAA}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Folk_Bass" ID="{B670F3A8-EE11-46CE-B504-D2A28FC02DE8}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{95E19142-4D13-4C64-AC25-A5355DCA9532}" ShortID="225149123" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F8807957-58BD-4BFB-BB13-BDD3E4E3F057}" Global="true">
+									<ObjectRef Name="Folk_Bass" ID="{62D9C02A-EAFD-4F84-A0C1-85BFDB8C4839}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Folk_Bass" ID="{921FE78D-9B18-4CE4-AEFE-923D3CD753CC}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{16134E3B-B238-45A5-8C9B-23C768BEE1FE}" ShortID="929579616" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0B325BFE-04E1-4807-B457-E49A70EF73B9}" Global="true">
+									<ObjectRef Name="Folk_Bass" ID="{62D9C02A-EAFD-4F84-A0C1-85BFDB8C4839}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Folk_RhythmGuitar" ID="{32D68BDB-3DDB-4CE2-890A-8D7979258FC1}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{E156A628-E975-4ACA-ADCB-0C0C0A190076}" ShortID="767992332" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{EFFB2705-280A-4559-BBA4-7EAD68D5B967}" Global="true">
+									<ObjectRef Name="Folk_RhythmGuitar" ID="{FE1ECF7A-5978-4214-BFAB-4CEBDA76BD1C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Folk_LeadGuitar" ID="{6F29C431-0371-40BD-ABB3-BDABA31A426B}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{5710847A-484D-4979-B35E-05243F6E45D5}" ShortID="382179341" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A1D8AB07-7EC7-458A-8337-7D4DE6F1A290}" Global="true">
+									<ObjectRef Name="Folk_LeadGuitar" ID="{76389B1E-E783-4CB9-82FC-493CC0932BAA}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
 								</Element>
 							</ElementList>
 						</Action>
