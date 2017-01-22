@@ -27,6 +27,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="UI" ID="{C5A7E4F9-872A-4DB8-86E4-1F01DA820395}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" WorkUnitID="{9325AD86-0A4C-4874-8664-3A6C92E2319F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{C2B2D6BA-8828-4F30-86A6-5167E0AB944B}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
