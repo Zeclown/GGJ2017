@@ -228,6 +228,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{C93FCE0A-7C30-4CA1-8553-39554650A3A4}" ShortID="653055913" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B212544E-CF80-477E-B6F1-0BA56D31CB16}" Global="false">
+									<ObjectRef Name="Folk_Vocals" ID="{649E8A5D-8ECA-4E1D-9CA1-A33BB2B767D0}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ON_Metal_RhythmGuitar" ID="{25D65049-6894-4DBD-AB2A-1DAC95C79EC7}">
@@ -441,6 +448,34 @@
 							<ElementList>
 								<Element ID="{4538C72B-596A-4665-B0FB-C2ECF24C489D}" Global="true">
 									<ObjectRef Name="Metal_LeadGuitar" ID="{05596338-E370-457E-ADA2-219C4287A10C}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ON_Folk_Vocals" ID="{6153A692-88E1-4BB5-8238-48D3B7316416}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{DFFE1ADD-6D00-4943-BBBE-0229CABF78BD}" ShortID="974978941" Type="ChangeVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{44D847E8-5C95-440F-ADE4-2576CE1EF823}" Global="true">
+									<ObjectRef Name="Folk_Vocals" ID="{649E8A5D-8ECA-4E1D-9CA1-A33BB2B767D0}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OFF_Folk_Vocals" ID="{2765306C-4FE2-4EFE-A134-AD6964FDC839}">
+					<ChildrenList>
+						<Action Name="Reset Voice Volume" ID="{EC624A89-97CD-44F8-8BE7-CCA4F75E27A7}" ShortID="87283037" Type="ResetVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{440E97CD-766A-4745-BFEB-716FED165F10}" Global="true">
+									<ObjectRef Name="Folk_Vocals" ID="{649E8A5D-8ECA-4E1D-9CA1-A33BB2B767D0}" WorkUnitID="{87481E4F-CEA5-47AD-A295-25B1B61B3612}"/>
 								</Element>
 							</ElementList>
 						</Action>

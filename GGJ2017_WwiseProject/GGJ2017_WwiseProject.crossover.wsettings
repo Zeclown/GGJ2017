@@ -29,6 +29,7 @@
 				<Property Name="Interactive Music\{30BFE202-B49E-47E0-A364-947A176CCC82} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP7mpaJ5QCzZAAAAAAAAA8D8AAAAAAABIQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{3CA793BA-711E-413A-9AEF-8CE33E4EAE69} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+iCdhYuJThAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{4399C531-45B4-456E-9D3D-24757354C1BB} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAoEBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{61D15BC7-C427-4EA9-AC53-A20AA00D7C34} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAoDBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{654A2B9A-6F53-47D4-AE8D-A869AF9CE840} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA8FhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{70670526-8729-4447-AD32-CE0121EDC71C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA8FhAAAAAAAAA8D8AAAAAAAA5QAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{8451DDC2-B7FE-4275-B7B9-6BEF6B25C8D4} - SegmentEditorZoomInfo" Type="string" Value="aC+hvYT20j8AAAAAAADwPwAAAAAA8GhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -37,8 +38,10 @@
 				<Property Name="Interactive Music\{8A4B94AE-5C0B-40D2-8E0C-7E3F47A26A90} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP8LzibWDtjZAAAAAAAAA8D8AAAAAAIBGQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{98E572CB-5656-40F7-B866-D21251C0B2E4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPy+66KKLLlhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{AE552F11-7200-498C-A19C-E578B92B90A4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA8FhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{B2CA98DF-741D-4282-A457-37C2885EE4CD} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAoDBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{BBB5CC10-DCF4-4B49-85B9-9D3DF14369B4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP7Wuda1rXThAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{CBCA7486-B80C-4819-A54A-2439F889CC29} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2E+x5AhUTZAAAAAAAAA8D8AAAAAAABMQAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{D70B1665-4383-49A2-98A0-EA1DE2BF9F12} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzemVI8eN0BAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{E37A0FC6-1D16-400C-B537-395286BC0171} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAoEBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{FA9C9332-131E-44DC-A315-5902E92F4E0F} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP7y7u7u7u0FAAAAAAAAA8D8AAAAAAAAyQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{FC2B046B-31FE-4414-9DA4-7F4AEA29839D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPyJYR5v3KTpAAAAAAAAA8D8AAAAAAAAqQAAAAAAAAAAA"/>
@@ -55,6 +58,7 @@
 				<Property Name="Music Transition List\{2BF99B7C-2DA2-45AF-986C-7327976D7278}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{422B4013-F9E3-4D2A-9A56-3932BB0C06F4}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{62D9C02A-EAFD-4F84-A0C1-85BFDB8C4839}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{649E8A5D-8ECA-4E1D-9CA1-A33BB2B767D0}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{76389B1E-E783-4CB9-82FC-493CC0932BAA}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{ADECA4C0-B2E9-4A8C-9A90-252EA96B2175}\Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B61752B1-6C34-4C18-A111-8A2C21107B3F}\Expand States" Type="string" Value=""/>
