@@ -606,78 +606,82 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Metal_Tracks_SlotOn" ID="{A488E25A-2BEE-4337-BCEB-9F4DDB959B26}">
+				<Folder Name="MX_UI" ID="{C901C951-914A-45D4-8AE3-165E744599EB}" ShortID="759918693">
 					<ChildrenList>
-						<Action Name="Set Bus Volume" ID="{7D82EA93-BB09-4896-B30A-7644CB2D9376}" ShortID="803944388" Type="ChangeBusVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="6"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{04700A07-2D5B-4FC2-8CC8-1703FE3BB1E7}" Global="true">
-									<ObjectRef Name="DownTempo" ID="{0E770D5F-6436-4DAF-889F-357C57109BF0}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
-								</Element>
-							</ElementList>
-						</Action>
-						<Action Name="Set Bus Volume" ID="{E66B0616-D509-4EF3-B6AD-52905EB68E8A}" ShortID="579648788" Type="ChangeBusVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="6"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{268B8566-350C-45B8-B0D7-D66F357F215A}" Global="true">
-									<ObjectRef Name="Folk" ID="{A64F403E-FFF7-420C-B0BF-F77EA27DCEA3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
-								</Element>
-							</ElementList>
-						</Action>
+						<Event Name="Folk_Unlock" ID="{E08B18F8-9884-4B54-BBF3-A249E53B7E05}">
+							<ChildrenList>
+								<Action Name="Play" ID="{3A80F6DB-5966-4433-B184-B7E718B37867}" ShortID="769145782" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{16640A50-7F4A-4C49-A422-B9B372485F7E}" Global="false">
+											<ObjectRef Name="FolkUnlock" ID="{03437149-056D-4A32-9941-CC06A413EDB1}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Metal_Tracks_SlotOff" ID="{B0AD74FF-5B70-4934-A139-C8A8432CE095}">
+							<ChildrenList>
+								<Action Name="Reset Bus Volume" ID="{62A4F435-EB13-4A13-B4D1-5CF58CEFF075}" ShortID="592823232" Type="ResetBusVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{80070060-285A-437A-AFE7-AEDD7AA6D383}" Global="true">
+											<ObjectRef Name="DownTempo" ID="{0E770D5F-6436-4DAF-889F-357C57109BF0}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Reset Bus Volume" ID="{C9D1F1ED-9AEF-4BBA-8291-EEF05588AE39}" ShortID="258997329" Type="ResetBusVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{688ABEF8-3F53-4152-B4D0-22CA365966FD}" Global="true">
+											<ObjectRef Name="Folk" ID="{A64F403E-FFF7-420C-B0BF-F77EA27DCEA3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Metal_Tracks_SlotOn" ID="{A488E25A-2BEE-4337-BCEB-9F4DDB959B26}">
+							<ChildrenList>
+								<Action Name="Set Bus Volume" ID="{7D82EA93-BB09-4896-B30A-7644CB2D9376}" ShortID="803944388" Type="ChangeBusVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{04700A07-2D5B-4FC2-8CC8-1703FE3BB1E7}" Global="true">
+											<ObjectRef Name="DownTempo" ID="{0E770D5F-6436-4DAF-889F-357C57109BF0}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Set Bus Volume" ID="{E66B0616-D509-4EF3-B6AD-52905EB68E8A}" ShortID="579648788" Type="ChangeBusVolume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{268B8566-350C-45B8-B0D7-D66F357F215A}" Global="true">
+											<ObjectRef Name="Folk" ID="{A64F403E-FFF7-420C-B0BF-F77EA27DCEA3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Metal_Unlock" ID="{35043614-2F68-4A50-904F-4D856D8BBE6B}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4207E738-B2BB-4633-AD32-04B582D76494}" ShortID="420399263" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4F63A73D-DDD8-4138-8EE0-BCB579FE21B2}" Global="false">
+											<ObjectRef Name="Metal_Unlock" ID="{1EEAE340-E41C-4436-B49D-B824D457F1CC}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Metal_Tracks_SlotOff" ID="{B0AD74FF-5B70-4934-A139-C8A8432CE095}">
-					<ChildrenList>
-						<Action Name="Reset Bus Volume" ID="{62A4F435-EB13-4A13-B4D1-5CF58CEFF075}" ShortID="592823232" Type="ResetBusVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{80070060-285A-437A-AFE7-AEDD7AA6D383}" Global="true">
-									<ObjectRef Name="DownTempo" ID="{0E770D5F-6436-4DAF-889F-357C57109BF0}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
-								</Element>
-							</ElementList>
-						</Action>
-						<Action Name="Reset Bus Volume" ID="{C9D1F1ED-9AEF-4BBA-8291-EEF05588AE39}" ShortID="258997329" Type="ResetBusVolume" Scope="One" Global="true">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{688ABEF8-3F53-4152-B4D0-22CA365966FD}" Global="true">
-									<ObjectRef Name="Folk" ID="{A64F403E-FFF7-420C-B0BF-F77EA27DCEA3}" WorkUnitID="{7D971199-5F9D-4624-973B-CFF7E7A2592E}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Folk_Unlock" ID="{E08B18F8-9884-4B54-BBF3-A249E53B7E05}">
-					<ChildrenList>
-						<Action Name="Play" ID="{3A80F6DB-5966-4433-B184-B7E718B37867}" ShortID="769145782" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{16640A50-7F4A-4C49-A422-B9B372485F7E}" Global="false">
-									<ObjectRef Name="FolkUnlock" ID="{03437149-056D-4A32-9941-CC06A413EDB1}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Metal_Unlock" ID="{35043614-2F68-4A50-904F-4D856D8BBE6B}">
-					<ChildrenList>
-						<Action Name="Play" ID="{4207E738-B2BB-4633-AD32-04B582D76494}" ShortID="420399263" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{4F63A73D-DDD8-4138-8EE0-BCB579FE21B2}" Global="false">
-									<ObjectRef Name="Metal_Unlock" ID="{1EEAE340-E41C-4436-B49D-B824D457F1CC}" WorkUnitID="{1D453B47-C17A-4DF8-8DB7-18404778B9FE}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
