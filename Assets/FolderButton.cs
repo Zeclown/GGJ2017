@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FolderButton : MonoBehaviour {
     public GameObject folder;
-    bool opened=true;
+    public bool opened=false;
 	public void CloseFolder()
     {
         if (opened == false)
@@ -16,6 +16,7 @@ public class FolderButton : MonoBehaviour {
             folder.GetComponent<Animation>()["FolderAnim"].speed = 1;
             folder.GetComponent<Animation>()["FolderAnim"].time = 0;
             folder.GetComponent<Animation>().Play("FolderAnim");
+            AkSoundEngine.PostEvent("Close_UI",gameObject);
             opened = false;
         }
     }
@@ -25,5 +26,6 @@ public class FolderButton : MonoBehaviour {
         folder.GetComponent<Animation>()["FolderAnim"].speed = -1;
         folder.GetComponent<Animation>()["FolderAnim"].time = folder.GetComponent<Animation>()["FolderAnim"].length;
         folder.GetComponent<Animation>().Play("FolderAnim");
+        AkSoundEngine.PostEvent("Open_UI", gameObject);
     }
 }

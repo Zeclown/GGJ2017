@@ -78,6 +78,8 @@
 			<Path>UI.bnk</Path>
 			<IncludedEvents>
 				<Event Id="349819299" Name="ClickSelect" ObjectPath="\Events\UI\ClickSelect"/>
+				<Event Id="458750760" Name="Close_UI" ObjectPath="\Events\UI\Close_UI"/>
+				<Event Id="1420721594" Name="Open_UI" ObjectPath="\Events\UI\Open_UI"/>
 				<Event Id="1572546710" Name="Release_NoSlot" ObjectPath="\Events\UI\Release_NoSlot"/>
 				<Event Id="2395430635" Name="SetSlot" ObjectPath="\Events\UI\SetSlot"/>
 			</IncludedEvents>
@@ -85,6 +87,14 @@
 				<File Id="15687802" Language="SFX">
 					<ShortName>UI_ReleaseNoSLot.wav</ShortName>
 					<Path>SFX\UI_ReleaseNoSLot_1AAE2981.wem</Path>
+				</File>
+				<File Id="81845897" Language="SFX">
+					<ShortName>UI_CloseUI.wav</ShortName>
+					<Path>SFX\UI_CloseUI_9E69E797.wem</Path>
+				</File>
+				<File Id="97574245" Language="SFX">
+					<ShortName>UI_OpenUI.wav</ShortName>
+					<Path>SFX\UI_OpenUI_9E69E797.wem</Path>
 				</File>
 				<File Id="778952916" Language="SFX">
 					<ShortName>UI_SelectClick.wav</ShortName>

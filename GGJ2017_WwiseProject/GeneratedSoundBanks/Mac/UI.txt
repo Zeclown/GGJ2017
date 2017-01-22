@@ -1,14 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	349819299	ClickSelect			\UI\ClickSelect	
+	458750760	Close_UI			\UI\Close_UI	
+	1420721594	Open_UI			\UI\Open_UI	
 	1572546710	Release_NoSlot			\UI\Release_NoSlot	
 	2395430635	SetSlot			\UI\SetSlot	
 
 Effect plug-ins	ID	Name	Type				Notes
 	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	15687802	UI_ReleaseNoSLot	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\UI_ReleaseNoSLot_1AAE2981.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_ReleaseNoSlot\UI_ReleaseNoSLot		6700
+	81845897	UI_CloseUI	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\UI_CloseUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Close\UI_CloseUI		113560
+	97574245	UI_OpenUI	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\UI_OpenUI_9E69E797.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_Open\UI_OpenUI		126656
 	778952916	UI_SelectClick	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\UI_SelectClick_8853C8C0.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SelectClick\UI_SelectClick		5664
 	983460442	UI_Click_SetSlot	D:\Unity Projects\GGJ2017\GGJ2017_WwiseProject\.cache\Mac\SFX\UI_Click_SetSlot_2EA58FC9.wem		\Actor-Mixer Hierarchy\SFX\UI\UI_SetSlot\UI_Click_SetSlot		37932
 

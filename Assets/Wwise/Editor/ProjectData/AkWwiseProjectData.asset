@@ -434,8 +434,8 @@ MonoBehaviour:
   - PhysicalPath: Events\UI.wwu
     ParentPhysicalPath: 
     Guid: '{9325AD86-0A4C-4874-8664-3A6C92E2319F}'
-    m_lastTimePsrt1: 1215966013
-    m_lastTimePart2: -1999355235
+    m_lastTimePsrt1: -849485905
+    m_lastTimePart2: -1999355228
     List:
     - Name: ClickSelect
       Path: UI\ClickSelect
@@ -446,6 +446,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: 349819299
       Guid: a8bf5a9320529141a5ab4049834efad4
+      maxAttenuation: 0
+    - Name: Close_UI
+      Path: UI\Close_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Close_UI
+        ObjectType: 3
+      ID: 458750760
+      Guid: 986c4461458a1a4d9524fcb783305d51
+      maxAttenuation: 0
+    - Name: Open_UI
+      Path: UI\Open_UI
+      PathAndIcons:
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Open_UI
+        ObjectType: 3
+      ID: 1420721594
+      Guid: 37688f8e89da8a4e8754c76888e85cc0
       maxAttenuation: 0
     - Name: Release_NoSlot
       Path: UI\Release_NoSlot
@@ -471,8 +491,8 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7D971199-5F9D-4624-973B-CFF7E7A2592E}'
-    m_lastTimePsrt1: -1451408040
-    m_lastTimePart2: -1999355236
+    m_lastTimePsrt1: -860310435
+    m_lastTimePart2: -1999355227
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu

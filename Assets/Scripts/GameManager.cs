@@ -60,15 +60,17 @@ public class GameManager : MonoBehaviour {
             ComputePopularity();
 
             if (score > 200 && level == 1) {
-                //Activate Folk.
-            }
-            if (score > 400 && level == 2) {
+                FindObjectOfType<SoundboardUI>().UnlockFolk();
                 crowd.genreWaves[1].Activate(timePlayed);
                 level = 2;
-                Debug.Log("Unlock");
-            } else if (score > 1000 && level == 2) {
-                crowd.genreWaves[2].Activate(timePlayed);
+            }
+            if (score > 400 && level == 2) {
                 level = 3;
+                Debug.Log("Unlock");
+            } else if (score > 1000 && level == 3) {
+                FindObjectOfType<SoundboardUI>().UnlockMetal();
+                crowd.genreWaves[2].Activate(timePlayed);
+                level = 4;
             }
 
             if (GameDuration <= timePlayed)
