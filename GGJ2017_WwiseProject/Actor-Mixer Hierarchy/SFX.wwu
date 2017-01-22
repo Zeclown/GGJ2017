@@ -277,6 +277,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Crowd" ID="{826C544F-FD89-448A-A60C-5FA1A7D8E14F}" ShortID="556795383">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7A25ACF-DBD6-4E43-9096-715F05FA6980}"/>
